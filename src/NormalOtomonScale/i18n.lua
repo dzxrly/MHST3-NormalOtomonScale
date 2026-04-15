@@ -40,7 +40,7 @@ local M = coreApi.createI18n({
             large_otomon_tip_2 = "먼저 점프한 후 소환하세요.",
         },
         [12] = {
-            lock_field_otomon  = "鎖定 Field 隨行獸尺寸",
+            lock_field_otomon  = "鎖定原野隨行獸尺寸",
             lock_battle_otomon = "鎖定戰鬥時的隨行獸尺寸",
             -- tip 1: camp
             camp_tip_1         = "設定完成後，請進出營地",
@@ -50,7 +50,7 @@ local M = coreApi.createI18n({
             large_otomon_tip_2 = "可能需要先跳躍再召喚騎乘。",
         },
         [13] = {
-            lock_field_otomon  = "锁定 Field 随行兽尺寸",
+            lock_field_otomon  = "锁定原野随行兽尺寸",
             lock_battle_otomon = "锁定战斗时的随行兽尺寸",
             -- tip 1: camp
             camp_tip_1         = "设置完成后，请进出营地",

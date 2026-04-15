@@ -5,11 +5,10 @@ local coreApi    = require("NormalOtomonScale.utils")
 local mod        = require("NormalOtomonScale.init")
 
 -- DO NOT CHANGE THE NEXT LINE, ONLY UPDATE THE VERSION NUMBER
-local modVersion = "v1.0.0"
+local modVersion = "v1.0.1"
 -- DO NOT CHANGE THE PREVIOUS LINE
 
 coreApi.init("NormalOtomonScale")
-mod.modInit()
 
 re.on_draw_ui(function()
     if imgui.tree_node("Normal Monsties Size") then

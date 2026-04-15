@@ -20,6 +20,9 @@ local function saveSettings()
     json.dump_file(config.SETTINGS_PATH, settings)
 end
 
+-- load settings immediately so hooks have correct values from the start
+loadSettings()
+
 -- Hook 1: lock field otomon scale
 sdk.hook(
     sdk.find_type_definition("app.WorldOtomonCharacter"):get_method("onSystemSetupFinished()"),
@@ -57,10 +60,13 @@ sdk.hook(
 )
 
 function M.drawUI()
+    i18n.initLanguage()
+
     imgui.text_colored("1. " .. i18n.getUIText("camp_tip_1"), config.TIPS_COLOR)
     imgui.text_colored("   " .. i18n.getUIText("camp_tip_2"), config.TIPS_COLOR)
     imgui.text_colored("2. " .. i18n.getUIText("large_otomon_tip_1"), config.TIPS_COLOR)
     imgui.text_colored("   " .. i18n.getUIText("large_otomon_tip_2"), config.TIPS_COLOR)
+    imgui.new_line()
 
     local changed, newVal
 
@@ -79,9 +85,6 @@ end
 
 function M.modInit()
     coreApi.log("Initializing...")
-    i18n.initLanguage()
-    coreApi.log("Language Index: " .. tostring(i18n.languageIdx))
-    loadSettings()
     coreApi.log("Initialization complete")
 end
 
