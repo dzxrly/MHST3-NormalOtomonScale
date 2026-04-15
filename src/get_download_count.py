@@ -6,7 +6,7 @@ import yaml
 NEXUSMODS_GAME_CSV = (
     "https://staticstats.nexusmods.com/live_download_counts/mods/8810.csv"
 )
-MOD_INDEX = 6
+MOD_INDEX = 172
 
 
 def get_content_by_requests(

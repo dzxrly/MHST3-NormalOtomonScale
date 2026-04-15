@@ -15,7 +15,7 @@ FMM_CONFIG = {
     "author": ", ".join(CONTRIBUTORS),
     "screenshot": "src/assets/screenshot.png",
     "category": "Gameplay",
-    "homepage": "https://www.nexusmods.com/monsterhunterstories3twistedreflection/mods/6",
+    "homepage": "https://www.nexusmods.com/monsterhunterstories3twistedreflection/mods/172",
 }
 # source file settings
 ORIGIN_LUA_FILE = "src/normal_otomon_scale.lua"
