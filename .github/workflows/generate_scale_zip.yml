@@ -1,0 +1,66 @@
+name: Generate Scale Zip
+
+on:
+  push:
+    paths:
+      - 'src/data/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Run script
+        run: |
+          mkdir -p user3_output
+          python src/normal_otomon_body_scale.py \
+            --rsz src/data/rszmhst3.json \
+            --natives src/data/unpak/natives \
+            --output user3_output \
+            --scale 1.0
+
+      - name: Pack natives to Zip
+        run: |
+          # Read versions from user_version.json
+          RSZ_VER=$(jq -r '.rsz_version' src/data/user_version.json)
+          USR3_VER=$(jq -r '.user3_version' src/data/user_version.json)
+          
+          # Construct zip file name
+          ZIP_NAME="NormalOtomonScale_rsz_${RSZ_VER}_user3_${USR3_VER}.zip"
+          echo "ZIP_NAME=${ZIP_NAME}" >> $GITHUB_ENV
+          
+          # Zip the 'natives' folder
+          cd user3_output
+          zip -r "../${ZIP_NAME}" natives
+          cd ..
+
+      - name: Install and Authenticate GitHub CLI
+        run: |
+          sudo apt-get install gh
+          gh auth login --with-token <<< "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Publish to user3-latest Rolling Release
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Delete old release and tag if they exist
+          if gh release view user3-latest > /dev/null 2>&1; then
+            gh release delete user3-latest --yes
+          fi
+          git push --delete origin user3-latest || true
+          git tag -d user3-latest || true
+          
+          # Create a new tag and release on the current commit
+          git tag user3-latest
+          git push origin user3-latest
+          
+          gh release create user3-latest "${{ env.ZIP_NAME }}" --title "Native user.3 Version (Rolling Release)" --notes "Auto-generated user.3 version for MHST3. Require REFramework and **LooseFileLoader**."
