@@ -1,0 +1,71 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "_ActionClassList": [
+        {
+          "app.WorldEnemyAction_PredatorGeneral.cNone": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WEm2010_Action_PredatorGeneral.cRoarEncount": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldEnemyAction_PredatorGeneral.cDemoEncount": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "4e10c1e6-b88e-45a5-90a7-2442880c84c9",
+            "_ActionGuid": "61cda5aa-e3c6-4b89-82ff-b71ac246038c",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "78590a11-3938-4886-a2d8-ade952290392",
+            "_ActionGuid": "e6d20951-a5ff-4b1c-b9ca-d8fd301cb938",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "4eaf52a8-587a-47bb-a9d3-830d6a3f5f35",
+            "_ActionGuid": "9c2b7d49-5ef9-4209-9759-1cb1d45d5e41",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 7,
+              "path": "GameDesign/Enemy/Em2010/XX/ActionData/WEm2010_ActionID_PredatorGeneral.user"
+            }
+          },
+          "_ExportGuid": "6b7b3b4d-0482-4fdd-907d-53e4c31d3a64"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {}
+      }
+    }
+  }
+]

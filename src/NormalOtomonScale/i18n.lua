@@ -12,6 +12,7 @@ local M = coreApi.createI18n({
         [0] = {
             lock_field_otomon  = "フィールドのオトモンサイズを固定する",
             lock_battle_otomon = "戦闘時のオトモンサイズを固定する",
+            apply_enemy_scale  = "モンスター(敵)の設定サイズを適用する",
             -- tip 1: camp
             camp_tip_1         = "設定後は、キャンプに出入りして",
             camp_tip_2         = "MODを有効にしてください。",
@@ -22,6 +23,7 @@ local M = coreApi.createI18n({
         [1] = {
             lock_field_otomon  = "Lock Field Monsties Size",
             lock_battle_otomon = "Lock Battle Monsties Size",
+            apply_enemy_scale  = "Apply Original Enemy Size",
             -- tip 1: camp
             camp_tip_1         = "After setting, enter/exit a Camp",
             camp_tip_2         = "to apply the mod.",
@@ -32,6 +34,7 @@ local M = coreApi.createI18n({
         [11] = {
             lock_field_otomon  = "필드 동료몬 크기 고정",
             lock_battle_otomon = "전투 중 동료몬 크기 고정",
+            apply_enemy_scale  = "몬스터(적)의 설정 크기 적용",
             -- tip 1: camp
             camp_tip_1         = "설정 후, 캠프에 드나들어",
             camp_tip_2         = "MOD를 적용하세요.",
@@ -42,6 +45,7 @@ local M = coreApi.createI18n({
         [12] = {
             lock_field_otomon  = "鎖定原野隨行獸尺寸",
             lock_battle_otomon = "鎖定戰鬥時的隨行獸尺寸",
+            apply_enemy_scale  = "套用敵人設定尺寸",
             -- tip 1: camp
             camp_tip_1         = "設定完成後，請進出營地",
             camp_tip_2         = "使 MOD 生效。",
@@ -52,6 +56,7 @@ local M = coreApi.createI18n({
         [13] = {
             lock_field_otomon  = "锁定原野随行兽尺寸",
             lock_battle_otomon = "锁定战斗时的随行兽尺寸",
+            apply_enemy_scale  = "套用敌人设定尺寸",
             -- tip 1: camp
             camp_tip_1         = "设置完成后，请进出营地",
             camp_tip_2         = "使 MOD 生效。",

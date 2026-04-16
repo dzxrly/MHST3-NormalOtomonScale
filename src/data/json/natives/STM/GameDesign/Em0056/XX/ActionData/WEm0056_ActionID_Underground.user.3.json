@@ -1,0 +1,76 @@
+[
+  {
+    "ace.user_data.ActionID": {
+      "_ActionIDArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cNone",
+                "_InstanceGuid": "f0924e43-c478-40f2-93d5-a15a5f386214",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "2a05c2ea-8dff-4ece-bc39-c32606b6ec85",
+                "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+                "_LowerGuid": "a0001d3f-292c-013e-1cf0-423dde4a17e1"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cIdleDefaultUnderground",
+                "_InstanceGuid": "a0001d3f-292c-013e-1cf0-423dde4a17e1",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "3001dec3-528a-42e6-915f-9dc521a086ea",
+                "_UpperGuid": "f0924e43-c478-40f2-93d5-a15a5f386214",
+                "_LowerGuid": "c0390bd0-16e9-4a3e-836f-b589e5ac9abe"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cIdleUnderground",
+                "_InstanceGuid": "c0390bd0-16e9-4a3e-836f-b589e5ac9abe",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "3e172afd-00cd-4e53-a400-276104a8cded",
+                "_UpperGuid": "a0001d3f-292c-013e-1cf0-423dde4a17e1",
+                "_LowerGuid": "befcd5ed-31c6-06c0-192e-c4208d576a1b"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cGoOutUnderground",
+                "_InstanceGuid": "befcd5ed-31c6-06c0-192e-c4208d576a1b",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "d3617d07-051a-4823-955d-4c352f64d0cf",
+                "_UpperGuid": "c0390bd0-16e9-4a3e-836f-b589e5ac9abe",
+                "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+              }
+            }
+          ]
+        }
+      },
+      "_ExportSettingArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cExport": {
+                "_Guid": "ddb9743d-b745-4871-bfa0-7e184fa5d4f3",
+                "_ClassName": "WEm0056_Action_Underground",
+                "_ActionCategory": 3
+              }
+            }
+          ]
+        }
+      },
+      "_BaseActionID": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 8,
+              "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Underground.user"
+            }
+          },
+          "_ExportGuid": "3716890d-1937-4655-8ab9-d161d497bf49"
+        }
+      }
+    }
+  }
+]

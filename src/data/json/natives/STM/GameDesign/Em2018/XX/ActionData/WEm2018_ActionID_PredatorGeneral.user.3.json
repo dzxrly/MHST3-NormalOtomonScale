@@ -1,0 +1,66 @@
+[
+  {
+    "ace.user_data.ActionID": {
+      "_ActionIDArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cNone",
+                "_InstanceGuid": "bc11afdb-54d0-4930-9439-8d8437a3c951",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "61cda5aa-e3c6-4b89-82ff-b71ac246038c",
+                "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+                "_LowerGuid": "b85d3e93-255b-093c-0d0b-2757bc11b8bf"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cRoarEncount",
+                "_InstanceGuid": "b85d3e93-255b-093c-0d0b-2757bc11b8bf",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "e6d20951-a5ff-4b1c-b9ca-d8fd301cb938",
+                "_UpperGuid": "bc11afdb-54d0-4930-9439-8d8437a3c951",
+                "_LowerGuid": "5e40dfbe-9ec3-47d9-8ac1-45c9f21b0b69"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cDemoEncount",
+                "_InstanceGuid": "5e40dfbe-9ec3-47d9-8ac1-45c9f21b0b69",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "9c2b7d49-5ef9-4209-9759-1cb1d45d5e41",
+                "_UpperGuid": "b85d3e93-255b-093c-0d0b-2757bc11b8bf",
+                "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+              }
+            }
+          ]
+        }
+      },
+      "_ExportSettingArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cExport": {
+                "_Guid": "b0d27290-7599-4130-ae0c-340a541402cd",
+                "_ClassName": "WEm2018_Action_PredatorGeneral",
+                "_ActionCategory": 4
+              }
+            }
+          ]
+        }
+      },
+      "_BaseActionID": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 7,
+              "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_PredatorGeneral.user"
+            }
+          },
+          "_ExportGuid": "8b5a6d08-ce1a-46af-b828-5b6485e4e675"
+        }
+      }
+    }
+  }
+]

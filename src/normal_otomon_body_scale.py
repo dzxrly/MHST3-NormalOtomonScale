@@ -36,6 +36,7 @@ normal_otomon_body_scale.py
 from __future__ import annotations
 
 import argparse
+import glob
 import json
 import re
 import struct
@@ -408,6 +409,8 @@ def scan_and_patch(
     typedb: TypeDB,
     scale: float,
     dry_run: bool,
+    apply_enemy_scale: bool = False,
+    json_dir: str = "",
 ) -> None:
     """
     扫描 natives_dir/STM/GameDesign/Otomon/Ot*/**/CommonData/*_BasicParam.user.3
@@ -432,6 +435,24 @@ def scan_and_patch(
     processed = skipped = errors = 0
 
     for ot_dir in ot_dirs:
+        current_scale = scale
+        if apply_enemy_scale and json_dir:
+            em_name = ot_dir.name.replace("Ot", "Em")
+            base_enemy_dir = Path(json_dir) / "natives" / "STM" / "GameDesign"
+            search_pattern = base_enemy_dir / em_name / "**" / "CommonData" / f"{em_name}_BasicParam.user.3.json"
+            matches = glob.glob(str(search_pattern), recursive=True)
+            if not matches:
+                search_pattern2 = base_enemy_dir / "**" / em_name / "**" / "CommonData" / f"{em_name}_BasicParam.user.3.json"
+                matches = glob.glob(str(search_pattern2), recursive=True)
+            if matches:
+                try:
+                    with open(matches[0], "r", encoding="utf-8") as f:
+                        enemy_data = json.load(f)
+                    enemy_scale = enemy_data[0]["app.user_data.EnemyBasicParam"]["_WorldBodyScale"]
+                    current_scale = round(current_scale + (enemy_scale - 1.0), 4)
+                except (IndexError, KeyError, FileNotFoundError):
+                    pass
+
         # 递归匹配所有 **/CommonData/*_BasicParam.user.3
         param_files = sorted(
             p for p in ot_dir.rglob("*_BasicParam.user.3")
@@ -449,7 +470,7 @@ def scan_and_patch(
             dst_path = output_dir / "natives" / rel
 
             print(f"[{ot_dir.name}]  {rel_display}")
-            ok = patch_body_scale(src_path, dst_path, typedb, scale, dry_run)
+            ok = patch_body_scale(src_path, dst_path, typedb, current_scale, dry_run)
             if ok:
                 processed += 1
                 if not dry_run:
@@ -498,6 +519,14 @@ def main() -> None:
         "--dry-run", action="store_true",
         help="预览模式：只打印将要执行的操作，不写入文件",
     )
+    ap.add_argument(
+        "--apply-enemy-scale", action="store_true",
+        help="Whether to apply original enemy scale to the basic scale (requires JSON data)",
+    )
+    ap.add_argument(
+        "--json-dir", default="src/data/json", metavar="DIR",
+        help="JSON data root dir containing Enums_Internal.json and natives folder",
+    )
     args = ap.parse_args()
 
     if not args.schema:
@@ -525,7 +554,7 @@ def main() -> None:
     print()
 
     typedb = TypeDB.load(schema_path)
-    scan_and_patch(natives_dir, output_dir, typedb, args.scale, args.dry_run)
+    scan_and_patch(natives_dir, output_dir, typedb, args.scale, args.dry_run, args.apply_enemy_scale, args.json_dir)
 
 
 if __name__ == "__main__":

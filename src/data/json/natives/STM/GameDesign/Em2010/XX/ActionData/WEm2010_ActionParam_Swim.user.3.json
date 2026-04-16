@@ -1,0 +1,114 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "_ActionClassList": [
+        {
+          "app.WorldEnemyAction_Swim.cNone": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldEnemyAction_Swim.cIdleSwim": {
+            "_ActionSafeLimitTime": -1.0,
+            "_SettingFlavorRate": 50,
+            "_IdleTime": 3.0
+          }
+        },
+        {
+          "app.WorldEnemyAction_Swim.cMoveSwim": {
+            "_ActionSafeLimitTime": -1.0,
+            "_MoveSpeed": {
+              "app.AppCharaUtil.cMotionSpeedParam": {
+                "_Type": 0,
+                "_KilometerPerHourParam": 0.0,
+                "_MotionSpeed": 1.0
+              }
+            },
+            "_AngularVelocityParam": {
+              "app.AppCharaUtil.cAngularVelocityParam": {
+                "_TurnRadius": 3.0,
+                "_RotSpeedEaseType": 8
+              }
+            }
+          }
+        },
+        {
+          "app.WorldEnemyAction_Swim.cChaseSwim": {
+            "_ActionSafeLimitTime": -1.0,
+            "_MoveSpeed": {
+              "app.AppCharaUtil.cMotionSpeedParam": {
+                "_Type": 0,
+                "_KilometerPerHourParam": 0.0,
+                "_MotionSpeed": 1.0
+              }
+            },
+            "_AngularVelocityParam": {
+              "app.AppCharaUtil.cAngularVelocityParam": {
+                "_TurnRadius": 3.0,
+                "_RotSpeedEaseType": 8
+              }
+            }
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "fa58c43e-8f83-4889-ba6b-f1d9934b3792",
+            "_ActionGuid": "fbd0a827-626a-4efb-826f-7f94100859a9",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "2e2d9232-b4f8-4465-877f-28d790dfe5e2",
+            "_ActionGuid": "e02fec13-6c63-4581-8ff7-5b0bfcda8473",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "9093cf37-550b-4654-9ed5-2a8691a93017",
+            "_ActionGuid": "0d99cc48-7a31-4155-8009-1664ff63258d",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "b8810e17-15eb-4246-9011-9a4627c1fb1e",
+            "_ActionGuid": "b3b89890-a722-4c0a-be83-f693f666344f",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 13,
+              "path": "GameDesign/Enemy/Em2010/XX/ActionData/WEm2010_ActionID_Swim.user"
+            }
+          },
+          "_ExportGuid": "f3f22fa1-26ba-4226-8668-4695a29a5a15"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {}
+      }
+    }
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "ace.user_data.ActionID": {
+      "_ActionIDArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cNone",
+                "_InstanceGuid": "00179b4a-e75a-4064-87ea-56fe8ce5d083",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "fbd0a827-626a-4efb-826f-7f94100859a9",
+                "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+                "_LowerGuid": "b292bda2-3779-4589-b7c0-f46c8f7df639"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cIdleDefaultSwim",
+                "_InstanceGuid": "b292bda2-3779-4589-b7c0-f46c8f7df639",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "b2465cef-abde-4600-90d4-215fe683f39a",
+                "_UpperGuid": "00179b4a-e75a-4064-87ea-56fe8ce5d083",
+                "_LowerGuid": "260ac4dd-afe3-0685-164e-eb45f5f1f95d"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cIdleSwim",
+                "_InstanceGuid": "260ac4dd-afe3-0685-164e-eb45f5f1f95d",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "e02fec13-6c63-4581-8ff7-5b0bfcda8473",
+                "_UpperGuid": "b292bda2-3779-4589-b7c0-f46c8f7df639",
+                "_LowerGuid": "457d3008-4524-4920-8015-22e446895429"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cMoveSwim",
+                "_InstanceGuid": "457d3008-4524-4920-8015-22e446895429",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "0d99cc48-7a31-4155-8009-1664ff63258d",
+                "_UpperGuid": "260ac4dd-afe3-0685-164e-eb45f5f1f95d",
+                "_LowerGuid": "ec496aa5-597a-0a69-0074-249b0a6cfb3e"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cChaseSwim",
+                "_InstanceGuid": "ec496aa5-597a-0a69-0074-249b0a6cfb3e",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "b3b89890-a722-4c0a-be83-f693f666344f",
+                "_UpperGuid": "457d3008-4524-4920-8015-22e446895429",
+                "_LowerGuid": "cca93944-ebff-0082-3487-23ed510301a4"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cThreatSwim",
+                "_InstanceGuid": "cca93944-ebff-0082-3487-23ed510301a4",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "210228e9-5182-4381-9432-6c4a53aa57da",
+                "_UpperGuid": "ec496aa5-597a-0a69-0074-249b0a6cfb3e",
+                "_LowerGuid": "15aa4fe3-b212-4fdc-8439-7e28cac9813c"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cDamageMinSwim",
+                "_InstanceGuid": "15aa4fe3-b212-4fdc-8439-7e28cac9813c",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "3f00d61b-87ca-4796-a85e-d424d2e481c5",
+                "_UpperGuid": "cca93944-ebff-0082-3487-23ed510301a4",
+                "_LowerGuid": "3d4fdbe8-e17b-41c2-ae04-06577bc6b262"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cBlowDamageSwim",
+                "_InstanceGuid": "3d4fdbe8-e17b-41c2-ae04-06577bc6b262",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "a668f99f-b347-4c38-8887-893c96eb0267",
+                "_UpperGuid": "15aa4fe3-b212-4fdc-8439-7e28cac9813c",
+                "_LowerGuid": "b9537f59-8379-0226-334f-ab940489d7b7"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cDieSwim",
+                "_InstanceGuid": "b9537f59-8379-0226-334f-ab940489d7b7",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "02893545-d522-4b8f-9f81-7a93e187a95f",
+                "_UpperGuid": "3d4fdbe8-e17b-41c2-ae04-06577bc6b262",
+                "_LowerGuid": "dfc51521-7459-439c-a954-5f5db37bed12"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cDeadSwim",
+                "_InstanceGuid": "dfc51521-7459-439c-a954-5f5db37bed12",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "d56a7732-648a-4883-8e15-cd3a6e928f17",
+                "_UpperGuid": "b9537f59-8379-0226-334f-ab940489d7b7",
+                "_LowerGuid": "f819db9e-e8e9-0c62-372c-971fad601a91"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cViewPointSwim",
+                "_InstanceGuid": "f819db9e-e8e9-0c62-372c-971fad601a91",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "20b957e2-6171-4e99-8e87-cb56c1d0ff6d",
+                "_UpperGuid": "dfc51521-7459-439c-a954-5f5db37bed12",
+                "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+              }
+            }
+          ]
+        }
+      },
+      "_ExportSettingArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cExport": {
+                "_Guid": "fdda945b-8397-4ce0-ad95-474cde0332d4",
+                "_ClassName": "WEm0010_Action_Swim",
+                "_ActionCategory": 1
+              }
+            }
+          ]
+        }
+      },
+      "_BaseActionID": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 15,
+              "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_Swim.user"
+            }
+          },
+          "_ExportGuid": "7c7e04cd-04de-44ba-b476-38084686cfc1"
+        }
+      }
+    }
+  }
+]

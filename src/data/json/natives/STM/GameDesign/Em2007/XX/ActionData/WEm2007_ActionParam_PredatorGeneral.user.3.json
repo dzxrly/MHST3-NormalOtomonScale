@@ -1,0 +1,72 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "_ActionClassList": [
+        {
+          "app.WorldEnemyAction_PredatorGeneral.cNone": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldEnemyAction_PredatorGeneral.cRoarEncount": {
+            "_ActionSafeLimitTime": -1.0,
+            "_Degree": 15.0
+          }
+        },
+        {
+          "app.WEm2007_Action_PredatorGeneral.cDemoEncount": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "c257133b-ca9a-4182-b525-4884922064b5",
+            "_ActionGuid": "61cda5aa-e3c6-4b89-82ff-b71ac246038c",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "2cac6025-9e12-4c40-950f-d3bf50d9ed9f",
+            "_ActionGuid": "e6d20951-a5ff-4b1c-b9ca-d8fd301cb938",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "dbc2a4ef-47f8-4c8b-89d7-204122093a5e",
+            "_ActionGuid": "9c2b7d49-5ef9-4209-9759-1cb1d45d5e41",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 7,
+              "path": "GameDesign/Enemy/Em2007/XX/ActionData/WEm2007_ActionID_PredatorGeneral.user"
+            }
+          },
+          "_ExportGuid": "8ef9ce74-72ca-4574-816e-4858ce998d62"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {}
+      }
+    }
+  }
+]

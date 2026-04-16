@@ -1,0 +1,197 @@
+[
+  {
+    "app.user_data.BattleActionData": {
+      "_BtlActDataList": [
+        {
+          "app.user_data.BattleActionData.cActionData": {
+            "_Guid": "7510dc03-1280-44f4-82f6-1516845632c7",
+            "_ActType": 6,
+            "_LoreCutType": "[3823760896] INVALID",
+            "_IsUseUniqueCutData": false,
+            "_CutCameraData": {
+              "": {}
+            },
+            "_CutMotData": {
+              "": {}
+            },
+            "_CutEffectData": {
+              "": {}
+            },
+            "_EffectAttribute": "A00_Normal",
+            "_CutSoundData": {
+              "": {}
+            }
+          }
+        },
+        {
+          "app.user_data.BattleActionData.cActionData": {
+            "_Guid": "12893fe7-e06d-4595-ab9d-ef6a10b2c573",
+            "_ActType": 1,
+            "_LoreCutType": "[3823760896] INVALID",
+            "_IsUseUniqueCutData": true,
+            "_CutCameraData": {
+              "app.user_data.BattleCutCameraData": {
+                "ref_instance_id": 2,
+                "path": "GameDesign/Battle/BattleCutData/90-common/50-skill-cm/cm_3way_em_cam.user"
+              }
+            },
+            "_CutMotData": {
+              "": {}
+            },
+            "_CutEffectData": {
+              "": {}
+            },
+            "_EffectAttribute": "A99_Auto",
+            "_CutSoundData": {
+              "": {}
+            }
+          }
+        },
+        {
+          "app.user_data.BattleActionData.cActionData": {
+            "_Guid": "a4ac248d-643c-4990-9887-10d5f5e5e788",
+            "_ActType": 1,
+            "_LoreCutType": "[3823760896] INVALID",
+            "_IsUseUniqueCutData": true,
+            "_CutCameraData": {
+              "app.user_data.BattleCutCameraData": {
+                "ref_instance_id": 4,
+                "path": "GameDesign/Battle/BattleCutData/mo9002/3way/em9002_3power_cam.user"
+              }
+            },
+            "_CutMotData": {
+              "app.user_data.BattleCutMotionData": {
+                "ref_instance_id": 5,
+                "path": "GameDesign/Battle/BattleCutData/mo9002/3way/em9002_3power_mot.user"
+              }
+            },
+            "_CutEffectData": {
+              "app.user_data.BattleCutEffectData": {
+                "ref_instance_id": 6,
+                "path": "GameDesign/Battle/BattleCutData/mo9002/3way/em9002_3power_eff.user"
+              }
+            },
+            "_EffectAttribute": "A99_Auto",
+            "_CutSoundData": {
+              "": {}
+            }
+          }
+        },
+        {
+          "app.user_data.BattleActionData.cActionData": {
+            "_Guid": "50d98a70-a243-4ca1-bf3c-17731de534da",
+            "_ActType": 1,
+            "_LoreCutType": "[3823760896] INVALID",
+            "_IsUseUniqueCutData": true,
+            "_CutCameraData": {
+              "app.user_data.BattleCutCameraData": {
+                "ref_instance_id": 2,
+                "path": "GameDesign/Battle/BattleCutData/90-common/50-skill-cm/cm_3way_em_cam.user"
+              }
+            },
+            "_CutMotData": {
+              "": {}
+            },
+            "_CutEffectData": {
+              "": {}
+            },
+            "_EffectAttribute": "A99_Auto",
+            "_CutSoundData": {
+              "": {}
+            }
+          }
+        },
+        {
+          "app.user_data.BattleActionData.cActionData": {
+            "_Guid": "a3c685f1-e701-4f8e-9375-6eba7cab37de",
+            "_ActType": 6,
+            "_LoreCutType": "[3823760896] INVALID",
+            "_IsUseUniqueCutData": true,
+            "_CutCameraData": {
+              "app.user_data.BattleCutCameraData": {
+                "ref_instance_id": 9,
+                "path": "GameDesign/Battle/BattleCutData/mo9002/unique/em9002_atk3_water_cam.user"
+              }
+            },
+            "_CutMotData": {
+              "app.user_data.BattleCutMotionData": {
+                "ref_instance_id": 10,
+                "path": "GameDesign/Battle/BattleCutData/mo9002/unique/em9002_atk3_water_mot.user"
+              }
+            },
+            "_CutEffectData": {
+              "app.user_data.BattleCutEffectData": {
+                "ref_instance_id": 11,
+                "path": "GameDesign/Battle/BattleCutData/mo9002/unique/em9002_atk3_water_eff.user"
+              }
+            },
+            "_EffectAttribute": "A04_Water",
+            "_CutSoundData": {
+              "": {}
+            }
+          }
+        },
+        {
+          "app.user_data.BattleActionData.cActionData": {
+            "_Guid": "9ccbaf4d-7b76-49b8-bcc5-d6571ea17366",
+            "_ActType": 6,
+            "_LoreCutType": "[3823760896] INVALID",
+            "_IsUseUniqueCutData": true,
+            "_CutCameraData": {
+              "app.user_data.BattleCutCameraData": {
+                "ref_instance_id": 13,
+                "path": "GameDesign/Battle/BattleCutData/mo9002/unique/em9002_atk4_ice_cam.user"
+              }
+            },
+            "_CutMotData": {
+              "app.user_data.BattleCutMotionData": {
+                "ref_instance_id": 14,
+                "path": "GameDesign/Battle/BattleCutData/mo9002/unique/em9002_atk4_ice_mot.user"
+              }
+            },
+            "_CutEffectData": {
+              "app.user_data.BattleCutEffectData": {
+                "ref_instance_id": 15,
+                "path": "GameDesign/Battle/BattleCutData/mo9002/unique/em9002_atk4_ice_eff.user"
+              }
+            },
+            "_EffectAttribute": "A02_Ice",
+            "_CutSoundData": {
+              "": {}
+            }
+          }
+        },
+        {
+          "app.user_data.BattleActionData.cActionData": {
+            "_Guid": "d4f4c99a-ae73-49d3-a34c-0844dbf8621e",
+            "_ActType": 6,
+            "_LoreCutType": "[3823760896] INVALID",
+            "_IsUseUniqueCutData": true,
+            "_CutCameraData": {
+              "app.user_data.BattleCutCameraData": {
+                "ref_instance_id": 17,
+                "path": "GameDesign/Battle/BattleCutData/mo9002/unique/em9002_atk6_debuff_cam.user"
+              }
+            },
+            "_CutMotData": {
+              "app.user_data.BattleCutMotionData": {
+                "ref_instance_id": 18,
+                "path": "GameDesign/Battle/BattleCutData/mo9002/unique/em9002_atk6_debuff_mot.user"
+              }
+            },
+            "_CutEffectData": {
+              "app.user_data.BattleCutEffectData": {
+                "ref_instance_id": 19,
+                "path": "GameDesign/Battle/BattleCutData/mo9002/unique/em9002_atk6_debuff_eff.user"
+              }
+            },
+            "_EffectAttribute": "A00_Normal",
+            "_CutSoundData": {
+              "": {}
+            }
+          }
+        }
+      ]
+    }
+  }
+]

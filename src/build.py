@@ -1,4 +1,5 @@
 import argparse
+import glob
 import json
 import os
 import re
@@ -83,6 +84,48 @@ def init_dir() -> None:
     create_dir(MODULE_SAVE_DIR)
 
 
+def extract_enemy_scale_config() -> str:
+    enums_path = "src/data/json/Enums_Internal.json"
+    with open(enums_path, "r", encoding="utf-8") as f:
+        enums_data = json.load(f)
+    
+    otomon_ids = enums_data.get("app.OtomonDef.ID", {})
+    scale_dict = {}
+    
+    base_enemy_dir = "src/data/json/natives/STM/GameDesign"
+    
+    for ot_key, ot_id in otomon_ids.items():
+        if not ot_key.startswith("OT"):
+            continue
+        
+        parts = ot_key.split('_')
+        if len(parts) < 1:
+            continue
+        em_name = "Em" + parts[0][2:]
+        
+        search_pattern = os.path.join(base_enemy_dir, em_name, "**", "CommonData", f"{em_name}_BasicParam.user.3.json")
+        matches = glob.glob(search_pattern, recursive=True)
+        if not matches:
+            continue
+            
+        target_file = matches[0]
+        
+        with open(target_file, "r", encoding="utf-8") as f:
+            enemy_data = json.load(f)
+            
+        try:
+            scale = enemy_data[0]["app.user_data.EnemyBasicParam"]["_WorldBodyScale"]
+            scale_dict[ot_id] = round(scale, 4)
+        except (IndexError, KeyError):
+            pass
+            
+    lua_table_str = "M.ENEMY_BODY_SCALE = {\n"
+    for ot_id, scale in sorted(scale_dict.items()):
+        lua_table_str += f"    [{ot_id}] = {scale},\n"
+    lua_table_str += "}"
+    return lua_table_str
+
+
 def copy_module_lua() -> None:
     if not os.path.exists(MODULE_SRC_DIR):
         return
@@ -92,7 +135,15 @@ def copy_module_lua() -> None:
             continue
         src_file = os.path.join(MODULE_SRC_DIR, file_name)
         dst_file = os.path.join(MODULE_SAVE_DIR, file_name)
-        shutil.copyfile(src_file, dst_file)
+        if file_name == "config.lua":
+            with open(src_file, "r", encoding="utf-8") as f:
+                content = f.read()
+            lua_table_str = extract_enemy_scale_config()
+            content = content.replace("M.ENEMY_BODY_SCALE = nil", lua_table_str)
+            with open(dst_file, "w", encoding="utf-8") as f:
+                f.write(content)
+        else:
+            shutil.copyfile(src_file, dst_file)
 
 
 def force_del_dir(

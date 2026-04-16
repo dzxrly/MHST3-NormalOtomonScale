@@ -1,0 +1,1762 @@
+[
+  {
+    "ace.btable.user_data.BTable": {
+      "_Tables": {
+        "ace.cInstanceGuidArray`1<ace.btable.user_data.BTable.cTableElement>": {
+          "_DataArray": [
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 15744174655346669706,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
+                          "_BttleStepStatus": {
+                            "ref_instance_id": 2
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 5
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 15744174655346669706,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
+                          "_BttleStepStatus": {
+                            "ref_instance_id": 10
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 13
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 17
+                          }
+                        }
+                      },
+                      "_CommandHash": 15744174655346669706,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
+                          "_BttleStepStatus": {
+                            "ref_instance_id": 19
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 22
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 16133228108903273908,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "53162f42-1949-479f-be61-0a9e74ad779a"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 191398017322770734,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
+                          "_EditMorphFixed": {
+                            "ref_instance_id": 34
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 37
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 191398017322770734,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
+                          "_EditMorphFixed": {
+                            "ref_instance_id": 42
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 45
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 191398017322770734,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
+                          "_EditMorphFixed": {
+                            "ref_instance_id": 50
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 53
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "3bd80f54-b341-464c-bdc1-e71ac8eb8c72"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 191398017322770734,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
+                          "_EditMorphFixed": {
+                            "ref_instance_id": 65
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 68
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 191398017322770734,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
+                          "_EditMorphFixed": {
+                            "ref_instance_id": 73
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 76
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 191398017322770734,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
+                          "_EditMorphFixed": {
+                            "ref_instance_id": 81
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 84
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "bda9b06d-e274-4d78-9067-0c8b341b302c"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 191398017322770734,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
+                          "_EditMorphFixed": {
+                            "ref_instance_id": 96
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 99
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 191398017322770734,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
+                          "_EditMorphFixed": {
+                            "ref_instance_id": 104
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 107
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 191398017322770734,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
+                          "_EditMorphFixed": {
+                            "ref_instance_id": 112
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 115
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "f1934d74-bcde-4d66-9554-f5a6665a4e03"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [],
+                "_Guid": "c4ec85dc-a6ce-4f73-a399-98975eacd5f2"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [],
+                "_Guid": "ce4f3d71-39bd-4163-bdbf-f9614125603d"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 18102953576439037638,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
+                          "_State": {
+                            "ref_instance_id": 129
+                          },
+                          "_CompareType": {
+                            "ref_instance_id": 130
+                          },
+                          "_Value": {
+                            "ref_instance_id": 131
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 135
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 136
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 137
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 144
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 145
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 146
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "685b9f4e-e3c6-43fe-8cdf-1c1d495b22db"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 18102953576439037638,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
+                          "_State": {
+                            "ref_instance_id": 157
+                          },
+                          "_CompareType": {
+                            "ref_instance_id": 158
+                          },
+                          "_Value": {
+                            "ref_instance_id": 159
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 162
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 169
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "916ed8ad-ff79-4a4f-ba3e-e97650ff228c"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 181
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 182
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 183
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "53cb9405-3e60-4816-a5d0-672c542ef6ec"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [],
+                "_Guid": "9153b248-9b24-453a-b0de-ba5b5ca24197"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 191
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "2eb4e4d5-cdc9-4d44-b610-74355ff7a9b7"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 2458751515924522242,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg": {
+                          "bitEnum": {
+                            "ref_instance_id": 200
+                          },
+                          "PartsCount": {
+                            "ref_instance_id": 201
+                          },
+                          "ChackPartsState": {
+                            "ref_instance_id": 202
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 16073539500054384723,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetDamageReactionArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 206
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 207
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 208
+                          },
+                          "_DownLevel": {
+                            "ref_instance_id": 209
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 215
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "b6c8d61d-e170-4004-ba89-b55c0ea18860"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 2458751515924522242,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg": {
+                          "bitEnum": {
+                            "ref_instance_id": 224
+                          },
+                          "PartsCount": {
+                            "ref_instance_id": 225
+                          },
+                          "ChackPartsState": {
+                            "ref_instance_id": 226
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 16073539500054384723,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetDamageReactionArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 230
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 231
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 232
+                          },
+                          "_DownLevel": {
+                            "ref_instance_id": 233
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 12657657158257013529,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckDamageResultEffectArg": {
+                          "_DamegeResult": {
+                            "ref_instance_id": 240
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 16073539500054384723,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetDamageReactionArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 244
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 245
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 246
+                          },
+                          "_DownLevel": {
+                            "ref_instance_id": 247
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 253
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "8a426627-fb9f-460e-9104-9e73ee341570"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [],
+                "_Guid": "b811cd03-30af-4190-835c-afd16dea9df4"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 1242848815196633815,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
+                          "_State": {
+                            "ref_instance_id": 263
+                          },
+                          "_CompareType": {
+                            "ref_instance_id": 264
+                          },
+                          "_Value": {
+                            "ref_instance_id": 265
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 269
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 270
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 271
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "29f4e619-e222-45ba-af64-eca6cc184a2b"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 1242848815196633815,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
+                          "_State": {
+                            "ref_instance_id": 282
+                          },
+                          "_CompareType": {
+                            "ref_instance_id": 283
+                          },
+                          "_Value": {
+                            "ref_instance_id": 284
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 288
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 289
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 290
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "a7466f9a-d09a-4e32-a863-ea3ba99f648e"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "843266ef-6bbb-4f0e-89d9-082f37b5ee7d"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 12800327421053533761,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceStatusInfoArg": {
+                          "_StatusType": {
+                            "ref_instance_id": 305
+                          },
+                          "_TargetType": {
+                            "ref_instance_id": 306
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 310
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 311
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 312
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 319
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 320
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 321
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "423cf52a-f879-4b16-9665-1848e0cec5d7"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 9601788297313322652,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg": {
+                          "bitEnum": {
+                            "ref_instance_id": 332
+                          },
+                          "PartsCount": {
+                            "ref_instance_id": 333
+                          },
+                          "ChackPartsState": {
+                            "ref_instance_id": 334
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 338
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 339
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 340
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 347
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 348
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 349
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "98211731-a9c0-48e3-b8d1-bef4107578db"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 5222141761348466374,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentRandom": {
+                          "_EditRandom": {
+                            "ref_instance_id": 359
+                          }
+                        }
+                      },
+                      "_CommandHash": 9627497571725490262,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentRandomType": {
+                          "_EditType": {
+                            "ref_instance_id": 361
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ref_instance_id": 364
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 6639227221191243316,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentRandom": {
+                          "_EditRandom": {
+                            "ref_instance_id": 368
+                          }
+                        }
+                      },
+                      "_CommandHash": 9627497571725490262,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentRandomType": {
+                          "_EditType": {
+                            "ref_instance_id": 370
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 374
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 375
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 376
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 3454159364558842159,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "be79b9f2-ffeb-4d16-b811-300d96b1839b"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 12800327421053533761,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceStatusInfoArg": {
+                          "_StatusType": {
+                            "ref_instance_id": 387
+                          },
+                          "_TargetType": {
+                            "ref_instance_id": 388
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 392
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 393
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 394
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 401
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 402
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 403
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "4824abdd-108a-41b3-b38d-576cfbc25507"
+              }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 2458751515924522242,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg": {
+                          "bitEnum": {
+                            "ref_instance_id": 414
+                          },
+                          "PartsCount": {
+                            "ref_instance_id": 415
+                          },
+                          "ChackPartsState": {
+                            "ref_instance_id": 416
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 16073539500054384723,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetDamageReactionArg": {
+                          "_EditAssetIndex": {
+                            "ref_instance_id": 420
+                          },
+                          "_EditActionGuid": {
+                            "ref_instance_id": 421
+                          },
+                          "_ChnageNoneType": {
+                            "ref_instance_id": 422
+                          },
+                          "_DownLevel": {
+                            "ref_instance_id": 423
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "01d58e08-3761-4efd-97d4-43af30d15869"
+              }
+            }
+          ]
+        }
+      },
+      "_ImportBTableList": [],
+      "_OrderBank": {
+        "ace.btable.user_data.BTableOrderBank": {
+          "ref_instance_id": 434,
+          "path": "GameDesign/Enemy/Em0089/00/BattleData/Battle_Em0089_00_00_BTableOrderBank.user"
+        }
+      },
+      "_ThisGuid": "5160e05f-a0ea-41cb-bfad-ab3c1d5f6fb8",
+      "_ExportBTableType": {
+        "raw": "01000000",
+        "type": "RuntimeType"
+      },
+      "_CommandArgArray": [],
+      "_UseExportArgData": false
+    }
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "app.user_data.WorldEnemyParamPack": {
+      "_MotionBankAssetsList": [
+        {
+          "app.cMotionBankAssets": {
+            "_MotionBank": "Art/Motion/02_Enemy_Otomon/em002/em002_f_bank.motbank",
+            "_MotionExtendBank": {
+              "ace.user_data.MotionExtendBank": {
+                "ref_instance_id": 1,
+                "path": "Art/Motion/02_Enemy_Otomon/em002/em002_f_bank_meb.user"
+              }
+            },
+            "_MotionConnectBank": {
+              "ace.user_data.MotionConnectBank": {
+                "ref_instance_id": 2,
+                "path": "Art/Motion/02_Enemy_Otomon/em002/em002_f_bank_mcb.user"
+              }
+            },
+            "_Order": 0
+          }
+        }
+      ],
+      "_JointGroup": {
+        "": {}
+      },
+      "_ActionDataSetHolder": {
+        "app.user_data.ActionDataSetHolder": {
+          "_DataSet_Base": [
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "ref_instance_id": 4,
+                    "path": "GameDesign/Enemy/Em0002/XX/ActionData/WEm0002_ActionParam_General.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "ref_instance_id": 5,
+                        "path": "GameDesign/Enemy/Em0002/XX/ActionData/WEm0002_ActionID_General.user"
+                      }
+                    },
+                    "_ExportGuid": "588845e8-d10f-4bfa-add7-fea36daacb64"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "": {}
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "": {}
+                    },
+                    "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "ref_instance_id": 10,
+                    "path": "GameDesign/Enemy/Em0002/XX/ActionData/WEm0002_ActionParam_Fly.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "ref_instance_id": 11,
+                        "path": "GameDesign/Enemy/Em0002/XX/ActionData/WEm0002_ActionID_Fly.user"
+                      }
+                    },
+                    "_ExportGuid": "482feec9-df7a-46a3-8e24-02e116f87e9b"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "": {}
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "": {}
+                    },
+                    "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "": {}
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "": {}
+                    },
+                    "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+                  }
+                }
+              }
+            }
+          ],
+          "_DataSet_Sub": []
+        }
+      },
+      "_DetectTerrainParam": {
+        "": {}
+      },
+      "_InertiaFbik": {
+        "": {}
+      },
+      "_FbikRigInfo": {
+        "": {}
+      },
+      "_SpeedTreeCollision": {
+        "": {}
+      },
+      "_WorldCharacterAnimationLodParam": {
+        "app.user_data.WorldCharacterAnimationLodParameter": {
+          "ref_instance_id": 19,
+          "path": "GameDesign/Enemy/CommonData/AnimationLODData/WorldEnemyAnimationLod.user"
+        }
+      },
+      "_EnemyBasicParam": {
+        "app.user_data.EnemyBasicParam": {
+          "ref_instance_id": 20,
+          "path": "GameDesign/Enemy/Em0002/XX/CommonData/Em0002_BasicParam.user"
+        }
+      },
+      "_WorldBasicParam": {
+        "app.user_data.WorldEnemyBasicParam": {
+          "ref_instance_id": 21,
+          "path": "GameDesign/Enemy/Em0002/XX/WorldData/WEm0002_BasicParam.user"
+        }
+      },
+      "_WorldPredatorBasicParam": {
+        "": {}
+      },
+      "_BTable": {
+        "ace.btable.user_data.BTable": {
+          "ref_instance_id": 22,
+          "path": "GameDesign/AI/World/BTable/Enemy/TableAsset/World_EnemyCommonBTable.user"
+        }
+      },
+      "_BTable_Nest": {
+        "ace.btable.user_data.BTable": {
+          "ref_instance_id": 23,
+          "path": "GameDesign/AI/World/BTable/Enemy/TableAsset/World_EnemyCommonBTable_Nest.user"
+        }
+      },
+      "_SightParam": {
+        "app.user_data.EnemySightParam": {
+          "ref_instance_id": 24,
+          "path": "GameDesign/Enemy/Em0002/XX/WorldData/WEm0002_EnemySightParam.user"
+        }
+      },
+      "_BehaviorParam": {
+        "app.user_data.World_EnemyBehaviorParam": {
+          "ref_instance_id": 25,
+          "path": "GameDesign/Enemy/Em0002/XX/WorldData/World_Em0002BehaviorParam.user"
+        }
+      },
+      "_IkCtrlSetupParam": {
+        "app.AppIkCtrlSetupParam": {
+          "ref_instance_id": 26,
+          "path": "GameDesign/Monster/mo002/IK/mo002_IkCtrlSetupParam.user"
+        }
+      },
+      "_JointCtrlSetupParam": {
+        "ace.user_data.JointCtrlSetupParam": {
+          "ref_instance_id": 27,
+          "path": "GameDesign/Enemy/CommonData/IK/EnemyCommonJointCtrlSetupParam.user"
+        }
+      }
+    }
+  }
+]

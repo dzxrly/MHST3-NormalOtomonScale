@@ -1,0 +1,186 @@
+[
+  {
+    "app.user_data.WorldEnemyParamPack": {
+      "_MotionBankAssetsList": [
+        {
+          "app.cMotionBankAssets": {
+            "_MotionBank": "Art/Motion/02_Enemy_Otomon/em002/em002_f_bank.motbank",
+            "_MotionExtendBank": {
+              "ace.user_data.MotionExtendBank": {
+                "ref_instance_id": 1,
+                "path": "Art/Motion/02_Enemy_Otomon/em002/em002_f_bank_meb.user"
+              }
+            },
+            "_MotionConnectBank": {
+              "ace.user_data.MotionConnectBank": {
+                "ref_instance_id": 2,
+                "path": "Art/Motion/02_Enemy_Otomon/em002/em002_f_bank_mcb.user"
+              }
+            },
+            "_Order": 0
+          }
+        }
+      ],
+      "_JointGroup": {
+        "": {}
+      },
+      "_ActionDataSetHolder": {
+        "app.user_data.ActionDataSetHolder": {
+          "_DataSet_Base": [
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "ace.user_data.ActionParam": {
+                    "ref_instance_id": 4,
+                    "path": "GameDesign/Enemy/Em0009/XX/ActionData/WEm0009_ActionParam_General.user"
+                  }
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "ace.user_data.ActionID": {
+                        "ref_instance_id": 5,
+                        "path": "GameDesign/Enemy/Em0009/XX/ActionData/WEm0009_ActionID_General.user"
+                      }
+                    },
+                    "_ExportGuid": "e46760e4-f411-40ab-8e56-6b91edac4eca"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "": {}
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "": {}
+                    },
+                    "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "": {}
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "": {}
+                    },
+                    "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "": {}
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "": {}
+                    },
+                    "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+                  }
+                }
+              }
+            },
+            {
+              "app.user_data.ActionDataSet": {
+                "_Param": {
+                  "": {}
+                },
+                "_ID": {
+                  "ace.cActionIDHolder": {
+                    "_ActionID": {
+                      "": {}
+                    },
+                    "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+                  }
+                }
+              }
+            }
+          ],
+          "_DataSet_Sub": []
+        }
+      },
+      "_DetectTerrainParam": {
+        "": {}
+      },
+      "_InertiaFbik": {
+        "": {}
+      },
+      "_FbikRigInfo": {
+        "": {}
+      },
+      "_SpeedTreeCollision": {
+        "": {}
+      },
+      "_WorldCharacterAnimationLodParam": {
+        "app.user_data.WorldCharacterAnimationLodParameter": {
+          "ref_instance_id": 17,
+          "path": "GameDesign/Enemy/CommonData/AnimationLODData/WorldEnemyAnimationLod.user"
+        }
+      },
+      "_EnemyBasicParam": {
+        "app.user_data.EnemyBasicParam": {
+          "ref_instance_id": 18,
+          "path": "GameDesign/Enemy/Em0009/XX/CommonData/Em0009_BasicParam.user"
+        }
+      },
+      "_WorldBasicParam": {
+        "app.user_data.WorldEnemyBasicParam": {
+          "ref_instance_id": 19,
+          "path": "GameDesign/Enemy/Em0009/XX/WorldData/WEm0009_BasicParam.user"
+        }
+      },
+      "_WorldPredatorBasicParam": {
+        "": {}
+      },
+      "_BTable": {
+        "ace.btable.user_data.BTable": {
+          "ref_instance_id": 20,
+          "path": "GameDesign/AI/World/BTable/Enemy/TableAsset/World_EnemyCommonBTable.user"
+        }
+      },
+      "_BTable_Nest": {
+        "ace.btable.user_data.BTable": {
+          "ref_instance_id": 21,
+          "path": "GameDesign/AI/World/BTable/Enemy/TableAsset/World_EnemyCommonBTable_Nest.user"
+        }
+      },
+      "_SightParam": {
+        "app.user_data.EnemySightParam": {
+          "ref_instance_id": 22,
+          "path": "GameDesign/Enemy/Em0009/XX/WorldData/WEm0009_EnemySightParam.user"
+        }
+      },
+      "_BehaviorParam": {
+        "app.user_data.World_EnemyBehaviorParam": {
+          "ref_instance_id": 23,
+          "path": "GameDesign/Enemy/Em0009/XX/WorldData/World_Em0009BehaviorParam.user"
+        }
+      },
+      "_IkCtrlSetupParam": {
+        "app.AppIkCtrlSetupParam": {
+          "ref_instance_id": 24,
+          "path": "GameDesign/Monster/mo002/IK/mo002_IkCtrlSetupParam.user"
+        }
+      },
+      "_JointCtrlSetupParam": {
+        "ace.user_data.JointCtrlSetupParam": {
+          "ref_instance_id": 25,
+          "path": "GameDesign/Enemy/CommonData/IK/EnemyCommonJointCtrlSetupParam.user"
+        }
+      }
+    }
+  }
+]

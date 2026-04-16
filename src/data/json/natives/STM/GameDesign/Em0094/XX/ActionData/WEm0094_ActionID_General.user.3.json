@@ -1,0 +1,266 @@
+[
+  {
+    "ace.user_data.ActionID": {
+      "_ActionIDArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cID>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cNone",
+                "_InstanceGuid": "d8cdc3e6-e853-4d19-8737-f264467c8245",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "93329da6-cfcb-4438-b88d-425c3b8043a8",
+                "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+                "_LowerGuid": "f977f008-3f0e-0901-08bd-4c1b4dfee2a0"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cIdle",
+                "_InstanceGuid": "f977f008-3f0e-0901-08bd-4c1b4dfee2a0",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "302e4ef7-00b8-40ee-954e-00f145f016c8",
+                "_UpperGuid": "d8cdc3e6-e853-4d19-8737-f264467c8245",
+                "_LowerGuid": "00a68cdd-2549-07af-0236-1642ffc4a852"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cIdleFlavor",
+                "_InstanceGuid": "00a68cdd-2549-07af-0236-1642ffc4a852",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "fec62682-a3bd-48e0-ba4f-bfb1f6934744",
+                "_UpperGuid": "f977f008-3f0e-0901-08bd-4c1b4dfee2a0",
+                "_LowerGuid": "b9ae0f71-5630-4a62-a3fa-9087fb031e81"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cThreat",
+                "_InstanceGuid": "b9ae0f71-5630-4a62-a3fa-9087fb031e81",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "9d20bb8e-ff74-4b63-8003-95b94246e55a",
+                "_UpperGuid": "00a68cdd-2549-07af-0236-1642ffc4a852",
+                "_LowerGuid": "5015a019-1cee-0085-31ab-39f8e6334769"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cThreatOnly",
+                "_InstanceGuid": "5015a019-1cee-0085-31ab-39f8e6334769",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "5082dc1a-9199-40eb-a425-7168b8a96d64",
+                "_UpperGuid": "b9ae0f71-5630-4a62-a3fa-9087fb031e81",
+                "_LowerGuid": "77fe4895-ee3f-402a-8588-a556d04b02f9"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cSearch",
+                "_InstanceGuid": "77fe4895-ee3f-402a-8588-a556d04b02f9",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "b05f77e7-8013-4c34-94d6-3b3227600364",
+                "_UpperGuid": "5015a019-1cee-0085-31ab-39f8e6334769",
+                "_LowerGuid": "33497a94-0d5b-07a4-3912-66b6186f781b"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cSleep",
+                "_InstanceGuid": "33497a94-0d5b-07a4-3912-66b6186f781b",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "d32547e6-39d5-4cd2-9794-16b93f4fdd28",
+                "_UpperGuid": "77fe4895-ee3f-402a-8588-a556d04b02f9",
+                "_LowerGuid": "b5699bce-ac7a-427c-8057-234908e880fe"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cSleepPredator",
+                "_InstanceGuid": "b5699bce-ac7a-427c-8057-234908e880fe",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "21ef28b7-5447-40bb-8a52-868902fad30d",
+                "_UpperGuid": "33497a94-0d5b-07a4-3912-66b6186f781b",
+                "_LowerGuid": "28c30f77-43fd-0b0c-3d7a-6716058812ba"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cSuperSleep",
+                "_InstanceGuid": "28c30f77-43fd-0b0c-3d7a-6716058812ba",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "be42f47d-1b54-4e92-92c8-bbff92ca8bb7",
+                "_UpperGuid": "b5699bce-ac7a-427c-8057-234908e880fe",
+                "_LowerGuid": "53a40fd1-4e34-431e-bb1b-c1983d09c10b"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cWakeUp",
+                "_InstanceGuid": "53a40fd1-4e34-431e-bb1b-c1983d09c10b",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "241fa036-a59d-474f-8bde-460146f7e08d",
+                "_UpperGuid": "28c30f77-43fd-0b0c-3d7a-6716058812ba",
+                "_LowerGuid": "988f31bb-3fb3-021b-16a9-3f6369729b77"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cWalk",
+                "_InstanceGuid": "988f31bb-3fb3-021b-16a9-3f6369729b77",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "3cbcff58-ca10-43d5-a6b4-8ce0bef57f9c",
+                "_UpperGuid": "53a40fd1-4e34-431e-bb1b-c1983d09c10b",
+                "_LowerGuid": "80fa2280-1b67-40fa-abfd-01dd998f3248"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cRun",
+                "_InstanceGuid": "80fa2280-1b67-40fa-abfd-01dd998f3248",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "f9c3f2df-544b-4701-a4cd-9155589fd2b5",
+                "_UpperGuid": "988f31bb-3fb3-021b-16a9-3f6369729b77",
+                "_LowerGuid": "240bb454-3cdf-4fd8-9e93-1bf9d3818a94"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cMoveStop",
+                "_InstanceGuid": "240bb454-3cdf-4fd8-9e93-1bf9d3818a94",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "06a5ad53-e285-4e12-86a5-6455264ea926",
+                "_UpperGuid": "80fa2280-1b67-40fa-abfd-01dd998f3248",
+                "_LowerGuid": "cfb5a2c2-1be6-00ed-0f76-ecaa881021fc"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cDamageMin",
+                "_InstanceGuid": "cfb5a2c2-1be6-00ed-0f76-ecaa881021fc",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "7479e58d-61fc-453b-8096-04e310ccef7c",
+                "_UpperGuid": "240bb454-3cdf-4fd8-9e93-1bf9d3818a94",
+                "_LowerGuid": "9d180147-b662-4b25-9d87-84413cb2beae"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cDamageMax",
+                "_InstanceGuid": "9d180147-b662-4b25-9d87-84413cb2beae",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "b954b222-d4d1-4de2-ad65-293c49e700e8",
+                "_UpperGuid": "cfb5a2c2-1be6-00ed-0f76-ecaa881021fc",
+                "_LowerGuid": "69330ac6-2312-0e43-05ee-31d4159fec56"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cBlowDamage",
+                "_InstanceGuid": "69330ac6-2312-0e43-05ee-31d4159fec56",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "3d6b0c75-eb17-468b-bc03-52d7f43c34a4",
+                "_UpperGuid": "9d180147-b662-4b25-9d87-84413cb2beae",
+                "_LowerGuid": "ca94116b-c232-0563-3190-9b28d7dc2718"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cHoming",
+                "_InstanceGuid": "ca94116b-c232-0563-3190-9b28d7dc2718",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "509dd09b-7627-4d86-8239-23cce4bb0030",
+                "_UpperGuid": "69330ac6-2312-0e43-05ee-31d4159fec56",
+                "_LowerGuid": "e767751b-2a01-4381-8922-4cffaab9cc46"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cDie",
+                "_InstanceGuid": "e767751b-2a01-4381-8922-4cffaab9cc46",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "5d067c83-dc36-4213-98a4-4f2474666895",
+                "_UpperGuid": "ca94116b-c232-0563-3190-9b28d7dc2718",
+                "_LowerGuid": "fab0c72c-769f-016c-02d2-d3d8e668c5e1"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cEatEcologicalBehavior",
+                "_InstanceGuid": "fab0c72c-769f-016c-02d2-d3d8e668c5e1",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "b072c067-0d20-4673-864c-91a0253d6140",
+                "_UpperGuid": "e767751b-2a01-4381-8922-4cffaab9cc46",
+                "_LowerGuid": "32306b34-1902-01e0-04e7-2fef7d30a090"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cDrinkEcologicalBehavior",
+                "_InstanceGuid": "32306b34-1902-01e0-04e7-2fef7d30a090",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "d5b3b5b5-7009-4406-b5e6-ab7284fdf4d6",
+                "_UpperGuid": "fab0c72c-769f-016c-02d2-d3d8e668c5e1",
+                "_LowerGuid": "2946621a-6e07-0b8e-1af1-9b74f74cb1c5"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cOtherEcologicalBehavior",
+                "_InstanceGuid": "2946621a-6e07-0b8e-1af1-9b74f74cb1c5",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "52e654cf-edf6-4a19-972c-91223c11abc1",
+                "_UpperGuid": "32306b34-1902-01e0-04e7-2fef7d30a090",
+                "_LowerGuid": "76e4fe6a-2e2a-48e5-9c04-63280093a7ce"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cIdleCombat",
+                "_InstanceGuid": "76e4fe6a-2e2a-48e5-9c04-63280093a7ce",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "89463578-5901-432c-8bcd-8c7051f04593",
+                "_UpperGuid": "2946621a-6e07-0b8e-1af1-9b74f74cb1c5",
+                "_LowerGuid": "e54c058c-3de2-0c98-30bc-98d369d6aea5"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cViewPointWalk",
+                "_InstanceGuid": "e54c058c-3de2-0c98-30bc-98d369d6aea5",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "0568d16f-d42f-41d0-8ddd-f3ec6c1f73d9",
+                "_UpperGuid": "76e4fe6a-2e2a-48e5-9c04-63280093a7ce",
+                "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+              }
+            }
+          ]
+        }
+      },
+      "_ExportSettingArray": {
+        "ace.cInstanceGuidArray`1<ace.user_data.ActionID.cExport>": {
+          "_DataArray": [
+            {
+              "ace.user_data.ActionID.cExport": {
+                "_Guid": "b9fb0bf3-56fd-4d62-8ef2-9afd6d0260b6",
+                "_ClassName": "WEm0094_Action_General",
+                "_ActionCategory": 0
+              }
+            }
+          ]
+        }
+      },
+      "_BaseActionID": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 27,
+              "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_General.user"
+            }
+          },
+          "_ExportGuid": "8db0e3d3-1f4b-4bfb-8dac-d4dc26d6a411"
+        }
+      }
+    }
+  }
+]

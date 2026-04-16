@@ -1,0 +1,166 @@
+[
+  {
+    "ace.user_data.ActionParam": {
+      "_ActionClassList": [
+        {
+          "app.WorldEnemyAction_Fly.cNone": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldEnemyAction_Fly.cIdleDefaultFly": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldEnemyAction_Fly.cIdleFly": {
+            "_ActionSafeLimitTime": -1.0,
+            "_ActionTimeSec": 3.0
+          }
+        },
+        {
+          "app.WorldEnemyAction_Fly.cGlide": {
+            "_ActionSafeLimitTime": -1.0,
+            "_MoveSpeed": {
+              "app.AppCharaUtil.cMotionSpeedParam": {
+                "_Type": 0,
+                "_KilometerPerHourParam": 0.0,
+                "_MotionSpeed": 1.0
+              }
+            },
+            "_AngularVelocityParam": {
+              "app.AppCharaUtil.cAngularVelocityParam": {
+                "_TurnRadius": 15.0,
+                "_RotSpeedEaseType": 8
+              }
+            },
+            "_PitchRotSpeedEaseType": 1,
+            "_PitchRotationSpeed": 60.0,
+            "_MaxPitch": 22.5,
+            "_MinPitch": -22.5,
+            "_FlapDeg": 75.0
+          }
+        },
+        {
+          "app.WorldEnemyAction_Fly.cGlideChase": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldEnemyAction_Fly.cDamageFall": {
+            "_ActionSafeLimitTime": -1.0,
+            "_StruggleTimeSec": 4.0
+          }
+        },
+        {
+          "app.WorldEnemyAction_Fly.cTakeOff": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        },
+        {
+          "app.WorldEnemyAction_Fly.cDieFall": {
+            "_ActionSafeLimitTime": -1.0
+          }
+        }
+      ],
+      "_BranchedParamsList": [],
+      "_ActionInfoList": [
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "5cbdeece-1654-48a5-a20c-8b6833bd9d49",
+            "_ActionGuid": "b9e146c8-04c6-462f-a520-c626d65385ca",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "1f32731e-966b-49da-bfe4-28ade4c76ac5",
+            "_ActionGuid": "bd7cb859-69cd-4830-89ea-96272ace95f9",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "d63f3dac-30d3-48d9-9495-51ff08df5a57",
+            "_ActionGuid": "25e9fd0b-e15d-4237-8174-beca7d8fcb9a",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "f5872e7d-2384-4024-84c6-ca745182ed2d",
+            "_ActionGuid": "4e91402f-4544-4856-ba92-6e12a680203c",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "b354c832-902d-4392-8e61-66dec0c9df97",
+            "_ActionGuid": "77be0089-ef70-4a76-a0d8-26d15ed7dd6e",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "2f7a8cc5-09fd-44bb-bcb8-e7dd92292884",
+            "_ActionGuid": "0cbf8e98-efe2-4834-962c-a2ff72ea4951",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "7da8cfe6-6f07-485e-a8ee-c3f5a70a48ae",
+            "_ActionGuid": "a12759d1-d35f-40dc-8842-71efb3970158",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": true
+          }
+        },
+        {
+          "ace.user_data.ActionParam.cInfo": {
+            "_Guid": "3aa6a5f2-ede0-4cff-8a24-94c832758e1d",
+            "_ActionGuid": "3c2e2365-0e2a-4890-8c60-d70c6df58649",
+            "_OverrideSourceActionParamGuid": "00000000-0000-0000-0000-000000000000",
+            "_OverrideParamNameArray": [],
+            "_OverrideOwnerAction": false,
+            "_IsBaseAction": false
+          }
+        }
+      ],
+      "_ActionIDHolder": {
+        "ace.cActionIDHolder": {
+          "_ActionID": {
+            "ace.user_data.ActionID": {
+              "ref_instance_id": 19,
+              "path": "GameDesign/Enemy/Em0124/XX/ActionData/WEm0124_ActionID_Fly.user"
+            }
+          },
+          "_ExportGuid": "0fbf0c3c-65c9-4f0a-9cd2-2d3e6f1a3f8d"
+        }
+      },
+      "_IsUseBranchedParam": false,
+      "_BaseActionParam": {
+        "": {}
+      }
+    }
+  }
+]

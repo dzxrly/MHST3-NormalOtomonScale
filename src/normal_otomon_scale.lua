@@ -5,7 +5,7 @@ local coreApi    = require("NormalOtomonScale.utils")
 local mod        = require("NormalOtomonScale.init")
 
 -- DO NOT CHANGE THE NEXT LINE, ONLY UPDATE THE VERSION NUMBER
-local modVersion = "v1.0.1"
+local modVersion = "v1.1.0"
 -- DO NOT CHANGE THE PREVIOUS LINE
 
 coreApi.init("NormalOtomonScale")

@@ -5,8 +5,9 @@ local i18n     = require("NormalOtomonScale.i18n")
 local M        = {}
 
 local settings = {
-    lockField  = false,
-    lockBattle = false,
+    lockField       = false,
+    lockBattle      = false,
+    applyEnemyScale = false,
 }
 
 local function loadSettings()
@@ -14,6 +15,7 @@ local function loadSettings()
     if data == nil then return end
     if data.lockField ~= nil then settings.lockField = data.lockField end
     if data.lockBattle ~= nil then settings.lockBattle = data.lockBattle end
+    if data.applyEnemyScale ~= nil then settings.applyEnemyScale = data.applyEnemyScale end
 end
 
 local function saveSettings()
@@ -33,11 +35,23 @@ sdk.hook(
         if not settings.lockField then return retval end
         local this = thread.get_hook_storage()["this"]
         if this == nil then return retval end
+
+        local otomonContext = this:get_Context()
+        local otomonId = nil
+        if otomonContext ~= nil then
+            otomonId = tonumber(otomonContext:get_field("<OtomonID>k__BackingField"))
+        end
+
         local gameObj = this:get_GameObject()
         if gameObj == nil then return retval end
+
         local transform = gameObj:get_Transform()
         if transform == nil then return retval end
+
         local s = config.FORCED_SCALE
+        if settings.applyEnemyScale and otomonId ~= nil and config.ENEMY_BODY_SCALE and config.ENEMY_BODY_SCALE[otomonId] then
+            s = s + (config.ENEMY_BODY_SCALE[otomonId] - 1.0)
+        end
         transform:call("set_LocalScale(via.vec3)", Vector3f.new(s, s, s))
         return retval
     end
@@ -53,7 +67,13 @@ sdk.hook(
         if not settings.lockBattle then return retval end
         local this = thread.get_hook_storage()["this"]
         if this == nil then return retval end
+
+        local otomonId = tonumber(this:get_field("_OtID"))
+
         local s = config.FORCED_SCALE
+        if settings.applyEnemyScale and otomonId ~= nil and config.ENEMY_BODY_SCALE and config.ENEMY_BODY_SCALE[otomonId] then
+            s = s + (config.ENEMY_BODY_SCALE[otomonId] - 1.0)
+        end
         this:call("setLocalScale(via.vec3)", Vector3f.new(s, s, s))
         return retval
     end
@@ -79,6 +99,12 @@ function M.drawUI()
     changed, newVal = imgui.checkbox(i18n.getUIText("lock_battle_otomon"), settings.lockBattle)
     if changed then
         settings.lockBattle = newVal
+        saveSettings()
+    end
+
+    changed, newVal = imgui.checkbox(i18n.getUIText("apply_enemy_scale"), settings.applyEnemyScale)
+    if changed then
+        settings.applyEnemyScale = newVal
         saveSettings()
     end
 end

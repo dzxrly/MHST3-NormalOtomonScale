@@ -1,0 +1,45 @@
+[
+  {
+    "app.user_data.BattlePlayerParamPack": {
+      "_BattleAction": {
+        "": {}
+      },
+      "_BoundingBox": {
+        "app.user_data.BoundingBoxData": {
+          "ref_instance_id": 1,
+          "path": "GameDesign/Player/CommonData/BattleData/Base/BtlPlBBoxDataBase.user"
+        }
+      },
+      "_WipeCameraParam": {
+        "app.user_data.BattleWipeCameraParam": {
+          "ref_instance_id": 2,
+          "path": "GameDesign/Enemy/Em0080/00/BattleData/BEm101_20_004_WipeCameraParam.user"
+        }
+      },
+      "_CharaCutData": {
+        "": {}
+      },
+      "_FbikRigInfo": {
+        "app.user_data.HumanoidFbikInfo": {
+          "ref_instance_id": 3,
+          "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderRigInfo.user"
+        }
+      },
+      "_InertiaFbik": {
+        "": {}
+      },
+      "_IkCtrlSetupParam": {
+        "ace.user_data.IkCtrlSetupParam": {
+          "ref_instance_id": 4,
+          "path": "GameDesign/Character/Humanoid/AnimationData/IK/RiderIkCtrlSetup.user"
+        }
+      },
+      "_HeadControlParam": {
+        "": {}
+      },
+      "_BattlePlayerBasicParam": {
+        "": {}
+      }
+    }
+  }
+]

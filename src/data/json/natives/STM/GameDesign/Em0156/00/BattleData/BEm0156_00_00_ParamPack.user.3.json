@@ -1,0 +1,63 @@
+[
+  {
+    "app.user_data.BattleEnemyParamPack": {
+      "_BattleAction": {
+        "app.user_data.BattleActionData": {
+          "ref_instance_id": 1,
+          "path": "GameDesign/Enemy/Em0156/00/BattleData/BEm0156_00_00_ActionData.user"
+        }
+      },
+      "_BoundingBox": {
+        "app.user_data.BoundingBoxData": {
+          "ref_instance_id": 2,
+          "path": "GameDesign/Enemy/Em0156/00/BattleData/BEm0156_00_00_BBoxData.user"
+        }
+      },
+      "_WipeCameraParam": {
+        "app.user_data.BattleWipeCameraParam": {
+          "ref_instance_id": 3,
+          "path": "GameDesign/Enemy/Em0156/00/BattleData/BEm0156_00_00_WipeCameraParam.user"
+        }
+      },
+      "_CharaCutData": {
+        "app.user_data.BattleEnemyCharaCutData": {
+          "ref_instance_id": 4,
+          "path": "GameDesign/Enemy/Em0156/00/BattleData/BEm0156_00_00_CharaCutData.user"
+        }
+      },
+      "_FbikRigInfo": {
+        "": {}
+      },
+      "_InertiaFbik": {
+        "": {}
+      },
+      "_HaveSkill": {
+        "app.user_data.BattleHaveSkillData": {
+          "ref_instance_id": 5,
+          "path": "GameDesign/Enemy/Em0156/00/BattleData/BEm0156_00_00_HaveSkillData.user"
+        }
+      },
+      "_LoreCutData": {
+        "": {}
+      },
+      "_EnemyBasicParam": {
+        "app.user_data.EnemyBasicParam": {
+          "ref_instance_id": 6,
+          "path": "GameDesign/Enemy/Em0156/XX/CommonData/Em0156_BasicParam.user"
+        }
+      },
+      "_BattleEnemyBasicParam": {
+        "app.user_data.BattleEnemyBasicParam": {
+          "ref_instance_id": 7,
+          "path": "GameDesign/Enemy/Em0156/00/BattleData/BEm0156_00_00_BasicParam.user"
+        }
+      },
+      "_BTableVariable": {
+        "ace.btable.user_data.BTableVariableList": {
+          "ref_instance_id": 8,
+          "path": "GameDesign/AI/Battle/Common/BTable/Battle_CommonBTableVariableList.user"
+        }
+      }
+    }
+  }
+]
