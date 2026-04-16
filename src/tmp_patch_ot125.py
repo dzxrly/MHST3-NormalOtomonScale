@@ -149,7 +149,6 @@ def main() -> None:
         for p in ot_dir.rglob("WOt*_CameraParam.user.3")
         if p.parent.name == "CameraData"
     )
-
     if not basic_files and not camera_files:
         raise SystemExit("[WARN] Ot0125 下未找到可处理的 BasicParam / CameraParam 文件")
 

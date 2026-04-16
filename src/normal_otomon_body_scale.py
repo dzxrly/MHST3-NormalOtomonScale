@@ -70,7 +70,7 @@ _SCALAR_SIZES: dict[str, int] = {
     "Uri": 16,
     "Float2": 8,
     "Vec2": 8,
-    "Float3": 16,  # RE Engine 原生 via.vec3 和 via.Position 在内存中为 16 字节对齐
+    "Float3": 16,  # RE 引擎中 via.vec3 与 via.Position 按 16 字节对齐
     "Vec3": 16,
     "Position": 16,
     "Float4": 16,
@@ -444,7 +444,7 @@ class FieldRecord:
 
 @dataclass
 class PatchResult:
-    status: str  # patched | no_match | error
+    status: str  # patched=已修改, no_match=未命中, error=处理失败
     message: str = ""
 
 
@@ -654,7 +654,7 @@ def _find_schema() -> Path | None:
     return None
 
 
-# ─── 核心：patch 单个 user.3 文件的 _BodyScale ─────────────────────────────────
+# ─── 核心：处理单个 user.3 文件的 _BodyScale ──────────────────────────────────
 def patch_body_scale(
     src_path: Path,
     dst_path: Path,
@@ -719,6 +719,21 @@ def read_body_scale(src_path: Path, typedb: TypeDB) -> float | None:
     return None
 
 
+def _calc_applied_ratio(
+    scale: float, original_scale: float | None, k: float = 0.5
+) -> tuple[float, float]:
+    """根据目标体型与原始体型，计算平滑后的缩放倍率。"""
+    base_ratio = scale
+    if (
+        original_scale is not None
+        and math.isfinite(original_scale)
+        and abs(original_scale) > 1e-8
+    ):
+        base_ratio = scale / original_scale
+    applied_ratio = 1.0 + (base_ratio - 1.0) * k
+    return base_ratio, applied_ratio
+
+
 def patch_camera_param(
     src_path: Path,
     dst_path: Path,
@@ -760,15 +775,8 @@ def patch_camera_param(
         except struct.error:
             return None
 
-    base_ratio = scale
-    if (
-        original_scale is not None
-        and math.isfinite(original_scale)
-        and abs(original_scale) > 1e-8
-    ):
-        base_ratio = scale / original_scale
     camera_scale_k = 0.5
-    scale_ratio = 1.0 + (base_ratio - 1.0) * camera_scale_k
+    base_ratio, scale_ratio = _calc_applied_ratio(scale, original_scale, camera_scale_k)
 
     instances: dict[int, dict[str, FieldRecord]] = {}
     # 同名字段可能因继承链合并出现重复，保留所有候选避免覆盖后丢失正确记录。
@@ -879,7 +887,7 @@ def patch_camera_param(
             ride_count += 1
 
         target_idx = None
-        # 读取通过指针引用的具体相机参数数据 (cCameraParamArgThirdPerson)
+        # 通过 _CameraParamArgument 指针读取具体相机参数实例 (cCameraParamArgThirdPerson)
         arg_candidates = instances_multi.get(idx, {}).get("_CameraParamArgument", [])
         arg_expected = camera_layout.get("_CameraParamArgument", [])
         arg_pref = _pick_by_expected_offset(arg_candidates, arg_expected, instance_base)
@@ -947,7 +955,7 @@ def patch_camera_param(
                 )
 
     # 兜底路径：若通过 CameraParamData -> Argument 指针链未命中，
-    # 直接对文件内所有 ThirdPerson 参数实例进行 AttachOfs 修改。
+    # 直接对文件内所有 ThirdPerson 参数实例执行 AttachOfs 修改。
     if not patched_any:
         for idx, fields in instances.items():
             if not fields:
@@ -1110,8 +1118,7 @@ def scan_and_patch(
             for p in ot_dir.rglob("WOt*_CameraParam.user.3")
             if p.parent.name == "CameraData"
         )
-
-        # 为 Camera 计算“新体型/原始体型”比值：按同一变体目录（如 00/01/02/XX）匹配 BasicParam。
+        # 为相机计算“新体型/原始体型”比值：按同一变体目录（如 00/01/02/XX）匹配 BasicParam。
         original_scale_by_variant: dict[Path, float] = {}
         for basic_path in param_files:
             variant = basic_path.parent.parent.relative_to(ot_dir)
@@ -1229,13 +1236,13 @@ def main() -> None:
     ap.add_argument(
         "--apply-enemy-scale",
         action="store_true",
-        help="Whether to apply original enemy scale to the basic scale (requires JSON data)",
+        help="是否叠加敌人原始体型到基础 scale（需提供 JSON 数据）",
     )
     ap.add_argument(
         "--json-dir",
         default="src/data/json",
         metavar="DIR",
-        help="JSON data root dir containing Enums_Internal.json and natives folder",
+        help="JSON 数据根目录（应包含 Enums_Internal.json 与 natives 目录）",
     )
     ap.add_argument(
         "--il2cpp-map",
