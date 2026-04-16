@@ -48,27 +48,27 @@ jobs:
           }
           EOF
           
-          # Run python to build regular natives
-          mkdir -p user3_output
+          # Build in temporary directory to avoid committing intermediates
+          mkdir -p .temp/user3_output
           python src/normal_otomon_body_scale.py \
             --rsz src/data/rszmhst3.json \
             --natives src/data/unpak/natives \
-            --output user3_output \
+            --output .temp/user3_output \
             --scale 1.0
             
           # Run python to build enemy size natives
-          mkdir -p user3_with_enemy_size_output
+          mkdir -p .temp/user3_with_enemy_size_output
           python src/normal_otomon_body_scale.py \
             --rsz src/data/rszmhst3.json \
             --natives src/data/unpak/natives \
-            --output user3_with_enemy_size_output \
+            --output .temp/user3_with_enemy_size_output \
             --scale 1.0 \
             --apply-enemy-scale \
             --json-dir src/data/json
 
           # Prepare Fluffy Mod Manager files (Normal)
-          cp src/assets/screenshot.png user3_output/cover.png
-          cat <<EOF > user3_output/modinfo.ini
+          cp src/assets/screenshot.png .temp/user3_output/cover.png
+          cat <<EOF > .temp/user3_output/modinfo.ini
           name=Normal Monsties Size
           description=A mod for Monster Hunter Stories 3 that keep all monsties in normal size.
           author=Egg Targaryen
@@ -79,13 +79,14 @@ jobs:
           EOF
           
           # Zip the 'natives' folder, FMM config and cover
-          cd user3_output
+          cd .temp/user3_output
           zip -r "../NormalOtomonScale_${MOD_VER}.zip" natives cover.png modinfo.ini
-          cd ..
+          cp ../NormalOtomonScale_${MOD_VER}.zip ../../NormalOtomonScale_${MOD_VER}.zip
+          cd ../..
           
           # Prepare Fluffy Mod Manager files (Enemy Size)
-          cp src/assets/screenshot.png user3_with_enemy_size_output/cover.png
-          cat <<EOF > user3_with_enemy_size_output/modinfo.ini
+          cp src/assets/screenshot.png .temp/user3_with_enemy_size_output/cover.png
+          cat <<EOF > .temp/user3_with_enemy_size_output/modinfo.ini
           name=Normal Monsties Size (with Enemy Size)
           description=A mod for Monster Hunter Stories 3 that keep all monsties in normal size and applies enemy scaling.
           author=Egg Targaryen
@@ -96,9 +97,10 @@ jobs:
           EOF
           
           # Zip the 'natives' folder, FMM config and cover (with enemy size)
-          cd user3_with_enemy_size_output
+          cd .temp/user3_with_enemy_size_output
           zip -r "../NormalOtomonScale_with_enemy_size_${MOD_VER}.zip" natives cover.png modinfo.ini
-          cd ..
+          cp ../NormalOtomonScale_with_enemy_size_${MOD_VER}.zip ../../NormalOtomonScale_with_enemy_size_${MOD_VER}.zip
+          cd ../..
 
       - name: Check if release exists and delete it
         run: |
