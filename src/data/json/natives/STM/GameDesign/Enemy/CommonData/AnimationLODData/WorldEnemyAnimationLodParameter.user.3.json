@@ -1,0 +1,32 @@
+[
+  {
+    "ace.user_data.AnimationLodParameter": {
+      "_LodRangeInfo": {
+        "ace.user_data.AnimationLodParameter.cLodRangeInfo": {
+          "_LodDistanceTable": [
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0
+          ],
+          "_LodDistanceSqTable": [
+            2500.0,
+            6400.0,
+            12100.0,
+            19600.0,
+            28900.0,
+            40000.0
+          ]
+        }
+      },
+      "_CameraParameter": {
+        "ace.user_data.AnimationLodCameraParameter": {
+          "ref_instance_id": 2,
+          "path": "GameDesign/Enemy/CommonData/AnimationLODData/WorldEnemyAnimationLodCameraParameter.user"
+        }
+      }
+    }
+  }
+]

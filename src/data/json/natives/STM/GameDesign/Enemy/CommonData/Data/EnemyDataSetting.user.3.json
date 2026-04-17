@@ -1,0 +1,68 @@
+[
+  {
+    "app.user_data.EnemyDataSetting": {
+      "_Base": {
+        "app.user_data.EnemyData": {
+          "ref_instance_id": 1,
+          "path": "GameDesign/Enemy/CommonData/Data/EnemyData.user"
+        }
+      },
+      "EnemyDataIndex": [],
+      "_Parts": {
+        "app.user_data.EnemyPartsData": {
+          "ref_instance_id": 2,
+          "path": "GameDesign/Enemy/CommonData/Data/EnemyPartsData.user"
+        }
+      },
+      "EnemyPartsDataIndex": [],
+      "_PartsType": {
+        "app.user_data.EnemyPartsTypeData": {
+          "ref_instance_id": 3,
+          "path": "GameDesign/Enemy/CommonData/Data/EnemyPartsTypeData.user"
+        }
+      },
+      "_Growth_SizeS": {
+        "app.user_data.GrowthParam": {
+          "ref_instance_id": 4,
+          "path": "GameDesign/Enemy/CommonData/Data/EnemyGrowthParam_SizeS.user"
+        }
+      },
+      "_Growth_SizeM": {
+        "app.user_data.GrowthParam": {
+          "ref_instance_id": 5,
+          "path": "GameDesign/Enemy/CommonData/Data/EnemyGrowthParam_SizeM.user"
+        }
+      },
+      "_Growth_SizeL": {
+        "app.user_data.GrowthParam": {
+          "ref_instance_id": 6,
+          "path": "GameDesign/Enemy/CommonData/Data/EnemyGrowthParam_SizeL.user"
+        }
+      },
+      "_ParentData": {
+        "app.user_data.EnemyParentData": {
+          "ref_instance_id": 7,
+          "path": "GameDesign/Enemy/CommonData/Data/EnemyParentData.user"
+        }
+      },
+      "_PredetorTraceConnect": {
+        "app.user_data.PredetorTraceConnectData": {
+          "ref_instance_id": 8,
+          "path": "GameDesign/Battle/CommonData/Data/Predetor/PredetorTraceConnectData.user"
+        }
+      },
+      "_RepelData": {
+        "app.user_data.EnemyElderRepelData": {
+          "ref_instance_id": 9,
+          "path": "GameDesign/Enemy/CommonData/Data/EnemyElderRepelData.user"
+        }
+      },
+      "_EnemyHintData": {
+        "app.user_data.EnemyHint": {
+          "ref_instance_id": 10,
+          "path": "GameDesign/Enemy/CommonData/Data/EnemyHint.user"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "app.user_data.EnemyIkJointBasicParam": {
+      "_IkLegSpineUpdateParam": {
+        "app.user_data.IkLegSpineUpdateParam": {
+          "ref_instance_id": 1,
+          "path": "GameDesign/Monster/CommonData/IK/MonsterCommonIkLegSpineUpdateParam.user"
+        }
+      },
+      "_IkSpineBendUpdateParam": {
+        "app.user_data.IkSpineBendUpdateParam": {
+          "ref_instance_id": 2,
+          "path": "GameDesign/Monster/CommonData/IK/MonsterCommonIkSpineBendUpdateParam.user"
+        }
+      },
+      "_CogRotatorParam": {
+        "app.user_data.CogRotatorParam": {
+          "ref_instance_id": 3,
+          "path": "GameDesign/Enemy/CommonData/WorldData/WorldEnemyCogRotatorParam.user"
+        }
+      }
+    }
+  }
+]

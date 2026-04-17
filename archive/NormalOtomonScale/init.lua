@@ -79,6 +79,42 @@ sdk.hook(
     end
 )
 
+sdk.hook(
+    sdk.find_type_definition("app.PlayerCameraController"):get_method("doLateUpdate()"),
+    function(args)
+        thread.get_hook_storage()["this"] = sdk.to_managed_object(args[2])
+    end,
+    function(retval)
+        local this = thread.get_hook_storage()["this"]
+        if this == nil then return retval end
+
+        local ridingOtomonInfo = this:get_RidingWorldOtCharacter()
+        if ridingOtomonInfo ~= nil then
+            local camParam = this:get_field("_CameraParamArg")
+            if camParam == nil then return retval end
+
+            local originAttachOfs = camParam:get_field("AttachOfs")
+            if originAttachOfs == nil then return retval end
+
+            local otomonContext = ridingOtomonInfo:get_Context()
+            local otomonId = nil
+            if otomonContext ~= nil then
+                otomonId = tonumber(otomonContext:get_field("<OtomonID>k__BackingField"))
+            end
+
+            camParam:set_field("AttachOfs", Vector3f.new(50, 50, 50))
+
+            local currentAceCamParam = this:getCurrentParam()
+            if currentAceCamParam ~= nil then
+                camParam:call("applyToCameraParam(ace.cCameraParam)", currentAceCamParam)
+            else
+                coreApi.log("currentAceCamParam is nil")
+            end
+        end
+        return retval
+    end
+)
+
 function M.drawUI()
     i18n.initLanguage()
 

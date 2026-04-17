@@ -1,0 +1,48 @@
+[
+  {
+    "app.user_data.WorldCharacterAnimationLodParameter": {
+      "_AnimationLodParam": {
+        "ace.user_data.AnimationLodParameter": {
+          "ref_instance_id": 1,
+          "path": "GameDesign/Enemy/CommonData/AnimationLODData/WorldEnemyAnimationLodParameter.user"
+        }
+      },
+      "_IkLegCtrlLodParam": {
+        "ace.user_data.IkCtrlLodConfigParameter": {
+          "ref_instance_id": 2,
+          "path": "GameDesign/Enemy/CommonData/AnimationLODData/WorldEnemyIkCtrlLodConfigParameter.user"
+        }
+      },
+      "_IkMultiBoneCtrlLodParam": {
+        "": {}
+      },
+      "_FullBodyIkRigCtrlLodParam": {
+        "": {}
+      },
+      "_IkLegLodParam": {
+        "ace.user_data.AnimationIntervalLodConfigParameter": {
+          "ref_instance_id": 3,
+          "path": "GameDesign/Enemy/CommonData/AnimationLODData/WorldEnemyAnimationIntervalLodConfigParameter.user"
+        }
+      },
+      "_IkMultiBoneLodParam": {
+        "": {}
+      },
+      "_MotionLodParam": {
+        "ace.user_data.MotionLodConfigParameter": {
+          "ref_instance_id": 4,
+          "path": "GameDesign/Enemy/CommonData/AnimationLODData/WorldEnemyMotionLodConfigParameter.user"
+        }
+      },
+      "_FacialMotionLodParam": {
+        "": {}
+      },
+      "_ItemMotionLodParam": {
+        "": {}
+      },
+      "_AddMotionFilgerLodParam": {
+        "": {}
+      }
+    }
+  }
+]

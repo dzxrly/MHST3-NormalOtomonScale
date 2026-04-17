@@ -1,0 +1,267 @@
+[
+  {
+    "app.user_data.DetectTerrainParam": {
+      "_RayCastType": 21,
+      "_RayCastType_All": 19,
+      "_FrontWallDetectParam": {
+        "app.cDetectTerrainArg.cFrontWallDetectParam": {
+          "_DetectStartOfsFromOneself": [
+            0.0,
+            0.4000000059604645,
+            -0.5,
+            0.0
+          ],
+          "_DetectRangeSizeY": 5.25,
+          "_IterationNum": 8,
+          "_DetectDepth": 4.5,
+          "_IsUseNearRange": false,
+          "_NearRange": 1.0,
+          "_LowSStepThreshold": 0.05000000074505806,
+          "_LowMStepThreshold": 0.05000000074505806,
+          "_LowLStepThreshold": 0.05000000074505806,
+          "_MiddleStepThreshold": 0.6000000238418579,
+          "_HighStepThreshold": 2.5,
+          "_WallThreshold": 5.0,
+          "_StepMinFloorDepth": 1.7000000476837158,
+          "_DetectStepFloorHeight": 2.0,
+          "_DetectCliffHeightDistance": 1.0,
+          "_IsEnableSideCheck": false,
+          "_SideCheckOffset": 0.0
+        }
+      },
+      "_BehindWallDetectParam": {
+        "app.cDetectTerrainArg.cBehindWallDetectParam": {
+          "_DetectStartOfsFromOneself": [
+            0.0,
+            0.44999998807907104,
+            0.0,
+            0.0
+          ],
+          "_DetectRangeSizeY": 2.75,
+          "_IterationNum": 3,
+          "_DetectDepth": 1.0,
+          "_IsUseNearRange": false,
+          "_NearRange": 1.0,
+          "_DetectFrontOffsetFromOneself": [
+            0.0,
+            0.5,
+            0.0,
+            0.0
+          ],
+          "_DetectFrontDepth": 2.0,
+          "_DetectLowerFloorHeight": 10.0,
+          "_LowThreshold": 0.30000001192092896,
+          "_StepThreshold": 2.0,
+          "_WallThreshold": 2.5,
+          "_DetectOverCliffHeightDistance": 1.0,
+          "_DetectOverCliffHeightRayStartOffsetY": 5.0,
+          "_DetectOverCliffHeightDepth": 10.0,
+          "_DetectUnderCliffHeightDistance": 1.0
+        }
+      },
+      "_ClimbDetectParam": {
+        "app.cDetectTerrainArg.cClimbDetectParam": {
+          "_ClimbFinishMinFloorDepth": 1.7000000476837158,
+          "_ClimbFinishReach": 1.0,
+          "_ClimbDownFinishReach": 1.0,
+          "_ClimbFinishRayBackOffset": 0.699999988079071,
+          "_ClimbFinishWallCheckOffset": 1.0,
+          "_ClimbFinishIsEnableSideCheck": false,
+          "_ClimbFinishSideCheckOffset": 0.0
+        }
+      },
+      "_AttachWallParam": {
+        "app.cDetectTerrainArg.cAttachWallParam": {
+          "_LowerSlopeLimitDegree": 10.0,
+          "_UpperWallLimitDegree": 10.0,
+          "_RayFrontOffset": 0.5,
+          "_RayBackOffset": 0.5,
+          "_RayNextFrontOffset": 0.5,
+          "_RayNextBackOffset": 0.5,
+          "_RayNextForwardDist": 0.5,
+          "_RayMoreForwardDist": 1.0,
+          "_RayMoreForwardReturnDistOffset": 0.0,
+          "_IsEnableSideRay": false,
+          "_SideRayOffset": 0.0,
+          "_IsEnableAttachPosInterpolation": false,
+          "_IsEnableAttachRotInterpolation": false,
+          "_RotationSpeed": 90.0,
+          "_RotationReturnTime": 0.5,
+          "_MoreForwardMoveDistanceMax": -1.0,
+          "_MoreForwardMoveInterpolationSec": 0.0,
+          "_AttachColliderRadius": 0.20000000298023224,
+          "_AttachColliderOffset": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_DownAttachColliderRadius": 0.20000000298023224,
+          "_DownAttachColliderOffset": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_MissWallRayFrontOffset": 1.0,
+          "_IsEnableUpStartInterpolation": false,
+          "_UpStartInterpolationMode": 0,
+          "_UpStartHorizontalInterpolationSec": 0.0,
+          "_UpStartHorizontalInterpolationCurve": 0,
+          "_UpStartVerticalInterpolationSec": 0.0,
+          "_UpStartVerticalInterpolationCurve": 0,
+          "_UpStartRotationInterpolationSec": 0.0,
+          "_UpStartRotationInterpolationCurve": 0,
+          "_UpStartReturnRotationInterpolationCurve": 0,
+          "_UpStartColliderRadius": 0.20000000298023224,
+          "_UpStartColliderOffset": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_IsEnableDownStartInterpolation": false,
+          "_DownStartInterpolationMode": 0,
+          "_DownStartHorizontalInterpolationSec": 0.0,
+          "_DownStartHorizontalInterpolationCurve": 0,
+          "_DownStartVerticalInterpolationSec": 0.0,
+          "_DownStartVerticalInterpolationCurve": 0,
+          "_DownStartRotationInterpolationSec": 0.0,
+          "_DownStartRotationInterpolationCurve": 0,
+          "_DownStartReturnRotationInterpolationCurve": 0,
+          "_DownStartColliderRadius": 0.20000000298023224,
+          "_DownStartColliderOffset": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_IsEnableEndInterpolation": false,
+          "_EndInterpolationMode": 0,
+          "_IsEnableEndRotationInterpolation": false,
+          "_EndHorizontalInterpolationSec": 0.0,
+          "_EndHorizontalInterpolationCurve": 0,
+          "_EndVerticalInterpolationSec": 0.0,
+          "_EndVerticalInterpolationCurve": 0,
+          "_EndRotationInterpolationSec": 0.0,
+          "_EndRotationInterpolationCurve": 0,
+          "_EndReturnRotationInterpolationCurve": 0
+        }
+      },
+      "_GroundCheckerParam": {
+        "app.cDetectTerrainArg.cGroundCheckerParam": {
+          "_DetectGroundDistance": 10.0
+        }
+      },
+      "_AttachGroundParam": {
+        "app.cDetectTerrainArg.cAttachGroundParam": {
+          "_RayCastType": 19,
+          "_LandDetectDistance": 0.10000000149011612,
+          "_AttachGroundHeight": 0.5,
+          "_AttachGroundShapeRadiusOffset": 0.0,
+          "_DetectGroundShapeRadius": 0.10000000149011612,
+          "_UseSimpleGroundAttach": true
+        }
+      },
+      "_FlyCatchWallParam": {
+        "app.cDetectTerrainArg.cFlyCatchWallParam": {
+          "_RayCastType": 19,
+          "_PivotJointName": "Root",
+          "_DetectLength": 1.0,
+          "_DetectFrontOffset": 0.0
+        }
+      },
+      "_WaterAttachParam": {
+        "app.cDetectTerrainArg.cWaterAttachParam": {
+          "_InWaterPlayHeight": 0.800000011920929
+        }
+      },
+      "_SwimInDetectParam": {
+        "app.cDetectTerrainArg.cSwimInDetectParam": {
+          "_RayCastType": 3,
+          "_DetectWaterStartPosOffset": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_DetectWaterDepthRayLength": 2.0,
+          "_DetectWaterVerticalRayLength": 10.0,
+          "_DetectWaterFirstVerticalRayOffset": 0.20000000298023224,
+          "_DetectWaterVerticalSplitCount": 1,
+          "_DetectWaterNearPosMaxDistance": 999.0,
+          "_DetectWaterFarPosMinDistance": 0.0
+        }
+      },
+      "_SwimOutDetectParam": {
+        "app.cDetectTerrainArg.cSwimOutDetectParam": {
+          "_RayCastType": 21,
+          "_DetectGroundStartPosOffset": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_DetectGroundDepthRayLength": 2.0,
+          "_DetectGroundVerticalRayLength": 10.0,
+          "_DetectGroundFirstVerticalRayOffset": 0.20000000298023224,
+          "_DetectGroundVerticalSplitCount": 1,
+          "_DetectGroundIsEnbaleSideCheck": false,
+          "_DetectGroundSideCheckOffset": 0.0,
+          "_DetectGroundNearPosMaxDistance": 999.0,
+          "_DetectGroundFarPosMinDistance": 0.0,
+          "_IsUniqueWallParam": false,
+          "_DetectWallParam": {
+            "app.cDetectTerrainArg.cFrontWallDetectParam": {
+              "_DetectStartOfsFromOneself": [
+                0.0,
+                0.44999998807907104,
+                0.0,
+                0.0
+              ],
+              "_DetectRangeSizeY": 0.4000000059604645,
+              "_IterationNum": 5,
+              "_DetectDepth": 1.0,
+              "_IsUseNearRange": false,
+              "_NearRange": 1.0,
+              "_LowSStepThreshold": 0.20000000298023224,
+              "_LowMStepThreshold": 0.20000000298023224,
+              "_LowLStepThreshold": 0.20000000298023224,
+              "_MiddleStepThreshold": 0.6000000238418579,
+              "_HighStepThreshold": 1.5,
+              "_WallThreshold": 2.5,
+              "_StepMinFloorDepth": 1.7000000476837158,
+              "_DetectStepFloorHeight": 2.0,
+              "_DetectCliffHeightDistance": 1.0,
+              "_IsEnableSideCheck": false,
+              "_SideCheckOffset": 0.0
+            }
+          }
+        }
+      },
+      "_VirtualWallParam": {
+        "app.cDetectTerrainArg.cVirtualWallParam": {
+          "_CliffDistance": 7,
+          "_PurposeDirThreshold": 15.0
+        }
+      },
+      "_VirtualSlopeParam": {
+        "app.cDetectTerrainArg.cVirtualSlopeParam": {
+          "_RaycastType": 42,
+          "_WallDetectDepth": 9.0,
+          "_BehindWallDetectDepth": 9.0,
+          "_BehindWallDetectFrontDepth": 9.0,
+          "_DampingParam": {
+            "ace.cDampingParam": {
+              "_Damping": 0.9900000095367432,
+              "_TimeScale": 10.0
+            }
+          },
+          "_DetectFrontObstacleDepth": 9.0,
+          "_MaxFloatHeight": 4.0,
+          "_CastOffsetDepth": 0.05000000074505806
+        }
+      }
+    }
+  }
+]

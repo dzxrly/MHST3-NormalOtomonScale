@@ -1075,7 +1075,7 @@ def scan_and_patch(
         current_scale = scale
         if apply_enemy_scale and json_dir:
             em_name = ot_dir.name.replace("Ot", "Em")
-            base_enemy_dir = Path(json_dir) / "natives" / "STM" / "GameDesign"
+            base_enemy_dir = Path(json_dir) / "natives" / "STM" / "GameDesign" / "Enemy"
             search_pattern = (
                 base_enemy_dir
                 / em_name
@@ -1084,16 +1084,6 @@ def scan_and_patch(
                 / f"{em_name}_BasicParam.user.3.json"
             )
             matches = glob.glob(str(search_pattern), recursive=True)
-            if not matches:
-                search_pattern2 = (
-                    base_enemy_dir
-                    / "**"
-                    / em_name
-                    / "**"
-                    / "CommonData"
-                    / f"{em_name}_BasicParam.user.3.json"
-                )
-                matches = glob.glob(str(search_pattern2), recursive=True)
             if matches:
                 try:
                     with open(matches[0], "r", encoding="utf-8") as f:
@@ -1102,7 +1092,7 @@ def scan_and_patch(
                         "_WorldBodyScale"
                     ]
                     current_scale = round(current_scale + (enemy_scale - 1.0), 4)
-                except (IndexError, KeyError, FileNotFoundError):
+                except (IndexError, KeyError, FileNotFoundError, json.JSONDecodeError):
                     pass
 
         # 递归匹配所有 **/CommonData/*_BasicParam.user.3
