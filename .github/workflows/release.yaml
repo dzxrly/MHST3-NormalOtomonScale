@@ -14,6 +14,10 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout code
@@ -22,16 +26,16 @@ jobs:
       - name: Install GitHub CLI
         run: sudo apt-get install gh
 
-      - name: Authenticate GitHub CLI
-        run: gh auth login --with-token <<< "${{ secrets.GITHUB_TOKEN }}"
-
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
       - name: 'Install dependencies'
-        run: python -m pip install pandas openpyxl
+        run: python -m pip install -r src/requirements.txt
+
+      - name: Download build data
+        run: python src/tools/build_data.py download
 
       - name: Set Version and Prepare Files
         id: prepare_version
@@ -51,7 +55,6 @@ jobs:
           # Build in temporary directory to avoid committing intermediates
           mkdir -p .temp/user3_output
           python src/normal_otomon_body_scale.py \
-            --rsz src/data/rszmhst3.json \
             --natives src/data/unpak/natives \
             --output .temp/user3_output \
             --scale 1.0
@@ -59,7 +62,6 @@ jobs:
           # Run python to build enemy size natives
           mkdir -p .temp/user3_with_enemy_size_output
           python src/normal_otomon_body_scale.py \
-            --rsz src/data/rszmhst3.json \
             --natives src/data/unpak/natives \
             --output .temp/user3_with_enemy_size_output \
             --scale 1.0 \

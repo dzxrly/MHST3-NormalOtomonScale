@@ -6,6 +6,7 @@ tmp_patch_ot125.py
 用途：
 - 快速验证 Ot0125 的 _BodyScale 与 Camera AttachOfs 改写是否正确
 - 复用 normal_otomon_body_scale.py 当前解析与改写逻辑
+- 可用 --inspect-repack 打印 PyREUser3 repack 格式摘要
 """
 
 from __future__ import annotations
@@ -16,7 +17,9 @@ import json
 from pathlib import Path
 
 from normal_otomon_body_scale import (
-    TypeDB,
+    CachedREUser3Converter,
+    IL2CPP_DUMP_PATH,
+    RSZ_SCHEMA_PATH,
     patch_body_scale,
     patch_camera_param,
     read_body_scale,
@@ -24,7 +27,7 @@ from normal_otomon_body_scale import (
 
 
 def _calc_ot125_scale(
-    base_scale: float, json_dir: str, apply_enemy_scale: bool
+        base_scale: float, json_dir: str, apply_enemy_scale: bool
 ) -> float:
     if not apply_enemy_scale:
         return base_scale
@@ -67,18 +70,11 @@ def main() -> None:
     script_dir = Path(__file__).resolve().parent
     project_root = script_dir.parent
     temp_root = project_root / ".temp"
-    default_rsz = script_dir / "data" / "rszmhst3.json"
     default_natives = script_dir / "data" / "unpak" / "natives"
     default_output_name = "out_ot125"
-    default_il2cpp = script_dir / "data" / "il2cpp_subset.json"
     default_json_dir = script_dir / "data" / "json"
 
     ap = argparse.ArgumentParser(description="临时脚本：仅处理 Ot0125")
-    ap.add_argument(
-        "--rsz",
-        default=str(default_rsz),
-        help=f"rszmhst3.json 路径（默认: {default_rsz}）",
-    )
     ap.add_argument(
         "--natives",
         default=str(default_natives),
@@ -91,11 +87,6 @@ def main() -> None:
     )
     ap.add_argument("--scale", type=float, default=1.0, help="基础 scale（默认 1.0）")
     ap.add_argument(
-        "--il2cpp-map",
-        default=str(default_il2cpp) if default_il2cpp.exists() else "",
-        help="il2cpp_subset.json 路径（可选）",
-    )
-    ap.add_argument(
         "--apply-enemy-scale", action="store_true", help="按敌人原始体型修正 scale"
     )
     ap.add_argument(
@@ -104,9 +95,15 @@ def main() -> None:
         help=f"enemy json 根目录（默认: {default_json_dir}）",
     )
     ap.add_argument("--dry-run", action="store_true", help="仅预览，不写文件")
+    ap.add_argument(
+        "--inspect-repack",
+        action="store_true",
+        help="打印 Ot0125 BasicParam / CameraParam 的 repack 实例表摘要",
+    )
     args = ap.parse_args()
 
-    schema_path = Path(args.rsz)
+    schema_path = RSZ_SCHEMA_PATH
+    il2cpp_dump_path = IL2CPP_DUMP_PATH
     natives_dir = Path(args.natives)
     temp_root.mkdir(parents=True, exist_ok=True)
 
@@ -119,23 +116,17 @@ def main() -> None:
 
     if not schema_path.is_file():
         raise SystemExit(f"[ERROR] RSZ 模板不存在: {schema_path}")
+    if not il2cpp_dump_path.is_file():
+        raise SystemExit(f"[ERROR] il2cpp_dump.json 不存在: {il2cpp_dump_path}")
     if not ot_dir.is_dir():
         raise SystemExit(f"[ERROR] 目录不存在: {ot_dir}")
 
-    il2cpp_map = None
-    if args.il2cpp_map:
-        il2cpp_path = Path(args.il2cpp_map)
-        if il2cpp_path.exists():
-            print(f"加载 IL2CPP 继承树 : {il2cpp_path}")
-            with il2cpp_path.open("r", encoding="utf-8") as f:
-                il2cpp_map = json.load(f)
-        else:
-            print(f"[WARN] 指定的 il2cpp map 不存在，将忽略: {il2cpp_path}")
-
-    typedb = TypeDB.load(schema_path, il2cpp_map)
+    user3 = CachedREUser3Converter(schema_path, il2cpp_dump_path)
     current_scale = _calc_ot125_scale(args.scale, args.json_dir, args.apply_enemy_scale)
 
     print(f"目标目录 : {ot_dir}")
+    print(f"RSZ 模板 : {schema_path}")
+    print(f"IL2CPP   : {il2cpp_dump_path}")
     print(f"输出目录 : {output_dir}")
     print(f"_BodyScale: {current_scale}")
     if args.dry_run:
@@ -152,6 +143,39 @@ def main() -> None:
     if not basic_files and not camera_files:
         raise SystemExit("[WARN] Ot0125 下未找到可处理的 BasicParam / CameraParam 文件")
 
+    if args.inspect_repack:
+        def _print_summary(src_path: Path) -> None:
+            data = user3.parse_pack_file(src_path)
+            print(f"\n[REPACK] {src_path.relative_to(ot_dir)}")
+            print(f"  top-level : {list(data.keys())}")
+            print(f"  unsupported: {data.get('_unsupported')}")
+            print(f"  warnings   : {data.get('_warnings')}")
+            instances = data.get("_instances", {})
+            print(f"  instances  : {len(instances) if isinstance(instances, dict) else 0}")
+            if not isinstance(instances, dict):
+                return
+            for key, entry in sorted(instances.items(), key=lambda kv: int(kv[0])):
+                if not isinstance(entry, dict):
+                    continue
+                fields = entry.get("fields")
+                if not isinstance(fields, dict):
+                    continue
+                names = [
+                    "_BodyScale",
+                    "_IsRide",
+                    "_CameraParamArgument",
+                    "AttachOfs",
+                    "_AttachOfs",
+                ]
+                picked = {name: fields[name] for name in names if name in fields}
+                if picked:
+                    print(f"  #{key} {entry.get('_class')}: {picked}")
+
+        if basic_files:
+            _print_summary(basic_files[0])
+        if camera_files:
+            _print_summary(camera_files[0])
+
     patched = 0
     nomatch = 0
     errors = 0
@@ -159,7 +183,7 @@ def main() -> None:
 
     for basic_path in basic_files:
         variant = basic_path.parent.parent.relative_to(ot_dir)
-        original = read_body_scale(basic_path, typedb)
+        original = read_body_scale(basic_path, user3)
         if original is not None and variant not in original_scale_by_variant:
             original_scale_by_variant[variant] = original
 
@@ -168,7 +192,7 @@ def main() -> None:
         dst_path = output_dir / "natives" / rel
         print(f"[Ot0125]  {src_path.relative_to(ot_dir)}")
         result = patch_body_scale(
-            src_path, dst_path, typedb, current_scale, args.dry_run
+            src_path, dst_path, user3, current_scale, args.dry_run
         )
         if result.status == "patched":
             patched += 1
@@ -189,7 +213,7 @@ def main() -> None:
         result = patch_camera_param(
             src_path,
             dst_path,
-            typedb,
+            user3,
             current_scale,
             args.dry_run,
             original_scale=original_scale,
