@@ -439,6 +439,36 @@
         },
         {
           "app.user_data.BattleActionData.cActionData": {
+            "_Guid": "9b3ef98e-f4a5-4d0f-a55c-297b2891a2d8",
+            "_ActType": 6,
+            "_LoreCutType": "[3823760896] INVALID",
+            "_IsUseUniqueCutData": true,
+            "_CutCameraData": {
+              "app.user_data.BattleCutCameraData": {
+                "ref_instance_id": 54,
+                "path": "GameDesign/Battle/BattleCutData/mo029/unique/em029_open2_cam.user"
+              }
+            },
+            "_CutMotData": {
+              "app.user_data.BattleCutMotionData": {
+                "ref_instance_id": 51,
+                "path": "GameDesign/Battle/BattleCutData/mo029/unique/em029_open_mot.user"
+              }
+            },
+            "_CutEffectData": {
+              "app.user_data.BattleCutEffectData": {
+                "ref_instance_id": 52,
+                "path": "GameDesign/Battle/BattleCutData/mo029/unique/em029_open_eff.user"
+              }
+            },
+            "_EffectAttribute": "A00_Normal",
+            "_CutSoundData": {
+              "": {}
+            }
+          }
+        },
+        {
+          "app.user_data.BattleActionData.cActionData": {
             "_Guid": "772403b9-cd09-4b21-a42e-f2051970bacc",
             "_ActType": 6,
             "_LoreCutType": "[3823760896] INVALID",

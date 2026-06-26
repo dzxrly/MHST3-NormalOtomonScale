@@ -231,6 +231,16 @@
                 "_OverrideOwnerClass": false,
                 "_BaseActionGuid": "0568d16f-d42f-41d0-8ddd-f3ec6c1f73d9",
                 "_UpperGuid": "04629394-3e78-4074-9fef-d2e14696aceb",
+                "_LowerGuid": "aa8a7cb5-951d-4f03-b5ca-1b307c56ef06"
+              }
+            },
+            {
+              "ace.user_data.ActionID.cID": {
+                "_Class": "cDeadGround",
+                "_InstanceGuid": "aa8a7cb5-951d-4f03-b5ca-1b307c56ef06",
+                "_OverrideOwnerClass": false,
+                "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+                "_UpperGuid": "621c3c55-8866-0d46-2522-de42bdd174d5",
                 "_LowerGuid": "00000000-0000-0000-0000-000000000000"
               }
             }
@@ -254,7 +264,7 @@
         "ace.cActionIDHolder": {
           "_ActionID": {
             "ace.user_data.ActionID": {
-              "ref_instance_id": 27,
+              "ref_instance_id": 28,
               "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionID_General.user"
             }
           },

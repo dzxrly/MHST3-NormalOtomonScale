@@ -295,7 +295,7 @@
         },
         {
           "app.user_data.BattleActionData.cActionData": {
-            "_Guid": "fa59ae6b-185a-4ccc-955b-0f9dbd75768f",
+            "_Guid": "d6e6d4f0-c309-4645-b109-5b40c55f3460",
             "_ActType": 6,
             "_LoreCutType": "[3823760896] INVALID",
             "_IsUseUniqueCutData": true,
@@ -307,13 +307,43 @@
             },
             "_CutMotData": {
               "app.user_data.BattleCutMotionData": {
-                "ref_instance_id": 36,
+                "ref_instance_id": 33,
+                "path": "GameDesign/Battle/BattleCutData/mo060/unique/em2060_activate_mot.user"
+              }
+            },
+            "_CutEffectData": {
+              "app.user_data.BattleCutEffectData": {
+                "ref_instance_id": 34,
+                "path": "GameDesign/Battle/BattleCutData/mo060/unique/em2060_activate_eff.user"
+              }
+            },
+            "_EffectAttribute": "A00_Normal",
+            "_CutSoundData": {
+              "": {}
+            }
+          }
+        },
+        {
+          "app.user_data.BattleActionData.cActionData": {
+            "_Guid": "fa59ae6b-185a-4ccc-955b-0f9dbd75768f",
+            "_ActType": 6,
+            "_LoreCutType": "[3823760896] INVALID",
+            "_IsUseUniqueCutData": true,
+            "_CutCameraData": {
+              "app.user_data.BattleCutCameraData": {
+                "ref_instance_id": 37,
+                "path": "GameDesign/Battle/BattleCutData/mo060/unique/em2060_angry_cam.user"
+              }
+            },
+            "_CutMotData": {
+              "app.user_data.BattleCutMotionData": {
+                "ref_instance_id": 38,
                 "path": "GameDesign/Battle/BattleCutData/mo060/unique/em2060_angry_mot.user"
               }
             },
             "_CutEffectData": {
               "app.user_data.BattleCutEffectData": {
-                "ref_instance_id": 37,
+                "ref_instance_id": 39,
                 "path": "GameDesign/Battle/BattleCutData/mo060/unique/em2060_angry_eff.user"
               }
             },
@@ -331,19 +361,19 @@
             "_IsUseUniqueCutData": true,
             "_CutCameraData": {
               "app.user_data.BattleCutCameraData": {
-                "ref_instance_id": 39,
+                "ref_instance_id": 41,
                 "path": "GameDesign/Battle/BattleCutData/mo060/unique/em2060_crying1_cam.user"
               }
             },
             "_CutMotData": {
               "app.user_data.BattleCutMotionData": {
-                "ref_instance_id": 40,
+                "ref_instance_id": 42,
                 "path": "GameDesign/Battle/BattleCutData/mo060/unique/em2060_crying1_mot.user"
               }
             },
             "_CutEffectData": {
               "app.user_data.BattleCutEffectData": {
-                "ref_instance_id": 41,
+                "ref_instance_id": 43,
                 "path": "GameDesign/Battle/BattleCutData/mo060/unique/em2060_crying1_eff.user"
               }
             },
@@ -361,19 +391,19 @@
             "_IsUseUniqueCutData": true,
             "_CutCameraData": {
               "app.user_data.BattleCutCameraData": {
-                "ref_instance_id": 39,
+                "ref_instance_id": 41,
                 "path": "GameDesign/Battle/BattleCutData/mo060/unique/em2060_crying1_cam.user"
               }
             },
             "_CutMotData": {
               "app.user_data.BattleCutMotionData": {
-                "ref_instance_id": 40,
+                "ref_instance_id": 42,
                 "path": "GameDesign/Battle/BattleCutData/mo060/unique/em2060_crying1_mot.user"
               }
             },
             "_CutEffectData": {
               "app.user_data.BattleCutEffectData": {
-                "ref_instance_id": 41,
+                "ref_instance_id": 43,
                 "path": "GameDesign/Battle/BattleCutData/mo060/unique/em2060_crying1_eff.user"
               }
             },

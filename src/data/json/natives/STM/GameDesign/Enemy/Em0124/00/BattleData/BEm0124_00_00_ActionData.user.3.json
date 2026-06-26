@@ -325,6 +325,36 @@
         },
         {
           "app.user_data.BattleActionData.cActionData": {
+            "_Guid": "03fb5574-0e38-4ad9-b446-43eff9e743c4",
+            "_ActType": 6,
+            "_LoreCutType": "[3823760896] INVALID",
+            "_IsUseUniqueCutData": true,
+            "_CutCameraData": {
+              "app.user_data.BattleCutCameraData": {
+                "ref_instance_id": 35,
+                "path": "GameDesign/Battle/BattleCutData/mo124/unique/em124_atk7-lv2_cam.user"
+              }
+            },
+            "_CutMotData": {
+              "app.user_data.BattleCutMotionData": {
+                "ref_instance_id": 36,
+                "path": "GameDesign/Battle/BattleCutData/mo124/unique/em124_atk7-lv2_mot.user"
+              }
+            },
+            "_CutEffectData": {
+              "app.user_data.BattleCutEffectData": {
+                "ref_instance_id": 37,
+                "path": "GameDesign/Battle/BattleCutData/mo124/unique/em124_atk7-lv2_eff.user"
+              }
+            },
+            "_EffectAttribute": "A02_Ice",
+            "_CutSoundData": {
+              "": {}
+            }
+          }
+        },
+        {
+          "app.user_data.BattleActionData.cActionData": {
             "_Guid": "772403b9-cd09-4b21-a42e-f2051970bacc",
             "_ActType": 6,
             "_LoreCutType": "[3823760896] INVALID",
@@ -352,19 +382,19 @@
             "_IsUseUniqueCutData": true,
             "_CutCameraData": {
               "app.user_data.BattleCutCameraData": {
-                "ref_instance_id": 40,
+                "ref_instance_id": 41,
                 "path": "GameDesign/Battle/BattleCutData/mo124/unique/em124_atk8-lv1_cam.user"
               }
             },
             "_CutMotData": {
               "app.user_data.BattleCutMotionData": {
-                "ref_instance_id": 41,
+                "ref_instance_id": 42,
                 "path": "GameDesign/Battle/BattleCutData/mo124/unique/em124_atk8-lv1_mot.user"
               }
             },
             "_CutEffectData": {
               "app.user_data.BattleCutEffectData": {
-                "ref_instance_id": 42,
+                "ref_instance_id": 43,
                 "path": "GameDesign/Battle/BattleCutData/mo124/unique/em124_atk8-lv1_eff.user"
               }
             },

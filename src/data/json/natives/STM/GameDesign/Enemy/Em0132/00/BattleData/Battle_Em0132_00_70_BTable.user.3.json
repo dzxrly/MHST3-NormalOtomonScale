@@ -17,7 +17,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
                           "_BttleStepStatus": {
-                            "ref_instance_id": 2
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.COMMAND_SET_STATE>": 0
                           }
                         }
                       }
@@ -29,7 +29,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 5
+                            "ace.btable.cEditFieldTableGuid": "3bd80f54-b341-464c-bdc1-e71ac8eb8c72"
                           }
                         }
                       },
@@ -49,7 +49,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
                           "_BttleStepStatus": {
-                            "ref_instance_id": 10
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.COMMAND_SET_STATE>": 10
                           }
                         }
                       }
@@ -61,7 +61,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 13
+                            "ace.btable.cEditFieldTableGuid": "bda9b06d-e274-4d78-9067-0c8b341b302c"
                           }
                         }
                       },
@@ -81,7 +81,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
                           "_BttleStepStatus": {
-                            "ref_instance_id": 18
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.COMMAND_SET_STATE>": 30
                           }
                         }
                       }
@@ -93,7 +93,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 21
+                            "ace.btable.cEditFieldTableGuid": "f1934d74-bcde-4d66-9554-f5a6665a4e03"
                           }
                         }
                       },
@@ -144,7 +144,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
                           "_EditMorphFixed": {
-                            "ref_instance_id": 33
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 463439776
                           }
                         }
                       }
@@ -156,7 +156,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 36
+                            "ace.btable.cEditFieldTableGuid": "a0afc8af-b26d-49eb-9647-07f0fac402ef"
                           }
                         }
                       },
@@ -176,7 +176,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
                           "_EditMorphFixed": {
-                            "ref_instance_id": 41
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 176953568
                           }
                         }
                       }
@@ -188,7 +188,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 44
+                            "ace.btable.cEditFieldTableGuid": "b81bd63a-8291-4b63-b039-545d71bad80c"
                           }
                         }
                       },
@@ -208,7 +208,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
                           "_EditMorphFixed": {
-                            "ref_instance_id": 49
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": -520089888
                           }
                         }
                       }
@@ -220,7 +220,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 52
+                            "ace.btable.cEditFieldTableGuid": "f795d47d-4cfb-42ac-af3e-b8eb2a2377e8"
                           }
                         }
                       },
@@ -271,7 +271,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
                           "_EditMorphFixed": {
-                            "ref_instance_id": 64
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 463439776
                           }
                         }
                       }
@@ -283,7 +283,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 67
+                            "ace.btable.cEditFieldTableGuid": "60267a36-f374-4c37-a593-3ec4c438370e"
                           }
                         }
                       },
@@ -303,7 +303,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
                           "_EditMorphFixed": {
-                            "ref_instance_id": 72
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 176953568
                           }
                         }
                       }
@@ -315,7 +315,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 75
+                            "ace.btable.cEditFieldTableGuid": "e42b0934-973f-41cb-9337-b6ba5344de12"
                           }
                         }
                       },
@@ -335,7 +335,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
                           "_EditMorphFixed": {
-                            "ref_instance_id": 80
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": -520089888
                           }
                         }
                       }
@@ -347,7 +347,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 83
+                            "ace.btable.cEditFieldTableGuid": "48457614-ec07-4fc8-bb0b-546d64e3dafa"
                           }
                         }
                       },
@@ -398,7 +398,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
                           "_EditMorphFixed": {
-                            "ref_instance_id": 95
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 463439776
                           }
                         }
                       }
@@ -410,7 +410,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 98
+                            "ace.btable.cEditFieldTableGuid": "d112fc00-7437-4a06-9e0c-df4dade3cca6"
                           }
                         }
                       },
@@ -430,7 +430,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
                           "_EditMorphFixed": {
-                            "ref_instance_id": 103
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 176953568
                           }
                         }
                       }
@@ -442,7 +442,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 106
+                            "ace.btable.cEditFieldTableGuid": "8c5cba62-07ca-44bd-8a44-8a538b41ec7b"
                           }
                         }
                       },
@@ -462,7 +462,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckMorphStatusArg": {
                           "_EditMorphFixed": {
-                            "ref_instance_id": 111
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": -520089888
                           }
                         }
                       }
@@ -474,7 +474,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 114
+                            "ace.btable.cEditFieldTableGuid": "792d5609-09ce-4060-a649-7d4370079d9c"
                           }
                         }
                       },
@@ -533,14 +533,14 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentNone": {}
                       },
-                      "_CommandHash": 7748684201005650480,
+                      "_CommandHash": 17018505903889060358,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cFloatValueArg": {
                           "_CompareType": {
-                            "ref_instance_id": 128
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 129
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -552,7 +552,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 132
+                            "ace.btable.cEditFieldTableGuid": "6758f37e-ba15-497a-a996-5a5d98fdce6e"
                           }
                         }
                       },
@@ -580,7 +580,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 139
+                            "ace.btable.cEditFieldTableGuid": "170937bb-5c80-4eb1-ac23-135b41c2c975"
                           }
                         }
                       },
@@ -631,13 +631,13 @@
                       "_CommandArgument": {
                         "ace.btable.cCompareFloatValueArg": {
                           "_SourceValue": {
-                            "ref_instance_id": 151
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
                           },
                           "_CompareType": {
-                            "ref_instance_id": 152
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_TargetValue": {
-                            "ref_instance_id": 153
+                            "ace.btable.cEditFieldFloat": 0.0
                           }
                         }
                       }
@@ -649,7 +649,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 156
+                            "ace.btable.cEditFieldTableGuid": "0b9b5d1b-4e29-4533-b3c8-ce09b7a50016"
                           }
                         }
                       },
@@ -669,13 +669,13 @@
                       "_CommandArgument": {
                         "ace.btable.cCompareFloatValueArg": {
                           "_SourceValue": {
-                            "ref_instance_id": 161
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
                           },
                           "_CompareType": {
-                            "ref_instance_id": 162
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_TargetValue": {
-                            "ref_instance_id": 163
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -687,7 +687,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 166
+                            "ace.btable.cEditFieldTableGuid": "ef0d420a-bba3-4eb0-9f2e-301f6d1290a8"
                           }
                         }
                       },
@@ -715,7 +715,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 173
+                            "ace.btable.cEditFieldTableGuid": "7057ded1-c4f2-4749-9b4d-6a3fa73f2f2a"
                           }
                         }
                       },
@@ -766,13 +766,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 185
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 186
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "7e24f374-4a8b-48e8-911a-803e3fde3824"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 187
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -813,7 +813,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckDamageResultEffectArg": {
                           "_DamegeResult": {
-                            "ref_instance_id": 196
+                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckDamageResultEffectArg.DAMAGE_RESULT>": 2
                           }
                         }
                       }
@@ -829,16 +829,16 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetDamageReactionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 200
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 201
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "772403b9-cd09-4b21-a42e-f2051970bacc"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 202
+                            "ace.btable.cEditFieldBool": false
                           },
                           "_DownLevel": {
-                            "ref_instance_id": 203
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.DOWN_LEVEL_Fixed>": -1306538624
                           }
                         }
                       }
@@ -854,60 +854,13 @@
                       "_CommandArgument": {
                         "ace.btable.cSetFloatValueArg": {
                           "_TargetVariableIndex": {
-                            "ref_instance_id": 207
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
                           },
                           "_Method": {
-                            "ref_instance_id": 208
+                            "ace.btable.cEditFieldEnum`1<ace.btable.cVariableStorage.VARIABLE_METHOD>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 209
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 2703643088024139097,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 2458751515924522242,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg": {
-                          "bitEnum": {
-                            "ref_instance_id": 213
-                          },
-                          "PartsCount": {
-                            "ref_instance_id": 214
-                          },
-                          "ChackPartsState": {
-                            "ref_instance_id": 215
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 9380642514848460048,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 16073539500054384723,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cSetDamageReactionArg": {
-                          "_EditAssetIndex": {
-                            "ref_instance_id": 219
-                          },
-                          "_EditActionGuid": {
-                            "ref_instance_id": 220
-                          },
-                          "_ChnageNoneType": {
-                            "ref_instance_id": 221
-                          },
-                          "_DownLevel": {
-                            "ref_instance_id": 222
+                            "ace.btable.cEditFieldFloat": 0.0
                           }
                         }
                       }
@@ -954,7 +907,7 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckDamageResultEffectArg": {
                           "_DamegeResult": {
-                            "ref_instance_id": 233
+                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckDamageResultEffectArg.DAMAGE_RESULT>": 2
                           }
                         }
                       }
@@ -970,16 +923,16 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetDamageReactionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 237
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 238
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "772403b9-cd09-4b21-a42e-f2051970bacc"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 239
+                            "ace.btable.cEditFieldBool": false
                           },
                           "_DownLevel": {
-                            "ref_instance_id": 240
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.DOWN_LEVEL_Fixed>": -1306538624
                           }
                         }
                       }
@@ -995,13 +948,13 @@
                       "_CommandArgument": {
                         "ace.btable.cSetFloatValueArg": {
                           "_TargetVariableIndex": {
-                            "ref_instance_id": 244
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
                           },
                           "_Method": {
-                            "ref_instance_id": 245
+                            "ace.btable.cEditFieldEnum`1<ace.btable.cVariableStorage.VARIABLE_METHOD>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 246
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -1017,13 +970,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg": {
                           "bitEnum": {
-                            "ref_instance_id": 250
+                            "app.btable.AppBTableUtil.cEditFieldEnum_Checkable_OverrideName`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_AI>": 14
                           },
                           "PartsCount": {
-                            "ref_instance_id": 251
+                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_COUNT>": 0
                           },
                           "ChackPartsState": {
-                            "ref_instance_id": 252
+                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.PARTS_CANDIDATE_EX>": 1
                           }
                         }
                       }
@@ -1039,63 +992,16 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetDamageReactionArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 256
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 257
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "7510dc03-1280-44f4-82f6-1516845632c7"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 258
+                            "ace.btable.cEditFieldBool": false
                           },
                           "_DownLevel": {
-                            "ref_instance_id": 259
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 2703643088024139097,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 2458751515924522242,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg": {
-                          "bitEnum": {
-                            "ref_instance_id": 263
-                          },
-                          "PartsCount": {
-                            "ref_instance_id": 264
-                          },
-                          "ChackPartsState": {
-                            "ref_instance_id": 265
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 9380642514848460048,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 16073539500054384723,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cSetDamageReactionArg": {
-                          "_EditAssetIndex": {
-                            "ref_instance_id": 269
-                          },
-                          "_EditActionGuid": {
-                            "ref_instance_id": 270
-                          },
-                          "_ChnageNoneType": {
-                            "ref_instance_id": 271
-                          },
-                          "_DownLevel": {
-                            "ref_instance_id": 272
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.DOWN_LEVEL_Fixed>": -2025868288
                           }
                         }
                       }
@@ -1134,65 +1040,6 @@
                 "_Rows": [
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 1232086094727562192,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 2458751515924522242,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg": {
-                          "bitEnum": {
-                            "ref_instance_id": 283
-                          },
-                          "PartsCount": {
-                            "ref_instance_id": 284
-                          },
-                          "ChackPartsState": {
-                            "ref_instance_id": 285
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 9380642514848460048,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 16073539500054384723,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cSetDamageReactionArg": {
-                          "_EditAssetIndex": {
-                            "ref_instance_id": 289
-                          },
-                          "_EditActionGuid": {
-                            "ref_instance_id": 290
-                          },
-                          "_ChnageNoneType": {
-                            "ref_instance_id": 291
-                          },
-                          "_DownLevel": {
-                            "ref_instance_id": 292
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 7803240798504593104,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 0,
-                      "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {}
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
                       "_OperatorHash": 11996412323559724264,
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentNone": {}
@@ -1226,10 +1073,10 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceStatusInfoArg": {
                           "_StatusType": {
-                            "ref_instance_id": 304
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_STATUS_TYPE_Fixed>": 1321091712
                           },
                           "_TargetType": {
-                            "ref_instance_id": 305
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_TARGET_TYPE_Fixed>": 748959360
                           }
                         }
                       }
@@ -1245,13 +1092,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 309
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 310
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "f45d1b32-3f89-412a-aed1-04564a4d19cf"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 311
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -1275,14 +1122,33 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentNone": {}
                       },
+                      "_CommandHash": 17018505903889060358,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cFloatValueArg": {
+                          "_CompareType": {
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
+                          },
+                          "_Value": {
+                            "ace.btable.cEditFieldFloat": 1.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
                       "_CommandHash": 7454553538365194192,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cFloatValueArg": {
                           "_CompareType": {
-                            "ref_instance_id": 318
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 4
                           },
                           "_Value": {
-                            "ref_instance_id": 319
+                            "ace.btable.cEditFieldFloat": 2.0
                           }
                         }
                       }
@@ -1298,13 +1164,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 323
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 463439776
                           },
                           "_CompareType": {
-                            "ref_instance_id": 324
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 4
                           },
                           "_Value": {
-                            "ref_instance_id": 325
+                            "ace.btable.cEditFieldFloat": 3.0
                           }
                         }
                       }
@@ -1320,13 +1186,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 329
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 330
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ac7503c7-80de-414e-87b2-f2e88dcb8a3f"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 331
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -1338,9 +1204,124 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 334
+                            "ace.btable.cEditFieldTableGuid": "882b6504-80d9-437c-9754-11781f793fe1"
                           }
                         }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 7454553538365194192,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cFloatValueArg": {
+                          "_CompareType": {
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 4
+                          },
+                          "_Value": {
+                            "ace.btable.cEditFieldFloat": 2.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2345947243193975154,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 1242848815196633815,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
+                          "_State": {
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 463439776
+                          },
+                          "_CompareType": {
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 4
+                          },
+                          "_Value": {
+                            "ace.btable.cEditFieldFloat": 2.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
+                          },
+                          "_EditActionGuid": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ac7503c7-80de-414e-87b2-f2e88dcb8a3f"
+                          },
+                          "_ChnageNoneType": {
+                            "ace.btable.cEditFieldBool": true
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ace.btable.cEditFieldTableGuid": "882b6504-80d9-437c-9754-11781f793fe1"
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
                       },
                       "_CommandHash": 0,
                       "_CommandArgument": {
@@ -1408,13 +1389,35 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 350
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": -520089888
                           },
                           "_CompareType": {
-                            "ref_instance_id": 351
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 4
                           },
                           "_Value": {
-                            "ref_instance_id": 352
+                            "ace.btable.cEditFieldFloat": 1.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11565057144437777328,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 1242848815196633815,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
+                          "_State": {
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": -520089888
+                          },
+                          "_CompareType": {
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 4
+                          },
+                          "_Value": {
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -1430,13 +1433,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 356
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 357
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ac7503c7-80de-414e-87b2-f2e88dcb8a3f"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 358
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -1448,7 +1451,108 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 361
+                            "ace.btable.cEditFieldTableGuid": "882b6504-80d9-437c-9754-11781f793fe1"
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 12800327421053533761,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceStatusInfoArg": {
+                          "_StatusType": {
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_STATUS_TYPE_Fixed>": -256648224
+                          },
+                          "_TargetType": {
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_TARGET_TYPE_Fixed>": 1273199232
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 7880439710925201514,
+                      "_CommandArgument": {
+                        "ace.btable.cSetFloatValueArg": {
+                          "_TargetVariableIndex": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
+                          },
+                          "_Method": {
+                            "ace.btable.cEditFieldEnum`1<ace.btable.cVariableStorage.VARIABLE_METHOD>": 0
+                          },
+                          "_Value": {
+                            "ace.btable.cEditFieldFloat": 10.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 10923561651852750000,
+                      "_CommandArgument": {
+                        "ace.btable.cCompareFloatValueArg": {
+                          "_SourceValue": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
+                          },
+                          "_CompareType": {
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
+                          },
+                          "_TargetValue": {
+                            "ace.btable.cEditFieldFloat": 10.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
+                          },
+                          "_EditActionGuid": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ac7503c7-80de-414e-87b2-f2e88dcb8a3f"
+                          },
+                          "_ChnageNoneType": {
+                            "ace.btable.cEditFieldBool": true
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ace.btable.cEditFieldTableGuid": "882b6504-80d9-437c-9754-11781f793fe1"
                           }
                         }
                       },
@@ -1505,10 +1609,10 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceStatusInfoArg": {
                           "_StatusType": {
-                            "ref_instance_id": 374
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_STATUS_TYPE_Fixed>": 647456448
                           },
                           "_TargetType": {
-                            "ref_instance_id": 375
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_TARGET_TYPE_Fixed>": 1273199232
                           }
                         }
                       }
@@ -1524,13 +1628,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 379
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 380
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "6a2dadd6-36e8-455f-8a40-def35f6eb62c"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 381
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -1558,13 +1662,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 388
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 389
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "6a2dadd6-36e8-455f-8a40-def35f6eb62c"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 390
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -1611,13 +1715,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg": {
                           "bitEnum": {
-                            "ref_instance_id": 401
+                            "app.btable.AppBTableUtil.cEditFieldEnum_Checkable_OverrideName`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_AI>": 1
                           },
                           "PartsCount": {
-                            "ref_instance_id": 402
+                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_COUNT>": 0
                           },
                           "ChackPartsState": {
-                            "ref_instance_id": 403
+                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.PARTS_CANDIDATE_EX>": 0
                           }
                         }
                       }
@@ -1633,13 +1737,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 407
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 408
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "0bd120e5-9acc-4f7b-aec6-60dce2e28435"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 409
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -1667,13 +1771,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 416
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 417
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "0bd120e5-9acc-4f7b-aec6-60dce2e28435"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 418
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -1720,10 +1824,10 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceStatusInfoArg": {
                           "_StatusType": {
-                            "ref_instance_id": 429
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_STATUS_TYPE_Fixed>": 647456448
                           },
                           "_TargetType": {
-                            "ref_instance_id": 430
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_TARGET_TYPE_Fixed>": 1273199232
                           }
                         }
                       }
@@ -1739,13 +1843,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 434
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 435
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "18b46500-08ff-4392-bc2e-6152513e4863"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 436
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -1773,13 +1877,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 443
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 444
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "18b46500-08ff-4392-bc2e-6152513e4863"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 445
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -1826,13 +1930,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 456
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 463439776
                           },
                           "_CompareType": {
-                            "ref_instance_id": 457
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 458
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -1844,7 +1948,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 461
+                            "ace.btable.cEditFieldTableGuid": "98b28945-3f8d-40a9-ba8c-cc70b02de33e"
                           }
                         }
                       },
@@ -1876,13 +1980,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 469
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 463439776
                           },
                           "_CompareType": {
-                            "ref_instance_id": 470
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 471
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -1898,10 +2002,10 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceStatusInfoArg": {
                           "_StatusType": {
-                            "ref_instance_id": 475
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_STATUS_TYPE_Fixed>": 1321091712
                           },
                           "_TargetType": {
-                            "ref_instance_id": 476
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_TARGET_TYPE_Fixed>": 748959360
                           }
                         }
                       }
@@ -1917,13 +2021,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 480
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 481
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "7e24f374-4a8b-48e8-911a-803e3fde3824"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 482
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -1947,7 +2051,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 488
+                            "ace.btable.cEditFieldTableGuid": "98b28945-3f8d-40a9-ba8c-cc70b02de33e"
                           }
                         }
                       },
@@ -1979,13 +2083,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 496
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 463439776
                           },
                           "_CompareType": {
-                            "ref_instance_id": 497
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 498
+                            "ace.btable.cEditFieldFloat": 2.0
                           }
                         }
                       }
@@ -2001,10 +2105,10 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceStatusInfoArg": {
                           "_StatusType": {
-                            "ref_instance_id": 502
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_STATUS_TYPE_Fixed>": 1321091712
                           },
                           "_TargetType": {
-                            "ref_instance_id": 503
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_TARGET_TYPE_Fixed>": 748959360
                           }
                         }
                       }
@@ -2012,17 +2116,23 @@
                   },
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorHash": 9380642514848460048,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentJump": {
-                          "_EditTableGuid": {
-                            "ref_instance_id": 506
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
+                          },
+                          "_EditActionGuid": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "0bd120e5-9acc-4f7b-aec6-60dce2e28435"
+                          },
+                          "_ChnageNoneType": {
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
-                      },
-                      "_CommandHash": 0,
-                      "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {}
                       }
                     }
                   },
@@ -2044,7 +2154,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 513
+                            "ace.btable.cEditFieldTableGuid": "98b28945-3f8d-40a9-ba8c-cc70b02de33e"
                           }
                         }
                       },
@@ -2088,19 +2198,19 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckUsedSkillCount_InMorphArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 524
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 525
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "0bd120e5-9acc-4f7b-aec6-60dce2e28435"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 526
+                            "ace.btable.cEditFieldBool": false
                           },
                           "_CompareType": {
-                            "ref_instance_id": 527
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 528
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -2112,7 +2222,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 531
+                            "ace.btable.cEditFieldTableGuid": "98b28945-3f8d-40a9-ba8c-cc70b02de33e"
                           }
                         }
                       },
@@ -2136,17 +2246,23 @@
                   },
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorHash": 9380642514848460048,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentJump": {
-                          "_EditTableGuid": {
-                            "ref_instance_id": 538
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
+                          },
+                          "_EditActionGuid": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "0bd120e5-9acc-4f7b-aec6-60dce2e28435"
+                          },
+                          "_ChnageNoneType": {
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
-                      },
-                      "_CommandHash": 0,
-                      "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {}
                       }
                     }
                   },
@@ -2215,13 +2331,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 556
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 463439776
                           },
                           "_CompareType": {
-                            "ref_instance_id": 557
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 558
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -2233,7 +2349,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 561
+                            "ace.btable.cEditFieldTableGuid": "98b28945-3f8d-40a9-ba8c-cc70b02de33e"
                           }
                         }
                       },
@@ -2265,13 +2381,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 569
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 463439776
                           },
                           "_CompareType": {
-                            "ref_instance_id": 570
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 571
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -2287,10 +2403,10 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceStatusInfoArg": {
                           "_StatusType": {
-                            "ref_instance_id": 575
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_STATUS_TYPE_Fixed>": 1321091712
                           },
                           "_TargetType": {
-                            "ref_instance_id": 576
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_TARGET_TYPE_Fixed>": 748959360
                           }
                         }
                       }
@@ -2298,17 +2414,23 @@
                   },
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorHash": 9380642514848460048,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentJump": {
-                          "_EditTableGuid": {
-                            "ref_instance_id": 579
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
+                          },
+                          "_EditActionGuid": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "0bd120e5-9acc-4f7b-aec6-60dce2e28435"
+                          },
+                          "_ChnageNoneType": {
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
-                      },
-                      "_CommandHash": 0,
-                      "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {}
                       }
                     }
                   },
@@ -2330,7 +2452,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 586
+                            "ace.btable.cEditFieldTableGuid": "98b28945-3f8d-40a9-ba8c-cc70b02de33e"
                           }
                         }
                       },
@@ -2374,19 +2496,19 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckUsedSkillCount_InMorphArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 597
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 598
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "0bd120e5-9acc-4f7b-aec6-60dce2e28435"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 599
+                            "ace.btable.cEditFieldBool": false
                           },
                           "_CompareType": {
-                            "ref_instance_id": 600
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 601
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -2398,7 +2520,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 604
+                            "ace.btable.cEditFieldTableGuid": "98b28945-3f8d-40a9-ba8c-cc70b02de33e"
                           }
                         }
                       },
@@ -2422,17 +2544,23 @@
                   },
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorHash": 9380642514848460048,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentJump": {
-                          "_EditTableGuid": {
-                            "ref_instance_id": 611
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
+                          },
+                          "_EditActionGuid": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "0bd120e5-9acc-4f7b-aec6-60dce2e28435"
+                          },
+                          "_ChnageNoneType": {
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
-                      },
-                      "_CommandHash": 0,
-                      "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {}
                       }
                     }
                   },
@@ -2489,13 +2617,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 626
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 627
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 628
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -2507,7 +2635,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 631
+                            "ace.btable.cEditFieldInt": 60
                           }
                         }
                       },
@@ -2523,7 +2651,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 635
+                            "ace.btable.cEditFieldTableGuid": "7fd9ebd9-544a-4d16-a683-45ee84b0f5ae"
                           }
                         }
                       },
@@ -2543,13 +2671,13 @@
                       "_CommandArgument": {
                         "ace.btable.cSetFloatValueArg": {
                           "_TargetVariableIndex": {
-                            "ref_instance_id": 640
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
                           },
                           "_Method": {
-                            "ref_instance_id": 641
+                            "ace.btable.cEditFieldEnum`1<ace.btable.cVariableStorage.VARIABLE_METHOD>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 642
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -2561,7 +2689,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 645
+                            "ace.btable.cEditFieldInt": 40
                           }
                         }
                       },
@@ -2581,13 +2709,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 650
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 651
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "7e24f374-4a8b-48e8-911a-803e3fde3824"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 652
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -2615,13 +2743,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 659
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 660
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 661
+                            "ace.btable.cEditFieldFloat": 2.0
                           }
                         }
                       }
@@ -2637,13 +2765,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 665
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 666
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "18b46500-08ff-4392-bc2e-6152513e4863"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 667
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -2659,13 +2787,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 671
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 672
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 673
+                            "ace.btable.cEditFieldFloat": 3.0
                           }
                         }
                       }
@@ -2681,13 +2809,13 @@
                       "_CommandArgument": {
                         "ace.btable.cCompareFloatValueArg": {
                           "_SourceValue": {
-                            "ref_instance_id": 677
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
                           },
                           "_CompareType": {
-                            "ref_instance_id": 678
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_TargetValue": {
-                            "ref_instance_id": 679
+                            "ace.btable.cEditFieldFloat": 0.0
                           }
                         }
                       }
@@ -2699,7 +2827,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 682
+                            "ace.btable.cEditFieldInt": 70
                           }
                         }
                       },
@@ -2719,13 +2847,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 687
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 688
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ceb45f96-eea9-46a6-b685-1786fb89860f"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 689
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -2741,13 +2869,13 @@
                       "_CommandArgument": {
                         "ace.btable.cSetFloatValueArg": {
                           "_TargetVariableIndex": {
-                            "ref_instance_id": 693
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
                           },
                           "_Method": {
-                            "ref_instance_id": 694
+                            "ace.btable.cEditFieldEnum`1<ace.btable.cVariableStorage.VARIABLE_METHOD>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 695
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -2759,7 +2887,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 698
+                            "ace.btable.cEditFieldInt": 30
                           }
                         }
                       },
@@ -2779,13 +2907,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 703
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 704
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "7e24f374-4a8b-48e8-911a-803e3fde3824"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 705
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -2825,13 +2953,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 715
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 716
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "7e24f374-4a8b-48e8-911a-803e3fde3824"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 717
+                            "ace.btable.cEditFieldBool": false
                           }
                         }
                       }
@@ -2847,13 +2975,13 @@
                       "_CommandArgument": {
                         "ace.btable.cSetFloatValueArg": {
                           "_TargetVariableIndex": {
-                            "ref_instance_id": 721
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
                           },
                           "_Method": {
-                            "ref_instance_id": 722
+                            "ace.btable.cEditFieldEnum`1<ace.btable.cVariableStorage.VARIABLE_METHOD>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 723
+                            "ace.btable.cEditFieldFloat": 0.0
                           }
                         }
                       }
@@ -2881,13 +3009,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 730
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 731
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 732
+                            "ace.btable.cEditFieldFloat": 4.0
                           }
                         }
                       }
@@ -2899,7 +3027,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 735
+                            "ace.btable.cEditFieldTableGuid": "25c20dca-157a-41f4-a6a2-84e06237a42a"
                           }
                         }
                       },
@@ -2919,13 +3047,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 740
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 741
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 742
+                            "ace.btable.cEditFieldFloat": 5.0
                           }
                         }
                       }
@@ -2937,7 +3065,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 745
+                            "ace.btable.cEditFieldTableGuid": "7fd9ebd9-544a-4d16-a683-45ee84b0f5ae"
                           }
                         }
                       },
@@ -2957,13 +3085,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 750
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 751
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 752
+                            "ace.btable.cEditFieldFloat": 6.0
                           }
                         }
                       }
@@ -2979,13 +3107,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 756
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 757
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ceb45f96-eea9-46a6-b685-1786fb89860f"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 758
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -3013,13 +3141,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 765
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 766
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "86c3b996-073c-4a79-a80b-e2fe6f68de67"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 767
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -3066,127 +3194,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 778
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 779
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 780
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 11177796030623360795,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentJump": {
-                          "_EditTableGuid": {
-                            "ref_instance_id": 783
-                          }
-                        }
-                      },
-                      "_CommandHash": 0,
-                      "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {}
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 2703643088024139097,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 18102953576439037638,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ref_instance_id": 788
-                          },
-                          "_CompareType": {
-                            "ref_instance_id": 789
-                          },
-                          "_Value": {
-                            "ref_instance_id": 790
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 11177796030623360795,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentJump": {
-                          "_EditTableGuid": {
-                            "ref_instance_id": 793
-                          }
-                        }
-                      },
-                      "_CommandHash": 0,
-                      "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {}
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 2703643088024139097,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 18102953576439037638,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ref_instance_id": 798
-                          },
-                          "_CompareType": {
-                            "ref_instance_id": 799
-                          },
-                          "_Value": {
-                            "ref_instance_id": 800
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 11177796030623360795,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentJump": {
-                          "_EditTableGuid": {
-                            "ref_instance_id": 803
-                          }
-                        }
-                      },
-                      "_CommandHash": 0,
-                      "_CommandArgument": {
-                        "ace.btable.cCommandArgumentNone": {}
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 2703643088024139097,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 18102953576439037638,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ref_instance_id": 808
-                          },
-                          "_CompareType": {
-                            "ref_instance_id": 809
-                          },
-                          "_Value": {
-                            "ref_instance_id": 810
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -3202,13 +3216,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 814
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 815
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "0bd120e5-9acc-4f7b-aec6-60dce2e28435"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 816
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -3224,13 +3238,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 820
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 821
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 822
+                            "ace.btable.cEditFieldFloat": 2.0
                           }
                         }
                       }
@@ -3242,7 +3256,133 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 825
+                            "ace.btable.cEditFieldTableGuid": "ffc9ea6b-d11f-4f54-bd4a-7cf2321b92cc"
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 18102953576439037638,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
+                          "_State": {
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
+                          },
+                          "_CompareType": {
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
+                          },
+                          "_Value": {
+                            "ace.btable.cEditFieldFloat": 3.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
+                          },
+                          "_EditActionGuid": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ceb45f96-eea9-46a6-b685-1786fb89860f"
+                          },
+                          "_ChnageNoneType": {
+                            "ace.btable.cEditFieldBool": true
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 18102953576439037638,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
+                          "_State": {
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
+                          },
+                          "_CompareType": {
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
+                          },
+                          "_Value": {
+                            "ace.btable.cEditFieldFloat": 4.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
+                          },
+                          "_EditActionGuid": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "0bd120e5-9acc-4f7b-aec6-60dce2e28435"
+                          },
+                          "_ChnageNoneType": {
+                            "ace.btable.cEditFieldBool": true
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 18102953576439037638,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
+                          "_State": {
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
+                          },
+                          "_CompareType": {
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
+                          },
+                          "_Value": {
+                            "ace.btable.cEditFieldFloat": 5.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ace.btable.cEditFieldTableGuid": "98b28945-3f8d-40a9-ba8c-cc70b02de33e"
                           }
                         }
                       },
@@ -3274,13 +3414,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 833
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 834
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "86c3b996-073c-4a79-a80b-e2fe6f68de67"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 835
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -3327,13 +3467,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 846
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 847
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 848
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -3345,7 +3485,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 851
+                            "ace.btable.cEditFieldTableGuid": "ffc9ea6b-d11f-4f54-bd4a-7cf2321b92cc"
                           }
                         }
                       },
@@ -3365,13 +3505,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 856
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 857
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 858
+                            "ace.btable.cEditFieldFloat": 2.0
                           }
                         }
                       }
@@ -3387,13 +3527,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 862
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 863
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ceb45f96-eea9-46a6-b685-1786fb89860f"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 864
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -3409,13 +3549,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 868
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 869
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 870
+                            "ace.btable.cEditFieldFloat": 3.0
                           }
                         }
                       }
@@ -3431,13 +3571,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 874
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 875
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "0bd120e5-9acc-4f7b-aec6-60dce2e28435"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 876
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -3453,57 +3593,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 880
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 881
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 882
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 9380642514848460048,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 8718590499035196621,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
-                          "_EditAssetIndex": {
-                            "ref_instance_id": 886
-                          },
-                          "_EditActionGuid": {
-                            "ref_instance_id": 887
-                          },
-                          "_ChnageNoneType": {
-                            "ref_instance_id": 888
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 2703643088024139097,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 18102953576439037638,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ref_instance_id": 892
-                          },
-                          "_CompareType": {
-                            "ref_instance_id": 893
-                          },
-                          "_Value": {
-                            "ref_instance_id": 894
+                            "ace.btable.cEditFieldFloat": 4.0
                           }
                         }
                       }
@@ -3515,13 +3611,57 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 897
+                            "ace.btable.cEditFieldTableGuid": "98b28945-3f8d-40a9-ba8c-cc70b02de33e"
                           }
                         }
                       },
                       "_CommandHash": 0,
                       "_CommandArgument": {
                         "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 18102953576439037638,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
+                          "_State": {
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
+                          },
+                          "_CompareType": {
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
+                          },
+                          "_Value": {
+                            "ace.btable.cEditFieldFloat": 5.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
+                          },
+                          "_EditActionGuid": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ceb45f96-eea9-46a6-b685-1786fb89860f"
+                          },
+                          "_ChnageNoneType": {
+                            "ace.btable.cEditFieldBool": true
+                          }
+                        }
                       }
                     }
                   },
@@ -3547,13 +3687,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 905
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 906
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "86c3b996-073c-4a79-a80b-e2fe6f68de67"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 907
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -3600,13 +3740,51 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 918
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 919
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 920
+                            "ace.btable.cEditFieldFloat": 1.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11177796030623360795,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ace.btable.cEditFieldTableGuid": "98b28945-3f8d-40a9-ba8c-cc70b02de33e"
+                          }
+                        }
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 18102953576439037638,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
+                          "_State": {
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
+                          },
+                          "_CompareType": {
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
+                          },
+                          "_Value": {
+                            "ace.btable.cEditFieldFloat": 2.0
                           }
                         }
                       }
@@ -3622,13 +3800,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 924
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 925
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "0bd120e5-9acc-4f7b-aec6-60dce2e28435"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 926
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -3644,13 +3822,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 930
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 931
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 932
+                            "ace.btable.cEditFieldFloat": 3.0
                           }
                         }
                       }
@@ -3666,13 +3844,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 936
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 937
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ceb45f96-eea9-46a6-b685-1786fb89860f"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 938
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -3688,13 +3866,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 942
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 943
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 944
+                            "ace.btable.cEditFieldFloat": 4.0
                           }
                         }
                       }
@@ -3710,13 +3888,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 948
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 949
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ceb45f96-eea9-46a6-b685-1786fb89860f"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 950
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -3732,13 +3910,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
                           "_State": {
-                            "ref_instance_id": 954
+                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 176953568
                           },
                           "_CompareType": {
-                            "ref_instance_id": 955
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 956
+                            "ace.btable.cEditFieldFloat": 5.0
                           }
                         }
                       }
@@ -3746,67 +3924,17 @@
                   },
                   {
                     "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorHash": 11177796030623360795,
                       "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 8718590499035196621,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
-                          "_EditAssetIndex": {
-                            "ref_instance_id": 960
-                          },
-                          "_EditActionGuid": {
-                            "ref_instance_id": 961
-                          },
-                          "_ChnageNoneType": {
-                            "ref_instance_id": 962
+                        "ace.btable.cOperatorArgumentJump": {
+                          "_EditTableGuid": {
+                            "ace.btable.cEditFieldTableGuid": "98b28945-3f8d-40a9-ba8c-cc70b02de33e"
                           }
                         }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 2703643088024139097,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
                       },
-                      "_CommandHash": 18102953576439037638,
+                      "_CommandHash": 0,
                       "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ref_instance_id": 966
-                          },
-                          "_CompareType": {
-                            "ref_instance_id": 967
-                          },
-                          "_Value": {
-                            "ref_instance_id": 968
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "ace.btable.user_data.BTable.cRowElement": {
-                      "_OperatorHash": 9380642514848460048,
-                      "_OperatorArgument": {
-                        "ace.btable.cOperatorArgumentNone": {}
-                      },
-                      "_CommandHash": 8718590499035196621,
-                      "_CommandArgument": {
-                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
-                          "_EditAssetIndex": {
-                            "ref_instance_id": 972
-                          },
-                          "_EditActionGuid": {
-                            "ref_instance_id": 973
-                          },
-                          "_ChnageNoneType": {
-                            "ref_instance_id": 974
-                          }
-                        }
+                        "ace.btable.cCommandArgumentNone": {}
                       }
                     }
                   },
@@ -3832,13 +3960,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 981
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 982
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "86c3b996-073c-4a79-a80b-e2fe6f68de67"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 983
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -3881,7 +4009,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 993
+                            "ace.btable.cEditFieldInt": 70
                           }
                         }
                       },
@@ -3889,7 +4017,7 @@
                       "_CommandArgument": {
                         "ace.btable.cCommandArgumentRandomType": {
                           "_EditType": {
-                            "ref_instance_id": 995
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableDef.RANDOM_TYPE>": 1
                           }
                         }
                       }
@@ -3905,13 +4033,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 999
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 1000
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ceb45f96-eea9-46a6-b685-1786fb89860f"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 1001
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -3923,7 +4051,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 1004
+                            "ace.btable.cEditFieldInt": 30
                           }
                         }
                       },
@@ -3939,7 +4067,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 1008
+                            "ace.btable.cEditFieldTableGuid": "7fd9ebd9-544a-4d16-a683-45ee84b0f5ae"
                           }
                         }
                       },
@@ -3986,7 +4114,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 1019
+                            "ace.btable.cEditFieldInt": 60
                           }
                         }
                       },
@@ -3994,7 +4122,7 @@
                       "_CommandArgument": {
                         "ace.btable.cCommandArgumentRandomType": {
                           "_EditType": {
-                            "ref_instance_id": 1021
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableDef.RANDOM_TYPE>": 1
                           }
                         }
                       }
@@ -4010,13 +4138,13 @@
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
                           "_EditAssetIndex": {
-                            "ref_instance_id": 1025
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
                           },
                           "_EditActionGuid": {
-                            "ref_instance_id": 1026
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ceb45f96-eea9-46a6-b685-1786fb89860f"
                           },
                           "_ChnageNoneType": {
-                            "ref_instance_id": 1027
+                            "ace.btable.cEditFieldBool": true
                           }
                         }
                       }
@@ -4028,7 +4156,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 1030
+                            "ace.btable.cEditFieldInt": 40
                           }
                         }
                       },
@@ -4044,7 +4172,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentJump": {
                           "_EditTableGuid": {
-                            "ref_instance_id": 1034
+                            "ace.btable.cEditFieldTableGuid": "ffc9ea6b-d11f-4f54-bd4a-7cf2321b92cc"
                           }
                         }
                       },
@@ -4091,7 +4219,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 1045
+                            "ace.btable.cEditFieldInt": 30
                           }
                         }
                       },
@@ -4099,7 +4227,7 @@
                       "_CommandArgument": {
                         "ace.btable.cCommandArgumentRandomType": {
                           "_EditType": {
-                            "ref_instance_id": 1047
+                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableDef.RANDOM_TYPE>": 1
                           }
                         }
                       }
@@ -4115,13 +4243,13 @@
                       "_CommandArgument": {
                         "ace.btable.cSetFloatValueArg": {
                           "_TargetVariableIndex": {
-                            "ref_instance_id": 1051
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
                           },
                           "_Method": {
-                            "ref_instance_id": 1052
+                            "ace.btable.cEditFieldEnum`1<ace.btable.cVariableStorage.VARIABLE_METHOD>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 1053
+                            "ace.btable.cEditFieldFloat": 0.0
                           }
                         }
                       }
@@ -4133,7 +4261,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 1056
+                            "ace.btable.cEditFieldInt": 30
                           }
                         }
                       },
@@ -4153,13 +4281,13 @@
                       "_CommandArgument": {
                         "ace.btable.cSetFloatValueArg": {
                           "_TargetVariableIndex": {
-                            "ref_instance_id": 1061
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
                           },
                           "_Method": {
-                            "ref_instance_id": 1062
+                            "ace.btable.cEditFieldEnum`1<ace.btable.cVariableStorage.VARIABLE_METHOD>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 1063
+                            "ace.btable.cEditFieldFloat": 1.0
                           }
                         }
                       }
@@ -4171,7 +4299,7 @@
                       "_OperatorArgument": {
                         "ace.btable.cOperatorArgumentRandom": {
                           "_EditRandom": {
-                            "ref_instance_id": 1066
+                            "ace.btable.cEditFieldInt": 30
                           }
                         }
                       },
@@ -4191,13 +4319,13 @@
                       "_CommandArgument": {
                         "ace.btable.cSetFloatValueArg": {
                           "_TargetVariableIndex": {
-                            "ref_instance_id": 1071
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "baee0fc8-ae33-41d4-9e18-06dbd379adcf"
                           },
                           "_Method": {
-                            "ref_instance_id": 1072
+                            "ace.btable.cEditFieldEnum`1<ace.btable.cVariableStorage.VARIABLE_METHOD>": 0
                           },
                           "_Value": {
-                            "ref_instance_id": 1073
+                            "ace.btable.cEditFieldFloat": 2.0
                           }
                         }
                       }
@@ -4230,6 +4358,112 @@
                 ],
                 "_Guid": "882b6504-80d9-437c-9754-11781f793fe1"
               }
+            },
+            {
+              "ace.btable.user_data.BTable.cTableElement": {
+                "_Rows": [
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 1232086094727562192,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 12800327421053533761,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cCheckPLAllianceStatusInfoArg": {
+                          "_StatusType": {
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_STATUS_TYPE_Fixed>": 647456448
+                          },
+                          "_TargetType": {
+                            "ace.btable.cEditFieldEnum`1<app.BattleDef.SKILL_TARGET_TYPE_Fixed>": 1273199232
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
+                          },
+                          "_EditActionGuid": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "6a2dadd6-36e8-455f-8a40-def35f6eb62c"
+                          },
+                          "_ChnageNoneType": {
+                            "ace.btable.cEditFieldBool": false
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 2703643088024139097,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 9380642514848460048,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 8718590499035196621,
+                      "_CommandArgument": {
+                        "app.btable.Battle_CommonBTableCommand.cSetSkillIDArg": {
+                          "_EditAssetIndex": {
+                            "ace.btable.cEditFieldDropBox`1<System.Int32>": 0
+                          },
+                          "_EditActionGuid": {
+                            "ace.btable.cEditFieldDropBox`1<System.Guid>": "ceb45f96-eea9-46a6-b685-1786fb89860f"
+                          },
+                          "_ChnageNoneType": {
+                            "ace.btable.cEditFieldBool": true
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 7803240798504593104,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  },
+                  {
+                    "ace.btable.user_data.BTable.cRowElement": {
+                      "_OperatorHash": 11996412323559724264,
+                      "_OperatorArgument": {
+                        "ace.btable.cOperatorArgumentNone": {}
+                      },
+                      "_CommandHash": 0,
+                      "_CommandArgument": {
+                        "ace.btable.cCommandArgumentNone": {}
+                      }
+                    }
+                  }
+                ],
+                "_Guid": "c7883a19-f8f1-4e79-997d-f3c228068448"
+              }
             }
           ]
         }
@@ -4237,15 +4471,12 @@
       "_ImportBTableList": [],
       "_OrderBank": {
         "ace.btable.user_data.BTableOrderBank": {
-          "ref_instance_id": 1084,
+          "ref_instance_id": 1145,
           "path": "GameDesign/Enemy/Em0132/00/BattleData/Battle_Em0132_00_70_BTableOrderBank.user"
         }
       },
       "_ThisGuid": "0eea43ec-e21f-4dbd-860e-e186f0006a0e",
-      "_ExportBTableType": {
-        "raw": "01000000",
-        "type": "RuntimeType"
-      },
+      "_ExportBTableType": "",
       "_CommandArgArray": [],
       "_UseExportArgData": false
     }

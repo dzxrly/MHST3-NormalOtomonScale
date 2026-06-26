@@ -103,12 +103,14 @@
               }
             },
             "_InitBreakGauge": 100,
+            "_IsSkipInitBreakGaugeIfLow": false,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
                 "ChangeType": 0,
                 "InitPosition": 1
               }
-            }
+            },
+            "_InitBreakStock": 1
           }
         },
         {
@@ -203,12 +205,14 @@
               }
             },
             "_InitBreakGauge": 100,
+            "_IsSkipInitBreakGaugeIfLow": false,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
                 "ChangeType": 0,
                 "InitPosition": 1
               }
-            }
+            },
+            "_InitBreakStock": 1
           }
         },
         {
@@ -303,12 +307,14 @@
               }
             },
             "_InitBreakGauge": 100,
+            "_IsSkipInitBreakGaugeIfLow": false,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
                 "ChangeType": 0,
                 "InitPosition": 1
               }
-            }
+            },
+            "_InitBreakStock": 1
           }
         },
         {
@@ -403,12 +409,14 @@
               }
             },
             "_InitBreakGauge": 100,
+            "_IsSkipInitBreakGaugeIfLow": false,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
                 "ChangeType": 0,
                 "InitPosition": 1
               }
-            }
+            },
+            "_InitBreakStock": 1
           }
         },
         {
@@ -482,7 +490,7 @@
             "_IceResist": "[3860941824] VERY_INEFFECTIVE",
             "_DragonResist": "[2739794176] EFFECTIVE",
             "_IsEnableAttackDisasterStone": false,
-            "_UniqueProcessBit": 512,
+            "_UniqueProcessBit": 768,
             "_PartsInitHpRateByChildkillCountSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting": {
                 "TargetParts": -1,
@@ -518,12 +526,14 @@
               }
             },
             "_InitBreakGauge": 100,
+            "_IsSkipInitBreakGaugeIfLow": false,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
                 "ChangeType": 0,
                 "InitPosition": 1
               }
-            }
+            },
+            "_InitBreakStock": 1
           }
         },
         {
@@ -620,12 +630,14 @@
               }
             },
             "_InitBreakGauge": 100,
+            "_IsSkipInitBreakGaugeIfLow": false,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
                 "ChangeType": 0,
                 "InitPosition": 1
               }
-            }
+            },
+            "_InitBreakStock": 1
           }
         },
         {
@@ -699,7 +711,7 @@
             "_IceResist": "[3860941824] VERY_INEFFECTIVE",
             "_DragonResist": "[2739794176] EFFECTIVE",
             "_IsEnableAttackDisasterStone": false,
-            "_UniqueProcessBit": 512,
+            "_UniqueProcessBit": 768,
             "_PartsInitHpRateByChildkillCountSetting": {
               "app.user_data.MorphParamData.cPartsInitHpRateByChildkillCountSetting": {
                 "TargetParts": -1,
@@ -735,12 +747,14 @@
               }
             },
             "_InitBreakGauge": 100,
+            "_IsSkipInitBreakGaugeIfLow": false,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
                 "ChangeType": 0,
                 "InitPosition": 1
               }
-            }
+            },
+            "_InitBreakStock": 1
           }
         },
         {
@@ -835,12 +849,14 @@
               }
             },
             "_InitBreakGauge": 100,
+            "_IsSkipInitBreakGaugeIfLow": false,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
                 "ChangeType": 0,
                 "InitPosition": 1
               }
-            }
+            },
+            "_InitBreakStock": 1
           }
         },
         {
@@ -935,12 +951,14 @@
               }
             },
             "_InitBreakGauge": 100,
+            "_IsSkipInitBreakGaugeIfLow": false,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
                 "ChangeType": 0,
                 "InitPosition": 1
               }
-            }
+            },
+            "_InitBreakStock": 1
           }
         },
         {
@@ -1035,12 +1053,14 @@
               }
             },
             "_InitBreakGauge": 100,
+            "_IsSkipInitBreakGaugeIfLow": false,
             "_MorphCountAlignmentSetting": {
               "app.user_data.MorphParamData.cMorphCountAlignmentSetting": {
                 "ChangeType": 0,
                 "InitPosition": 1
               }
-            }
+            },
+            "_InitBreakStock": 1
           }
         }
       ],
@@ -1054,7 +1074,8 @@
                   "_PartsID": "[9329] ID_PARTS_EM0124_00_00_1",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1062,7 +1083,8 @@
                   "_PartsID": "[248] ID_PARTS_EM0124_00_00_2",
                   "_OverWritePartsType": "[22991] PARTS_0067",
                   "_IsRevival": true,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1070,7 +1092,8 @@
                   "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1078,7 +1101,8 @@
                   "_PartsID": "[9329] ID_PARTS_EM0124_00_00_1",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               }
             ]
@@ -1093,7 +1117,8 @@
                   "_PartsID": "[10097] ID_PARTS_EM0124_00_00_3",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1101,7 +1126,8 @@
                   "_PartsID": "[1116] ID_PARTS_EM0124_00_00_4",
                   "_OverWritePartsType": "[17054] PARTS_0068",
                   "_IsRevival": true,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1109,7 +1135,8 @@
                   "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1117,7 +1144,8 @@
                   "_PartsID": "[10097] ID_PARTS_EM0124_00_00_3",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               }
             ]
@@ -1132,7 +1160,8 @@
                   "_PartsID": "[20149] ID_PARTS_EM0124_00_00_5",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1140,7 +1169,8 @@
                   "_PartsID": "[5346] ID_PARTS_EM0124_00_00_6",
                   "_OverWritePartsType": "[25204] PARTS_0069",
                   "_IsRevival": true,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1148,7 +1178,8 @@
                   "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1156,7 +1187,8 @@
                   "_PartsID": "[20149] ID_PARTS_EM0124_00_00_5",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               }
             ]
@@ -1171,7 +1203,8 @@
                   "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1179,7 +1212,8 @@
                   "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1187,7 +1221,8 @@
                   "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1195,7 +1230,8 @@
                   "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               }
             ]
@@ -1210,7 +1246,8 @@
                   "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1218,7 +1255,8 @@
                   "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1226,7 +1264,8 @@
                   "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               },
               {
@@ -1234,7 +1273,8 @@
                   "_PartsID": "[997777664] ID_PARTS_DAMMY",
                   "_OverWritePartsType": "[1112217856] PARTS_0000",
                   "_IsRevival": false,
-                  "_RevivalMaxHpRate": 100
+                  "_RevivalMaxHpRate": 100,
+                  "_KingHpRate": 100
                 }
               }
             ]
