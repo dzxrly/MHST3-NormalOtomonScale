@@ -325,25 +325,55 @@
         },
         {
           "app.user_data.BattleActionData.cActionData": {
+            "_Guid": "d6e6d4f0-c309-4645-b109-5b40c55f3460",
+            "_ActType": 6,
+            "_LoreCutType": "[3823760896] INVALID",
+            "_IsUseUniqueCutData": true,
+            "_CutCameraData": {
+              "app.user_data.BattleCutCameraData": {
+                "ref_instance_id": 37,
+                "path": "GameDesign/Battle/BattleCutData/mo018/unique/em2018_activate_cam.user"
+              }
+            },
+            "_CutMotData": {
+              "app.user_data.BattleCutMotionData": {
+                "ref_instance_id": 38,
+                "path": "GameDesign/Battle/BattleCutData/mo018/unique/em2018_activate_mot.user"
+              }
+            },
+            "_CutEffectData": {
+              "app.user_data.BattleCutEffectData": {
+                "ref_instance_id": 39,
+                "path": "GameDesign/Battle/BattleCutData/mo018/unique/em2018_activate_eff.user"
+              }
+            },
+            "_EffectAttribute": "A00_Normal",
+            "_CutSoundData": {
+              "": {}
+            }
+          }
+        },
+        {
+          "app.user_data.BattleActionData.cActionData": {
             "_Guid": "266a78a8-6bce-4552-b68a-69bb51ba6ed9",
             "_ActType": 6,
             "_LoreCutType": "[3823760896] INVALID",
             "_IsUseUniqueCutData": true,
             "_CutCameraData": {
               "app.user_data.BattleCutCameraData": {
-                "ref_instance_id": 41,
+                "ref_instance_id": 42,
                 "path": "GameDesign/Battle/BattleCutData/mo018/unique/em018_angry_cam.user"
               }
             },
             "_CutMotData": {
               "app.user_data.BattleCutMotionData": {
-                "ref_instance_id": 42,
+                "ref_instance_id": 43,
                 "path": "GameDesign/Battle/BattleCutData/mo018/unique/em018_angry_mot.user"
               }
             },
             "_CutEffectData": {
               "app.user_data.BattleCutEffectData": {
-                "ref_instance_id": 43,
+                "ref_instance_id": 44,
                 "path": "GameDesign/Battle/BattleCutData/mo018/unique/em018_angry_eff.user"
               }
             },

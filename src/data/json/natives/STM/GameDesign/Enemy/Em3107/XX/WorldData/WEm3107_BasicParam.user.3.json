@@ -1,0 +1,24 @@
+[
+  {
+    "app.user_data.WorldEnemyBasicParam": {
+      "_ActionBasicParam": {
+        "app.user_data.EnemyActionBasicParam": {
+          "ref_instance_id": 1,
+          "path": "GameDesign/Enemy/CommonData/ActionData/WorldEnemyActionBasicParam.user"
+        }
+      },
+      "_IkJointBasicParam": {
+        "app.user_data.EnemyIkJointBasicParam": {
+          "ref_instance_id": 2,
+          "path": "GameDesign/Enemy/CommonData/WorldData/WorldEnemyIkJointBasicParam.user"
+        }
+      },
+      "_HuntOverwirteSightParam": {
+        "app.user_data.EnemyHuntOverwirteSightParam": {
+          "ref_instance_id": 3,
+          "path": "GameDesign/Enemy/CommonData/WorldData/WorldEnemyHuntOverwirteSightParam.user"
+        }
+      }
+    }
+  }
+]

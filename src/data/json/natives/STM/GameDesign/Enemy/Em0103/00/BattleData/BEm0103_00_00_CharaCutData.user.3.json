@@ -892,15 +892,24 @@
             {
               "app.user_data.BattleCharaCutData.cCharaCutData": {
                 "_EnumValue": "[23323] TALK_MESSAGE_6",
-                "_IsUseUniqueCutData": false,
+                "_IsUseUniqueCutData": true,
                 "_CutCameraData": {
-                  "": {}
+                  "app.user_data.BattleCutCameraData": {
+                    "ref_instance_id": 73,
+                    "path": "GameDesign/Battle/BattleCutData/22-PL-unpc/SS_Rudy_4/Rudy004_c05_ten_cam.user"
+                  }
                 },
                 "_CutMotData": {
-                  "": {}
+                  "app.user_data.BattleCutMotionData": {
+                    "ref_instance_id": 74,
+                    "path": "GameDesign/Battle/BattleCutData/22-PL-unpc/SS_Rudy_4/Rudy004_c05_ten_mot.user"
+                  }
                 },
                 "_CutEffectData": {
-                  "": {}
+                  "app.user_data.BattleCutEffectData": {
+                    "ref_instance_id": 75,
+                    "path": "GameDesign/Battle/BattleCutData/22-PL-unpc/SS_Rudy_4/Rudy004_c05_ten_eff.user"
+                  }
                 },
                 "_CutSoundData": {
                   "": {}
@@ -910,15 +919,24 @@
             {
               "app.user_data.BattleCharaCutData.cCharaCutData": {
                 "_EnumValue": "[27056] TALK_MESSAGE_7",
-                "_IsUseUniqueCutData": false,
+                "_IsUseUniqueCutData": true,
                 "_CutCameraData": {
-                  "": {}
+                  "app.user_data.BattleCutCameraData": {
+                    "ref_instance_id": 77,
+                    "path": "GameDesign/Battle/BattleCutData/mo103/unique/em103_boss_black_cam.user"
+                  }
                 },
                 "_CutMotData": {
-                  "": {}
+                  "app.user_data.BattleCutMotionData": {
+                    "ref_instance_id": 78,
+                    "path": "GameDesign/Battle/BattleCutData/mo103/unique/em103_boss_black_mot.user"
+                  }
                 },
                 "_CutEffectData": {
-                  "": {}
+                  "app.user_data.BattleCutEffectData": {
+                    "ref_instance_id": 79,
+                    "path": "GameDesign/Battle/BattleCutData/mo103/unique/em103_boss_black_eff.user"
+                  }
                 },
                 "_CutSoundData": {
                   "": {}

@@ -664,15 +664,24 @@
             {
               "app.user_data.BattleCharaCutData.cCharaCutData": {
                 "_EnumValue": "[460133792] TRIGGER_SUCCESS_1",
-                "_IsUseUniqueCutData": false,
+                "_IsUseUniqueCutData": true,
                 "_CutCameraData": {
-                  "": {}
+                  "app.user_data.BattleCutCameraData": {
+                    "ref_instance_id": 43,
+                    "path": "GameDesign/Battle/BattleCutData/mo007/unique/em2007_atk022_miss_cam.user"
+                  }
                 },
                 "_CutMotData": {
-                  "": {}
+                  "app.user_data.BattleCutMotionData": {
+                    "ref_instance_id": 44,
+                    "path": "GameDesign/Battle/BattleCutData/mo007/unique/em2007_atk022_miss_mot.user"
+                  }
                 },
                 "_CutEffectData": {
-                  "": {}
+                  "app.user_data.BattleCutEffectData": {
+                    "ref_instance_id": 45,
+                    "path": "GameDesign/Battle/BattleCutData/mo007/unique/em2007_atk022_miss_eff.user"
+                  }
                 },
                 "_CutSoundData": {
                   "": {}
