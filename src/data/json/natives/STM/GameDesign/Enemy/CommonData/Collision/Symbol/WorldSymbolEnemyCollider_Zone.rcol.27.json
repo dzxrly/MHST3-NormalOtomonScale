@@ -1,0 +1,71 @@
+{
+  "groupInfos": [
+    {
+      "groupGuid": "32bfd4fd-27b3-42d0-960c-350914548911",
+      "nameMMHash": 2914122598,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "1fd42130-fed3-412d-8785-f348b02d2db8",
+      "groupShapes": [
+        {
+          "shapeGuid": "f8e6017b-2d38-409d-a714-382a8b1dc8ef",
+          "shapeNameMMHash": 2180083513,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Sphere",
+          "shapeParam": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "radius": 0.1
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 2180083513,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [
+        "b34f41b4-92fe-419d-b875-c917b61b07ce"
+      ],
+      "groupName": ""
+    }
+  ],
+  "requestSets": [
+    {
+      "requestSetID": 0,
+      "groupIndex": 0,
+      "status": 0,
+      "requestSetIndex": 0,
+      "keyHash": 3036212378,
+      "KeyNameMMHash": 2180083513,
+      "name": "",
+      "keyName": "",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "via.physics.RequestSetColliderUserData": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          }
+        }
+      }
+    }
+  ],
+  "ignoreTags": []
+}
