@@ -1,0 +1,139 @@
+{
+  "groupInfos": [
+    {
+      "groupGuid": "98e4af57-9077-4033-ad81-a02765b44bae",
+      "nameMMHash": 2878922317,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "ec642bba-b0bc-4aef-8816-7cc4764b50e8",
+      "groupShapes": [
+        {
+          "shapeGuid": "3e51de7f-d923-4c79-8de4-fb255f05d333",
+          "shapeNameMMHash": 2180083513,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Sphere",
+          "shapeParam": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "radius": 6.0
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 3903073785,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "Cog",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [
+        "257a20dc-cabf-4fb0-94d6-2fa592ab563d",
+        "60f2e5a2-52a3-4af8-9bab-bed82d8a8f5f",
+        "1e1cc4cf-114d-4d40-9d1d-f2d3f84efd04"
+      ],
+      "groupName": ""
+    },
+    {
+      "groupGuid": "750453f8-d44e-4c54-aa26-20029e9f8d52",
+      "nameMMHash": 4185417145,
+      "unknCount": 0,
+      "layerIndex": 0,
+      "maskBits": 0,
+      "layerGuid": "ec642bba-b0bc-4aef-8816-7cc4764b50e8",
+      "groupShapes": [
+        {
+          "shapeGuid": "d9c102f0-8ce2-4377-8cbf-11c6969fd190",
+          "shapeNameMMHash": 2180083513,
+          "unknIndex": 0,
+          "layerIndex": 0,
+          "atteribute": -1,
+          "skipIdBits": 0,
+          "shapeType": "Sphere",
+          "shapeParam": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "radius": 6.0
+          },
+          "ignoreTagBits": 0,
+          "unkn": 0,
+          "primaryJointNameMMHash": 3903073785,
+          "secondaryJointNameMMHash": 2180083513,
+          "shapeName": "",
+          "primaryJointName": "Cog",
+          "secondaryJointName": ""
+        }
+      ],
+      "maskGuids": [
+        "257a20dc-cabf-4fb0-94d6-2fa592ab563d",
+        "60f2e5a2-52a3-4af8-9bab-bed82d8a8f5f",
+        "1e1cc4cf-114d-4d40-9d1d-f2d3f84efd04"
+      ],
+      "groupName": ""
+    }
+  ],
+  "requestSets": [
+    {
+      "requestSetID": 0,
+      "groupIndex": 0,
+      "status": 1,
+      "requestSetIndex": 0,
+      "keyHash": 1146375145,
+      "KeyNameMMHash": 1942883980,
+      "name": "",
+      "keyName": "EnemyDamage1",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "via.physics.RequestSetColliderUserData": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          }
+        }
+      }
+    },
+    {
+      "requestSetID": 1,
+      "groupIndex": 1,
+      "status": 1,
+      "requestSetIndex": 1,
+      "keyHash": 911126850,
+      "KeyNameMMHash": 2823386344,
+      "name": "",
+      "keyName": "EnemyDamage2",
+      "nativeShapeColliders": [
+        {
+          "via.physics.RequestSetColliderUserData": {
+            "Name": "",
+            "ParentUserData": {
+              "": {}
+            }
+          }
+        }
+      ],
+      "userData": {
+        "via.physics.RequestSetColliderUserData": {
+          "Name": "",
+          "ParentUserData": {
+            "": {}
+          }
+        }
+      }
+    }
+  ],
+  "ignoreTags": []
+}
