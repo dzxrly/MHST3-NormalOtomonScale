@@ -16,9 +16,7 @@
                       "_CommandHash": 15744174655346669706,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
-                          "_BttleStepStatus": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.COMMAND_SET_STATE>": 0
-                          }
+                          "_BttleStepStatus": "[0] PRE_SELECTCOMMAND"
                         }
                       }
                     }
@@ -48,9 +46,7 @@
                       "_CommandHash": 15744174655346669706,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
-                          "_BttleStepStatus": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.COMMAND_SET_STATE>": 10
-                          }
+                          "_BttleStepStatus": "[10] DAMAGE"
                         }
                       }
                     }
@@ -80,9 +76,7 @@
                       "_CommandHash": 15744174655346669706,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
-                          "_BttleStepStatus": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.COMMAND_SET_STATE>": 30
-                          }
+                          "_BttleStepStatus": "[30] TURN_END"
                         }
                       }
                     }
@@ -344,12 +338,8 @@
                       "_CommandHash": 4131015717520695539,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckCharaDeadArg": {
-                          "_DeadTarget": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckCharaDeadArg.DEAD_TARGET>": 848785536
-                          },
-                          "_DeadTiming": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckCharaDeadArg.DEAD_TIMING>": 100
-                          }
+                          "_DeadTarget": "[848785536] PARENT",
+                          "_DeadTiming": "[100] ALL_TURN"
                         }
                       }
                     }
@@ -401,9 +391,7 @@
                       "_CommandHash": 9627497571725490262,
                       "_CommandArgument": {
                         "ace.btable.cCommandArgumentRandomType": {
-                          "_EditType": {
-                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableDef.RANDOM_TYPE>": 1
-                          }
+                          "_EditType": "[1] NO_CONTINUE"
                         }
                       }
                     }

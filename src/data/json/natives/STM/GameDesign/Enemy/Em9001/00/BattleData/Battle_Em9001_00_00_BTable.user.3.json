@@ -16,9 +16,7 @@
                       "_CommandHash": 15744174655346669706,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
-                          "_BttleStepStatus": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.COMMAND_SET_STATE>": 0
-                          }
+                          "_BttleStepStatus": "[0] PRE_SELECTCOMMAND"
                         }
                       }
                     }
@@ -48,9 +46,7 @@
                       "_CommandHash": 15744174655346669706,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
-                          "_BttleStepStatus": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.COMMAND_SET_STATE>": 10
-                          }
+                          "_BttleStepStatus": "[10] DAMAGE"
                         }
                       }
                     }
@@ -80,9 +76,7 @@
                       "_CommandHash": 15744174655346669706,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
-                          "_BttleStepStatus": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.COMMAND_SET_STATE>": 30
-                          }
+                          "_BttleStepStatus": "[30] TURN_END"
                         }
                       }
                     }

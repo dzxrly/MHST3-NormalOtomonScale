@@ -1,8 +1,8 @@
 [
   {
     "app.user_data.DetectTerrainParam": {
-      "_RayCastType": 21,
-      "_RayCastType_All": 19,
+      "_RayCastType": "[21] TERRAIN_ENEMY_ONE_NEAR_FRONTFACE",
+      "_RayCastType_All": "[19] TERRAIN_ENEMY_ALL_NEAR_FRONTFACE",
       "_FrontWallDetectParam": {
         "app.cDetectTerrainArg.cFrontWallDetectParam": {
           "_DetectStartOfsFromOneself": [
@@ -105,14 +105,14 @@
           ],
           "_MissWallRayFrontOffset": 1.0,
           "_IsEnableUpStartInterpolation": false,
-          "_UpStartInterpolationMode": 0,
+          "_UpStartInterpolationMode": "[0] NONE",
           "_UpStartHorizontalInterpolationSec": 0.0,
-          "_UpStartHorizontalInterpolationCurve": 0,
+          "_UpStartHorizontalInterpolationCurve": "[0] Linear",
           "_UpStartVerticalInterpolationSec": 0.0,
-          "_UpStartVerticalInterpolationCurve": 0,
+          "_UpStartVerticalInterpolationCurve": "[0] Linear",
           "_UpStartRotationInterpolationSec": 0.0,
-          "_UpStartRotationInterpolationCurve": 0,
-          "_UpStartReturnRotationInterpolationCurve": 0,
+          "_UpStartRotationInterpolationCurve": "[0] Linear",
+          "_UpStartReturnRotationInterpolationCurve": "[0] Linear",
           "_UpStartColliderRadius": 0.2,
           "_UpStartColliderOffset": [
             0.0,
@@ -121,14 +121,14 @@
             0.0
           ],
           "_IsEnableDownStartInterpolation": false,
-          "_DownStartInterpolationMode": 0,
+          "_DownStartInterpolationMode": "[0] NONE",
           "_DownStartHorizontalInterpolationSec": 0.0,
-          "_DownStartHorizontalInterpolationCurve": 0,
+          "_DownStartHorizontalInterpolationCurve": "[0] Linear",
           "_DownStartVerticalInterpolationSec": 0.0,
-          "_DownStartVerticalInterpolationCurve": 0,
+          "_DownStartVerticalInterpolationCurve": "[0] Linear",
           "_DownStartRotationInterpolationSec": 0.0,
-          "_DownStartRotationInterpolationCurve": 0,
-          "_DownStartReturnRotationInterpolationCurve": 0,
+          "_DownStartRotationInterpolationCurve": "[0] Linear",
+          "_DownStartReturnRotationInterpolationCurve": "[0] Linear",
           "_DownStartColliderRadius": 0.2,
           "_DownStartColliderOffset": [
             0.0,
@@ -137,15 +137,15 @@
             0.0
           ],
           "_IsEnableEndInterpolation": false,
-          "_EndInterpolationMode": 0,
+          "_EndInterpolationMode": "[0] NONE",
           "_IsEnableEndRotationInterpolation": false,
           "_EndHorizontalInterpolationSec": 0.0,
-          "_EndHorizontalInterpolationCurve": 0,
+          "_EndHorizontalInterpolationCurve": "[0] Linear",
           "_EndVerticalInterpolationSec": 0.0,
-          "_EndVerticalInterpolationCurve": 0,
+          "_EndVerticalInterpolationCurve": "[0] Linear",
           "_EndRotationInterpolationSec": 0.0,
-          "_EndRotationInterpolationCurve": 0,
-          "_EndReturnRotationInterpolationCurve": 0
+          "_EndRotationInterpolationCurve": "[0] Linear",
+          "_EndReturnRotationInterpolationCurve": "[0] Linear"
         }
       },
       "_GroundCheckerParam": {
@@ -155,7 +155,7 @@
       },
       "_AttachGroundParam": {
         "app.cDetectTerrainArg.cAttachGroundParam": {
-          "_RayCastType": 19,
+          "_RayCastType": "[19] TERRAIN_ENEMY_ALL_NEAR_FRONTFACE",
           "_LandDetectDistance": 0.1,
           "_AttachGroundHeight": 0.5,
           "_AttachGroundShapeRadiusOffset": 0.0,
@@ -165,7 +165,7 @@
       },
       "_FlyCatchWallParam": {
         "app.cDetectTerrainArg.cFlyCatchWallParam": {
-          "_RayCastType": 19,
+          "_RayCastType": "[19] TERRAIN_ENEMY_ALL_NEAR_FRONTFACE",
           "_PivotJointName": "Root",
           "_DetectLength": 1.0,
           "_DetectFrontOffset": 0.0
@@ -178,7 +178,7 @@
       },
       "_SwimInDetectParam": {
         "app.cDetectTerrainArg.cSwimInDetectParam": {
-          "_RayCastType": 3,
+          "_RayCastType": "[3] TERRAIN_ALL_ONE_NEAR_FRONTFACE",
           "_DetectWaterStartPosOffset": [
             0.0,
             0.0,
@@ -195,7 +195,7 @@
       },
       "_SwimOutDetectParam": {
         "app.cDetectTerrainArg.cSwimOutDetectParam": {
-          "_RayCastType": 21,
+          "_RayCastType": "[21] TERRAIN_ENEMY_ONE_NEAR_FRONTFACE",
           "_DetectGroundStartPosOffset": [
             0.0,
             0.0,
@@ -247,7 +247,7 @@
       },
       "_VirtualSlopeParam": {
         "app.cDetectTerrainArg.cVirtualSlopeParam": {
-          "_RaycastType": 42,
+          "_RaycastType": "[42] VIRTUAL_SLOPE_ENEMY",
           "_WallDetectDepth": 9.0,
           "_BehindWallDetectDepth": 9.0,
           "_BehindWallDetectFrontDepth": 9.0,
