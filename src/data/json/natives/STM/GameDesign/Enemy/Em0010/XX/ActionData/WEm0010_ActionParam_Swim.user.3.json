@@ -24,7 +24,7 @@
             "_ActionSafeLimitTime": -1.0,
             "_MoveSpeed": {
               "app.AppCharaUtil.cMotionSpeedParam": {
-                "_Type": 0,
+                "_Type": "[0] MOT_SPEED_RATE",
                 "_KilometerPerHourParam": 0.0,
                 "_MotionSpeed": 1.0
               }
@@ -32,7 +32,7 @@
             "_AngularVelocityParam": {
               "app.AppCharaUtil.cAngularVelocityParam": {
                 "_TurnRadius": 3.0,
-                "_RotSpeedEaseType": 8
+                "_RotSpeedEaseType": "[8] OutCubic"
               }
             }
           }
@@ -42,7 +42,7 @@
             "_ActionSafeLimitTime": -1.0,
             "_MoveSpeed": {
               "app.AppCharaUtil.cMotionSpeedParam": {
-                "_Type": 0,
+                "_Type": "[0] MOT_SPEED_RATE",
                 "_KilometerPerHourParam": 0.0,
                 "_MotionSpeed": 1.25
               }
@@ -50,7 +50,7 @@
             "_AngularVelocityParam": {
               "app.AppCharaUtil.cAngularVelocityParam": {
                 "_TurnRadius": 3.0,
-                "_RotSpeedEaseType": 8
+                "_RotSpeedEaseType": "[8] OutCubic"
               }
             }
           }

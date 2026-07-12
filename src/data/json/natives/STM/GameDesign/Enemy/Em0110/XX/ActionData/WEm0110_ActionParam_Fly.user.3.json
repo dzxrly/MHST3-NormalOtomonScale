@@ -23,7 +23,7 @@
             "_ActionSafeLimitTime": -1.0,
             "_MoveSpeed": {
               "app.AppCharaUtil.cMotionSpeedParam": {
-                "_Type": 0,
+                "_Type": "[0] MOT_SPEED_RATE",
                 "_KilometerPerHourParam": 0.0,
                 "_MotionSpeed": 1.0
               }
@@ -31,10 +31,10 @@
             "_AngularVelocityParam": {
               "app.AppCharaUtil.cAngularVelocityParam": {
                 "_TurnRadius": 12.0,
-                "_RotSpeedEaseType": 8
+                "_RotSpeedEaseType": "[8] OutCubic"
               }
             },
-            "_PitchRotSpeedEaseType": 1,
+            "_PitchRotSpeedEaseType": "[1] InSine",
             "_PitchRotationSpeed": 60.0,
             "_MaxPitch": 22.5,
             "_MinPitch": -22.5,

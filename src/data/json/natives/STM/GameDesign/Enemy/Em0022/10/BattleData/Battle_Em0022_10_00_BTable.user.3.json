@@ -16,9 +16,7 @@
                       "_CommandHash": 15744174655346669706,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
-                          "_BttleStepStatus": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.COMMAND_SET_STATE>": 0
-                          }
+                          "_BttleStepStatus": "[0] PRE_SELECTCOMMAND"
                         }
                       }
                     }
@@ -48,9 +46,7 @@
                       "_CommandHash": 15744174655346669706,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
-                          "_BttleStepStatus": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.COMMAND_SET_STATE>": 10
-                          }
+                          "_BttleStepStatus": "[10] DAMAGE"
                         }
                       }
                     }
@@ -80,9 +76,7 @@
                       "_CommandHash": 15744174655346669706,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckBattleStepStatusArg": {
-                          "_BttleStepStatus": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.COMMAND_SET_STATE>": 30
-                          }
+                          "_BttleStepStatus": "[30] TURN_END"
                         }
                       }
                     }
@@ -536,12 +530,8 @@
                       "_CommandHash": 1242848815196633815,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 463439776
-                          },
-                          "_CompareType": {
-                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
-                          },
+                          "_State": "[463439776] ID_BTL_MORPH_CHG_NORMAL",
+                          "_CompareType": "[0] EQUAL",
                           "_Value": {
                             "ace.btable.cEditFieldFloat": 1.0
                           }
@@ -601,9 +591,7 @@
                           "_ChnageNoneType": {
                             "ace.btable.cEditFieldBool": false
                           },
-                          "_SelectChiled": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cSetSkillID_ChildArg.SELECT_CHILD>": 0
-                          }
+                          "_SelectChiled": "[0] BOTH"
                         }
                       }
                     }
@@ -664,12 +652,8 @@
                       "_CommandHash": 18102953576439037638,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 140363136
-                          },
-                          "_CompareType": {
-                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
-                          },
+                          "_State": "[140363136] ID_BTL_MORPH_CHG_ANGRY1",
+                          "_CompareType": "[0] EQUAL",
                           "_Value": {
                             "ace.btable.cEditFieldFloat": 1.0
                           }
@@ -729,9 +713,7 @@
                           "_ChnageNoneType": {
                             "ace.btable.cEditFieldBool": false
                           },
-                          "_SelectChiled": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cSetSkillID_ChildArg.SELECT_CHILD>": 0
-                          }
+                          "_SelectChiled": "[0] BOTH"
                         }
                       }
                     }
@@ -761,9 +743,7 @@
                       "_CommandHash": 9627497571725490262,
                       "_CommandArgument": {
                         "ace.btable.cCommandArgumentRandomType": {
-                          "_EditType": {
-                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableDef.RANDOM_TYPE>": 1
-                          }
+                          "_EditType": "[1] NO_CONTINUE"
                         }
                       }
                     }
@@ -815,9 +795,7 @@
                       "_CommandHash": 7748684201005650480,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cFloatValueArg": {
-                          "_CompareType": {
-                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 4
-                          },
+                          "_CompareType": "[4] GREATER_OR_EQUAL",
                           "_Value": {
                             "ace.btable.cEditFieldFloat": 60.0
                           }
@@ -939,12 +917,8 @@
                       "_CommandHash": 18102953576439037638,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": -728159168
-                          },
-                          "_CompareType": {
-                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
-                          },
+                          "_State": "[3566808128] ID_BTL_MORPH_CNG_ANGRY2",
+                          "_CompareType": "[0] EQUAL",
                           "_Value": {
                             "ace.btable.cEditFieldFloat": 1.0
                           }
@@ -1063,12 +1037,8 @@
                           "bitEnum": {
                             "app.btable.AppBTableUtil.cEditFieldEnum_Checkable_OverrideName`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_AI>": 1
                           },
-                          "PartsCount": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_COUNT>": 0
-                          },
-                          "ChackPartsState": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.PARTS_CANDIDATE_EX>": 0
-                          }
+                          "PartsCount": "[0] AII",
+                          "ChackPartsState": "[0] PARTS_NORMAL"
                         }
                       }
                     }
@@ -1091,9 +1061,7 @@
                           "_ChnageNoneType": {
                             "ace.btable.cEditFieldBool": false
                           },
-                          "_DownLevel": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.DOWN_LEVEL_Fixed>": 2126345600
-                          }
+                          "_DownLevel": "[2126345600] LEVEL_1"
                         }
                       }
                     }
@@ -1110,12 +1078,8 @@
                           "bitEnum": {
                             "app.btable.AppBTableUtil.cEditFieldEnum_Checkable_OverrideName`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_AI>": 4
                           },
-                          "PartsCount": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_COUNT>": 0
-                          },
-                          "ChackPartsState": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.PARTS_CANDIDATE_EX>": 2
-                          }
+                          "PartsCount": "[0] AII",
+                          "ChackPartsState": "[2] PARTS_STONE"
                         }
                       }
                     }
@@ -1138,9 +1102,7 @@
                           "_ChnageNoneType": {
                             "ace.btable.cEditFieldBool": false
                           },
-                          "_DownLevel": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.DOWN_LEVEL_Fixed>": 2126345600
-                          }
+                          "_DownLevel": "[2126345600] LEVEL_1"
                         }
                       }
                     }
@@ -1188,12 +1150,8 @@
                           "bitEnum": {
                             "app.btable.AppBTableUtil.cEditFieldEnum_Checkable_OverrideName`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_AI>": 1
                           },
-                          "PartsCount": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_COUNT>": 0
-                          },
-                          "ChackPartsState": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.PARTS_CANDIDATE_EX>": 0
-                          }
+                          "PartsCount": "[0] AII",
+                          "ChackPartsState": "[0] PARTS_NORMAL"
                         }
                       }
                     }
@@ -1216,9 +1174,7 @@
                           "_ChnageNoneType": {
                             "ace.btable.cEditFieldBool": false
                           },
-                          "_DownLevel": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.DOWN_LEVEL_Fixed>": 2126345600
-                          }
+                          "_DownLevel": "[2126345600] LEVEL_1"
                         }
                       }
                     }
@@ -1235,12 +1191,8 @@
                           "bitEnum": {
                             "app.btable.AppBTableUtil.cEditFieldEnum_Checkable_OverrideName`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_AI>": 4
                           },
-                          "PartsCount": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_COUNT>": 0
-                          },
-                          "ChackPartsState": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.PARTS_CANDIDATE_EX>": 2
-                          }
+                          "PartsCount": "[0] AII",
+                          "ChackPartsState": "[2] PARTS_STONE"
                         }
                       }
                     }
@@ -1263,9 +1215,7 @@
                           "_ChnageNoneType": {
                             "ace.btable.cEditFieldBool": false
                           },
-                          "_DownLevel": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.DOWN_LEVEL_Fixed>": 2126345600
-                          }
+                          "_DownLevel": "[2126345600] LEVEL_1"
                         }
                       }
                     }
@@ -1282,12 +1232,8 @@
                           "bitEnum": {
                             "app.btable.AppBTableUtil.cEditFieldEnum_Checkable_OverrideName`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_AI>": 4
                           },
-                          "PartsCount": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_COUNT>": 0
-                          },
-                          "ChackPartsState": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.PARTS_CANDIDATE_EX>": 2
-                          }
+                          "PartsCount": "[0] AII",
+                          "ChackPartsState": "[2] PARTS_STONE"
                         }
                       }
                     }
@@ -1357,12 +1303,8 @@
                           "bitEnum": {
                             "app.btable.AppBTableUtil.cEditFieldEnum_Checkable_OverrideName`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_AI>": 4
                           },
-                          "PartsCount": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_COUNT>": 0
-                          },
-                          "ChackPartsState": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.PARTS_CANDIDATE_EX>": 2
-                          }
+                          "PartsCount": "[0] AII",
+                          "ChackPartsState": "[2] PARTS_STONE"
                         }
                       }
                     }
@@ -1385,9 +1327,7 @@
                           "_ChnageNoneType": {
                             "ace.btable.cEditFieldBool": false
                           },
-                          "_DownLevel": {
-                            "ace.btable.cEditFieldEnum`1<app.BattleDef.DOWN_LEVEL_Fixed>": 2126345600
-                          }
+                          "_DownLevel": "[2126345600] LEVEL_1"
                         }
                       }
                     }
@@ -1404,12 +1344,8 @@
                           "bitEnum": {
                             "app.btable.AppBTableUtil.cEditFieldEnum_Checkable_OverrideName`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_AI>": 4
                           },
-                          "PartsCount": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_COUNT>": 0
-                          },
-                          "ChackPartsState": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.PARTS_CANDIDATE_EX>": 2
-                          }
+                          "PartsCount": "[0] AII",
+                          "ChackPartsState": "[2] PARTS_STONE"
                         }
                       }
                     }
@@ -1482,12 +1418,8 @@
                       "_CommandHash": 1242848815196633815,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 463439776
-                          },
-                          "_CompareType": {
-                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 4
-                          },
+                          "_State": "[463439776] ID_BTL_MORPH_CHG_NORMAL",
+                          "_CompareType": "[4] GREATER_OR_EQUAL",
                           "_Value": {
                             "ace.btable.cEditFieldFloat": 2.0
                           }
@@ -1507,12 +1439,8 @@
                           "bitEnum": {
                             "app.btable.AppBTableUtil.cEditFieldEnum_Checkable_OverrideName`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_AI>": 1
                           },
-                          "PartsCount": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_COUNT>": 0
-                          },
-                          "ChackPartsState": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.PARTS_CANDIDATE_EX>": 0
-                          }
+                          "PartsCount": "[0] AII",
+                          "ChackPartsState": "[0] PARTS_NORMAL"
                         }
                       }
                     }
@@ -1625,12 +1553,8 @@
                       "_CommandHash": 1242848815196633815,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 140363136
-                          },
-                          "_CompareType": {
-                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
-                          },
+                          "_State": "[140363136] ID_BTL_MORPH_CHG_ANGRY1",
+                          "_CompareType": "[0] EQUAL",
                           "_Value": {
                             "ace.btable.cEditFieldFloat": 1.0
                           }
@@ -1647,12 +1571,8 @@
                       "_CommandHash": 4131015717520695539,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckCharaDeadArg": {
-                          "_DeadTarget": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckCharaDeadArg.DEAD_TARGET>": 1987932928
-                          },
-                          "_DeadTiming": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckCharaDeadArg.DEAD_TIMING>": 100
-                          }
+                          "_DeadTarget": "[1987932928] CHILD",
+                          "_DeadTiming": "[100] ALL_TURN"
                         }
                       }
                     }
@@ -1722,12 +1642,8 @@
                       "_CommandHash": 1242848815196633815,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": 140363136
-                          },
-                          "_CompareType": {
-                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 4
-                          },
+                          "_State": "[140363136] ID_BTL_MORPH_CHG_ANGRY1",
+                          "_CompareType": "[4] GREATER_OR_EQUAL",
                           "_Value": {
                             "ace.btable.cEditFieldFloat": 4.0
                           }
@@ -1797,12 +1713,8 @@
                       "_CommandHash": 1242848815196633815,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": -728159168
-                          },
-                          "_CompareType": {
-                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 0
-                          },
+                          "_State": "[3566808128] ID_BTL_MORPH_CNG_ANGRY2",
+                          "_CompareType": "[0] EQUAL",
                           "_Value": {
                             "ace.btable.cEditFieldFloat": 1.0
                           }
@@ -1841,12 +1753,8 @@
                       "_CommandHash": 1242848815196633815,
                       "_CommandArgument": {
                         "app.btable.Battle_CommonBTableCommand.cCheckProgressTurnArg": {
-                          "_State": {
-                            "ace.btable.cEditFieldEnum`1<app.EnemyDef.MORPH_CNG_ID_Fixed>": -728159168
-                          },
-                          "_CompareType": {
-                            "ace.btable.cEditFieldEnum`1<ace.btable.BTableUtil.COMPARE_TYPE>": 4
-                          },
+                          "_State": "[3566808128] ID_BTL_MORPH_CNG_ANGRY2",
+                          "_CompareType": "[4] GREATER_OR_EQUAL",
                           "_Value": {
                             "ace.btable.cEditFieldFloat": 4.0
                           }
@@ -1925,12 +1833,8 @@
                           "bitEnum": {
                             "app.btable.AppBTableUtil.cEditFieldEnum_Checkable_OverrideName`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_AI>": 4
                           },
-                          "PartsCount": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.UNIT_PARTS_COUNT>": 0
-                          },
-                          "ChackPartsState": {
-                            "ace.btable.cEditFieldEnum`1<app.btable.Battle_CommonBTableCommand.cCheckBreakPartsInfoArg.PARTS_CANDIDATE_EX>": 2
-                          }
+                          "PartsCount": "[0] AII",
+                          "ChackPartsState": "[2] PARTS_STONE"
                         }
                       }
                     }
